@@ -1,0 +1,3217 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alberto Hernandez Calendar (Canvas)
+X-WR-CALDESC:Calendar events for the user\, Alberto Hernandez
+BEGIN:VEVENT
+DTSTAMP:20250110T152400Z
+UID:event-calendar-event-914102
+DTSTART:20250110T210000Z
+DTEND:20250110T220000Z
+CLASS:PUBLIC
+DESCRIPTION:[Click here to join Zoom Meeting:853 9141 3215], (https://fiu.zo
+ om.us/j/85391413215)
+LOCATION:Zoom Online Meeting
+SEQUENCE:0
+SUMMARY:ASH4451 RVAA 1251 (optional for Q&A) [Samurai\, Sumo\, Shopkeepers 
+ and Shogun: A Social and Cultural History of Edo Japan]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215783&month=01&year=2025#calendar_event_914102
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p><a href="https://fiu.zoom.us/j/85391413215" tar
+ get="_blank">Click here to join Zoom Meeting:853 9141 3215</a></p><script 
+ src="https://instructure-uploads.s3.amazonaws.com/account_1181000000000000
+ 1/attachments/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106415
+DTSTART:20250110T220000Z
+DTEND:20250110T220000Z
+CLASS:PUBLIC
+DESCRIPTION:[Screen Shot 2019-08-13 at 8.08.20 AM.png] (https://fiu.instruc
+ ture.com/courses/218497/files/35568402/preview)Complete: Pre-Class Assignm
+ ent (Week 1 Class 2) in [Rational Reasoning.] (http://imathas.rationalreas
+ oning.net)
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 1 Class 2)  [Pre-Calculus Algebra and Tr
+ igonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=01&year=2025#assignment_3106415
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p><img id="33196368" src="https://fiu.instructure
+ .com/courses/218497/files/35568402/preview" alt="Screen Shot 2019-08-13 at
+  8.08.20 AM.png" width="169" height="60" data-api-endpoint="https://fiu.in
+ structure.com/api/v1/courses/218497/files/35568402" data-api-returntype="F
+ ile">Complete: Pre-Class Assignment (Week 1 Class 2) in <a href="http://im
+ athas.rationalreasoning.net">Rational Reasoning.</a></p><script src="https
+ ://instructure-uploads.s3.amazonaws.com/account_11810000000000001/attachme
+ nts/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250115T232600Z
+UID:event-assignment-3157008
+DTSTART;VALUE=DATE;VALUE=DATE:20250110
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Week 1 Class 1 Jan 10th Upload [Pre-Calculus Algebra and Trigonomet
+ ry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=01&year=2025#assignment_3157008
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250204T192300Z
+UID:event-assignment-3139171
+DTSTART;VALUE=DATE;VALUE=DATE:20250111
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Extra Credit - Previous Knowledge & Expectations [Samurai\, Sumo\, 
+ Shopkeepers and Shogun: A Social and Cultural History of Edo Japan]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215783&month=01&year=2025#assignment_3139171
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250107T155000Z
+UID:event-assignment-3132840
+DTSTART;VALUE=DATE;VALUE=DATE:20250111
+CLASS:PUBLIC
+DESCRIPTION:Readings Conversations\n\n[Introduce yourself] (https://fiu.ins
+ tructure.com/courses/215783/files/35621459/preview)\n\n \n\nAfter doing t
+ he readings and when assigned movies and documents\, please join the conve
+ rsation with the TeaMasters! Tea Masters\, post questions to spark academi
+ c and fruitful conversations\, others answer thorougly and add information
+ \, keep the threads as interesting discussions on the topic. Remember we a
+ re all learning from one another\, expand on the conversation\, provide fa
+ cts\, other resources\, and links :)\nDo not summarize readings here\, the
+  idea is to analyze certain aspects by discussing them.\n\n**NOTE: when di
+ scussing documentaries\, and movies look for elements that confirm or expa
+ nd on the themes from the readings rather than merely pointing out the plo
+ t.**\n\nMore than just thinking about the plot\, you need to look at every
+  detail so that you can compare how your observations and the course conte
+ nt are related.\nExamples of elements to observe: characters dress code\, 
+ do elders and youth dress alike? Do different social classes dress similar
+ ly? You may also consider the architecture\, how are spaces designed\, wha
+ t spaces are occupied by whom? Is there a difference between genders\, aut
+ horities\, young/elders or do they all occupy the same place? Who gets up 
+ first at the table\, who serves? Are characters taking turns to speak\, wh
+ ich lines does each say\, who has the last word\, etc?  & finally... what
+  does it all mean?\nHow do your observations relate to the content of the 
+ course?\n\n \n\n* ["How do I reply to a discussion."] (https://community.
+ canvaslms.com/docs/DOC-10561-4212190706)\n\n* ["How do I upload and embed 
+ an image in the New Rich Content Editor as a student?"] (https://community
+ .canvaslms.com/docs/DOC-18280-42121157927)\n\n* ["How do I create hyperlin
+ ks to user files in the New Rich Content Editor as a student?"] (https://c
+ ommunity.canvaslms.com/docs/DOC-18278-42121157925)\n\n* ["How do I view th
+ e rubric for my graded discussion?"] (https://community.canvaslms.com/docs
+ /DOC-10577-4212540120)\n\nIf you have any technical issues with these item
+ s\, contact FIU Canvas Help Team by clicking on Help in your Global Naviga
+ tion Menu.
+SEQUENCE:0
+SUMMARY:Week 1 - Conversations about the readings [Samurai\, Sumo\, Shopkee
+ pers and Shogun: A Social and Cultural History of Edo Japan]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215783&month=01&year=2025#assignment_3132840
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><div class="item-description">\n<div class="vtbege
+ nerated">\n<table style="border-collapse: collapse\; width: 97.3106%\; hei
+ ght: 128px\; border-style: hidden\;"><caption><strong><span style="color: 
+ #5f5454\;">Readings Conversations</span></strong></caption>\n<tbody>\n<tr 
+ style="height: 159px\;">\n<th style="width: 20.3229%\; height: 128px\;" sc
+ ope="col"><img id="35621459" src="https://fiu.instructure.com/courses/2157
+ 83/files/35621459/preview" alt="Introduce yourself" data-api-endpoint="htt
+ ps://fiu.instructure.com/api/v1/courses/215783/files/35621459" data-api-re
+ turntype="File"><br>\n<p style="text-align: center\;">&nbsp\;</p>\n</th>\n
+ <th style="width: 104.642%\; height: 128px\;" scope="col">\n<p style="text
+ -align: left\;">After doing the readings and when assigned movies and docu
+ ments\, please join the conversation with the TeaMasters! Tea Masters\, po
+ st questions to spark academic and fruitful conversations\, others answer 
+ thorougly and add information\, keep the threads as interesting discussion
+ s on the topic. Remember we are all learning from one another\, expand on 
+ the conversation\, provide facts\, other resources\, and links :) <br>Do n
+ ot summarize readings here\, the idea is to analyze certain aspects by dis
+ cussing them.</p>\n<p style="text-align: left\;"><span style="background-c
+ olor: #ffffff\; color: #000000\; font-size: 10pt\;">**NOTE: when discussin
+ g documentaries\, and movies look for elements that confirm or expand on t
+ he themes from the readings rather than merely pointing out the plot.**</s
+ pan></p>\n<p style="text-align: left\;"><span style="background-color: #ff
+ ffff\; color: #000000\; font-size: 10pt\;">More than just thinking about t
+ he plot\, you need to look at every detail so that you can compare how you
+ r observations and the course content are related. <br>Examples of element
+ s to observe: characters dress code\, do elders and youth dress alike? Do 
+ different social classes dress similarly? You may also consider the archit
+ ecture\, how are spaces designed\, what spaces are occupied by whom? Is th
+ ere a difference between genders\, authorities\, young/elders or do they a
+ ll occupy the same place? Who gets up first at the table\, who serves? Are
+  characters taking turns to speak\, which lines does each say\, who has th
+ e last word\, etc? &nbsp\;&amp\; finally... what does it all mean? <br>How
+  do your observations relate to the content of the course? </span></p>\n</
+ th>\n</tr>\n</tbody>\n</table>\n<p style="text-align: left\;">&nbsp\;</p>\
+ n</div>\n</div>\n<hr>\n<ul>\n<li><a href="https://community.canvaslms.com/
+ docs/DOC-10561-4212190706" target="_blank"><span>"How do I reply to a disc
+ ussion."</span></a></li>\n<li><a href="https://community.canvaslms.com/doc
+ s/DOC-18280-42121157927" target="_blank">"How do I upload and embed an ima
+ ge in the New Rich Content Editor as a student?"</a></li>\n<li><span><a hr
+ ef="https://community.canvaslms.com/docs/DOC-18278-42121157925" target="_b
+ lank">"How do I create hyperlinks to user files in the New Rich Content Ed
+ itor as a student?"</a></span></li>\n<li><span><a href="https://community.
+ canvaslms.com/docs/DOC-10577-4212540120" target="_blank">"How do I view th
+ e rubric for my graded discussion?"</a></span></li>\n</ul>\n<p>If you have
+  any technical issues with these items\, contact <em>FIU Canvas Help Team<
+ /em> by clicking on Help in your Global Navigation Menu.</p><script src="h
+ ttps://instructure-uploads.s3.amazonaws.com/account_11810000000000001/atta
+ chments/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250120T050900Z
+UID:event-assignment-3025768
+DTSTART;VALUE=DATE;VALUE=DATE:20250111
+CLASS:PUBLIC
+DESCRIPTION:Each week\, you are required to submit one current event paper 
+ focusing on a recent event in an East Asian country (such as Japan\, China
+ \, Korea\, or any other East Asian nation). These papers should be one pag
+ e in length\, double-spaced\, using Times New Roman 12\, and follow MLA gu
+ idelines PDF Format and it should fit in one page. Papers are due by Satur
+ day at 11:59 pm. Please note that submissions not adhering to MLA format a
+ nd the specified length will receive a grade of 0. Additionally\, there wi
+ ll be a grade reduction for submissions that are more than 24 hours late.
+  \n\nAssignment Instructions:\n\nFind a Recent Event: Look for a current 
+ news article related to East Asia.\n\nSummarize and Analyze: Summarize the
+  event and include your personal perspective on its significance.\n\nRelev
+ ance: Your paper should reflect the impact of the event and its relevance 
+ to East Asia’s global influence.\n\nThis assignment aims to keep you inf
+ ormed about East Asian current events and to help you understand the regio
+ n's global impact. Use various East Asian news sources for your research.\
+ n\nYour current event papers will assess your global awareness. The curren
+ t events will be completed using various East Asian news sources. Below ar
+ e a few suggested resources\; more will be provided in Canvas:\n\n* Asahi 
+ Shimbun: [http://www.asahi.com/english/Links to an external site.] (http:
+ //www.asahi.com/english/)\n\n* Kyodo News: [http://english.kyodonews.jp/L
+ inks to an external site.] (http://english.kyodonews.jp/)\n\n* NHK Online:
+  [http://www3.nhk.or.jp/nhkworld/index.htmlLinks to an external site.] (h
+ ttp://www3.nhk.or.jp/nhkworld/index.html)\n\n* China Daily: [http://usa.c
+ hinadaily.com.cn/Links to an external site.] (http://usa.chinadaily.com.cn
+ /)\n\n* Shanghai Daily: [http://www.shanghaidaily.com/Links to an externa
+ l site.] (http://www.shanghaidaily.com/)\n\n* South Korean Newspapers and 
+ News Sites: [http://www.world-newspapers.com/southkorea.htmlLinks to an e
+ xternal site.] (http://www.world-newspapers.com/southkorea.html)
+SEQUENCE:0
+SUMMARY:Current Event #1 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=01&year=2025#assignment_3025768
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p>Each week\, you are required to submit one curr
+ ent event paper focusing on a recent event in an East Asian country (such 
+ as Japan\, China\, Korea\, or any other East Asian nation). These papers s
+ hould be one page in length\, double-spaced\, using Times New Roman 12\, a
+ nd follow MLA guidelines <strong>PDF Format and it should fit in one page<
+ /strong>. Papers are due by Saturday at 11:59 pm. Please note that submiss
+ ions not adhering to MLA format and the specified length will receive a gr
+ ade of 0. Additionally\, there will be a grade reduction for submissions t
+ hat are more than 24 hours late.&nbsp\;</p>\n<p><strong>Assignment Instruc
+ tions:</strong></p>\n<p><strong>Find a Recent Event:</strong> Look for a c
+ urrent news article related to East Asia.</p>\n<p><strong>Summarize and An
+ alyze:</strong> Summarize the event and include your personal perspective 
+ on its significance.</p>\n<p><strong>Relevance:</strong> Your paper should
+  reflect the impact of the event and its relevance to East Asia’s global
+  influence.</p>\n<p>This assignment aims to keep you informed about East A
+ sian current events and to help you understand the region's global impact.
+  Use various East Asian news sources for your research.</p>\n<p>Your curre
+ nt event papers will assess your global awareness. The current events will
+  be completed using various East Asian news sources. Below are a few sugge
+ sted resources\; more will be provided in Canvas:</p>\n<ul>\n<li>Asahi Shi
+ mbun:<span>&nbsp\;</span><a class="external" href="http://www.asahi.com/en
+ glish/" target="_blank"><span>http://www.asahi.com/english/</span><span cl
+ ass="external_link_icon" role="presentation"><span class="screenreader-onl
+ y">Links to an external site.</span></span></a></li>\n<li>Kyodo News:<span
+ >&nbsp\;</span><a class="external" href="http://english.kyodonews.jp/" tar
+ get="_blank"><span>http://english.kyodonews.jp/</span><span class="externa
+ l_link_icon" role="presentation"><span class="screenreader-only">Links to 
+ an external site.</span></span></a></li>\n<li>NHK Online:<span>&nbsp\;</sp
+ an><a class="external" href="http://www3.nhk.or.jp/nhkworld/index.html" ta
+ rget="_blank"><span>http://www3.nhk.or.jp/nhkworld/index.html</span><span 
+ class="external_link_icon" role="presentation"><span class="screenreader-o
+ nly">Links to an external site.</span></span></a></li>\n<li>China Daily:<s
+ pan>&nbsp\;</span><a class="external" href="http://usa.chinadaily.com.cn/"
+  target="_blank"><span>http://usa.chinadaily.com.cn/</span><span class="ex
+ ternal_link_icon" role="presentation"><span class="screenreader-only">Link
+ s to an external site.</span></span></a></li>\n<li>Shanghai Daily:<span>&n
+ bsp\;</span><a class="external" href="http://www.shanghaidaily.com/" targe
+ t="_blank"><span>http://www.shanghaidaily.com/</span><span class="external
+ _link_icon" role="presentation"><span class="screenreader-only">Links to a
+ n external site.</span></span></a></li>\n<li>South Korean Newspapers and N
+ ews Sites:<span>&nbsp\;</span><a class="external" href="http://www.world-n
+ ewspapers.com/southkorea.html" target="_blank"><span>http://www.world-news
+ papers.com/southkorea.html</span><span class="external_link_icon" role="pr
+ esentation"><span class="screenreader-only">Links to an external site.</sp
+ an></span></a></li>\n</ul><script src="https://instructure-uploads.s3.amaz
+ onaws.com/account_11810000000000001/attachments/29854757/canvas_global_app
+ .js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250114T150000Z
+UID:event-assignment-3025788
+DTSTART;VALUE=DATE;VALUE=DATE:20250111
+CLASS:PUBLIC
+DESCRIPTION:Welcome to the course! I'd like to start by getting to know eac
+ h of you better and learning about your interests and backgrounds\, partic
+ ularly in relation to East Asia. Please take a moment to introduce yoursel
+ f and share what you hope to learn in this course. Additionally\, here are
+  a few questions and prompts to guide your introduction:\n\n* Your Full Na
+ me (or Preferred Name):\n\n* Your Picture:\n\n* What aspects of East Asian
+  culture\, history\, or society are you most interested in?\n\n* Do you ha
+ ve any personal or academic experiences related to East Asia that you'd li
+ ke to share?\n\n* Are there specific topics or themes within East Asia tha
+ t you are excited to explore in this course?\n\n* What do you hope to gain
+  from studying East Asia in this course?\n\n* What's your current or aspir
+ ing career field?\n\n* Share a YouTube video or a social media page that y
+ ou've been enjoying recently:\n\n* Any information you want to share with 
+ your classmates (optional):\n\nLooking forward to reading your introductio
+ ns and getting to know you all better!
+SEQUENCE:0
+SUMMARY:Introduce yourself [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=01&year=2025#assignment_3025788
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p>Welcome to the course! I'd like to start by get
+ ting to know each of you better and learning about your interests and back
+ grounds\, particularly in relation to East Asia. Please take a moment to i
+ ntroduce yourself and share what you hope to learn in this course. Additio
+ nally\, here are a few questions and prompts to guide your introduction:</
+ p>\n<ol>\n<li><strong>Your Full Name (or Preferred Name):</strong></li>\n<
+ li><strong>Your Picture:</strong></li>\n<li><strong>What aspects of East A
+ sian culture\, history\, or society are you most interested in?</strong></
+ li>\n<li><strong>Do you have any personal or academic experiences related 
+ to East Asia that you'd like to share?</strong></li>\n<li><strong>Are ther
+ e specific topics or themes within East Asia that you are excited to explo
+ re in this course?</strong></li>\n<li><strong>What do you hope to gain fro
+ m studying East Asia in this course?</strong></li>\n<li><strong>What's you
+ r current or aspiring career field?</strong></li>\n<li><strong>Share a You
+ Tube video or a social media page that you've been enjoying recently:</str
+ ong></li>\n<li><strong>Any information you want to share with your classma
+ tes (optional):</strong></li>\n</ol>\n<p>Looking forward to reading your i
+ ntroductions and getting to know you all better!</p><script src="https://i
+ nstructure-uploads.s3.amazonaws.com/account_11810000000000001/attachments/
+ 29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250123T200100Z
+UID:event-assignment-3154217
+DTSTART;VALUE=DATE;VALUE=DATE:20250111
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Week 1 Class 1 Jan 8th Upload [Pre-Calculus Algebra and Trigonometr
+ y]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=01&year=2025#assignment_3154217
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250110T215200Z
+UID:event-calendar-event-914840
+DTSTART:20250113T210000Z
+DTEND:20250113T230000Z
+CLASS:PUBLIC
+DESCRIPTION:[Click here to join Zoom Meeting:816 6825 2215] (https://fiu.zo
+ om.us/j/81668252215)
+LOCATION:Zoom Online Meeting
+SEQUENCE:0
+SUMMARY:ASH4451 RVAA 1251 (Optional for Q&A) [Samurai\, Sumo\, Shopkeepers 
+ and Shogun: A Social and Cultural History of Edo Japan]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215783&month=01&year=2025#calendar_event_914840
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p><a href="https://fiu.zoom.us/j/81668252215" tar
+ get="_blank">Click here to join Zoom Meeting:816 6825 2215</a></p><script 
+ src="https://instructure-uploads.s3.amazonaws.com/account_1181000000000000
+ 1/attachments/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106400
+DTSTART;VALUE=DATE;VALUE=DATE:20250113
+CLASS:PUBLIC
+DESCRIPTION:[Screen Shot 2019-08-13 at 8.08.20 AM.png] (https://fiu.instruc
+ ture.com/courses/126135/files/20061117/preview)Complete: Online Homework W
+ eek 1 in [Rational Reasoning.] (http://imathas.rationalreasoning.net)
+SEQUENCE:0
+SUMMARY:Online Homework Week 1 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=01&year=2025#assignment_3106400
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p><img id="17533796" src="https://fiu.instructure
+ .com/courses/126135/files/20061117/preview" alt="Screen Shot 2019-08-13 at
+  8.08.20 AM.png" width="149" height="53" data-api-endpoint="https://fiu.in
+ structure.com/api/v1/courses/126135/files/20061117" data-api-returntype="F
+ ile">Complete: Online Homework Week 1 in <a href="http://imathas.rationalr
+ easoning.net">Rational Reasoning.</a></p><script src="https://instructure-
+ uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854757/ca
+ nvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106433
+DTSTART:20250115T220000Z
+DTEND:20250115T220000Z
+CLASS:PUBLIC
+DESCRIPTION:[Screen Shot 2019-08-13 at 8.08.20 AM.png] (https://fiu.instruc
+ ture.com/courses/126135/files/20061117/preview)Complete: Pre-Class Assignm
+ ent (Week 2 Class 1) in [Rational Reasoning.] (http://imathas.rationalreas
+ oning.net)
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 2 Class 1) [Pre-Calculus Algebra and Tri
+ gonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=01&year=2025#assignment_3106433
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p><img id="17533796" src="https://fiu.instructure
+ .com/courses/126135/files/20061117/preview" alt="Screen Shot 2019-08-13 at
+  8.08.20 AM.png" width="149" height="53" data-api-endpoint="https://fiu.in
+ structure.com/api/v1/courses/126135/files/20061117" data-api-returntype="F
+ ile">Complete: Pre-Class Assignment (Week 2 Class 1) in <a href="http://im
+ athas.rationalreasoning.net">Rational Reasoning.</a></p><script src="https
+ ://instructure-uploads.s3.amazonaws.com/account_11810000000000001/attachme
+ nts/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250114T165300Z
+UID:event-assignment-3106470
+DTSTART;VALUE=DATE;VALUE=DATE:20250115
+CLASS:PUBLIC
+DESCRIPTION:---------------------------------------------------------------
+ ---------------------------------------------\nDownload: [WEEK 01 WRITTEN 
+ HOMEWORK.docx] (https://fiu.instructure.com/courses/218497/files/35568498?
+ wrap=1)\n-----------------------------------------------------------------
+ -------------------------------------------\n\n \n\nPDF Version (for MAC 
+ or iPad): [WEEK 01 WRITTEN HOMEWORK.pdf] (https://fiu.instructure.com/cour
+ ses/218497/files/35568473?wrap=1)  \n\nUse the information from the textb
+ ook and lesson content to complete and submit the written HW.\n\nYou can e
+ ither work directly on the downloaded document or take a picture of your w
+ ork.
+SEQUENCE:0
+SUMMARY:Written Homework Week 1 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=01&year=2025#assignment_3106470
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><h2><span class="instructure_file_holder link_hold
+ er">Download: <a id="35556139" class="instructure_file_link instructure_sc
+ ribd_file inline_disabled" title="Link" href="https://fiu.instructure.com/
+ courses/218497/files/35568498?wrap=1" target="_blank" data-canvas-previewa
+ ble="true" data-api-endpoint="https://fiu.instructure.com/api/v1/courses/2
+ 18497/files/35568498" data-api-returntype="File">WEEK 01 WRITTEN HOMEWORK.
+ docx</a></span></h2>\n<p>&nbsp\;</p>\n<p><span class="instructure_file_hol
+ der link_holder" style="font-size: 24pt\;">PDF Version (for MAC or iPad): 
+ <a id="35555914" class="instructure_file_link instructure_scribd_file inli
+ ne_disabled" title="Link" href="https://fiu.instructure.com/courses/218497
+ /files/35568473?wrap=1" target="_blank" data-canvas-previewable="true" dat
+ a-api-endpoint="https://fiu.instructure.com/api/v1/courses/218497/files/35
+ 568473" data-api-returntype="File">WEEK 01 WRITTEN HOMEWORK.pdf</a> &nbsp\
+ ;</span></p>\n<p>Use the information from the textbook and lesson content 
+ to complete and submit the written HW.</p>\n<p>You can either work directl
+ y on the downloaded document or take a picture of your work.</p><script sr
+ c="https://instructure-uploads.s3.amazonaws.com/account_11810000000000001/
+ attachments/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250117T233400Z
+UID:event-assignment-3162779
+DTSTART;VALUE=DATE;VALUE=DATE:20250116
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Week 2 Class 1 Jan 15th Upload [Pre-Calculus Algebra and Trigonomet
+ ry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=01&year=2025#assignment_3162779
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106435
+DTSTART:20250117T220000Z
+DTEND:20250117T220000Z
+CLASS:PUBLIC
+DESCRIPTION:[Screen Shot 2019-08-13 at 8.08.20 AM.png] (https://fiu.instruc
+ ture.com/courses/126135/files/20061117/preview)Complete: Pre-Class Assignm
+ ent (Week 2 Class 2) in [Rational Reasoning.] (http://imathas.rationalreas
+ oning.net)
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 2 Class 2) [Pre-Calculus Algebra and Tri
+ gonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=01&year=2025#assignment_3106435
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p><img id="17533796" src="https://fiu.instructure
+ .com/courses/126135/files/20061117/preview" alt="Screen Shot 2019-08-13 at
+  8.08.20 AM.png" width="149" height="53" data-api-endpoint="https://fiu.in
+ structure.com/api/v1/courses/126135/files/20061117" data-api-returntype="F
+ ile">Complete: Pre-Class Assignment (Week 2 Class 2) in <a href="http://im
+ athas.rationalreasoning.net">Rational Reasoning.</a></p><script src="https
+ ://instructure-uploads.s3.amazonaws.com/account_11810000000000001/attachme
+ nts/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250116T163700Z
+UID:event-assignment-3025793
+DTSTART;VALUE=DATE;VALUE=DATE:20250117
+CLASS:PUBLIC
+DESCRIPTION:Quiz is based on chapters 1\,2 and 3 from "A history of East As
+ ia by Charles Holcombe." 
+SEQUENCE:0
+SUMMARY:Quiz 1 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=01&year=2025#assignment_3025793
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p>Quiz is based on chapters 1\,2 and 3 from "A hi
+ story of East Asia by Charles Holcombe."&nbsp\;</p><script src="https://in
+ structure-uploads.s3.amazonaws.com/account_11810000000000001/attachments/2
+ 9854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250126T171500Z
+UID:event-assignment-3132852
+DTSTART;VALUE=DATE;VALUE=DATE:20250118
+CLASS:PUBLIC
+DESCRIPTION:Readings Conversations\n\n[Introduce yourself] (https://fiu.ins
+ tructure.com/courses/215783/files/35621459/preview)\n\n \n\nAfter doing t
+ he readings and when assigned movies and documents\, please join the conve
+ rsation with the TeaMasters! Tea Masters\, post questions to spark academi
+ c and fruitful conversations\, others answer thorougly and add information
+ \, keep the threads as interesting discussions on the topic. Remember we a
+ re all learning from one another\, expand on the conversation\, provide fa
+ cts\, other resources\, and links :)\nDo not summarize readings here\, the
+  idea is to analyze certain aspects by discussing them.\n\n**NOTE: when di
+ scussing documentaries\, and movies look for elements that confirm or expa
+ nd on the themes from the readings rather than merely pointing out the plo
+ t.**\n\nMore than just thinking about the plot\, you need to look at every
+  detail so that you can compare how your observations and the course conte
+ nt are related.\nExamples of elements to observe: characters dress code\, 
+ do elders and youth dress alike? Do different social classes dress similar
+ ly? You may also consider the architecture\, how are spaces designed\, wha
+ t spaces are occupied by whom? Is there a difference between genders\, aut
+ horities\, young/elders or do they all occupy the same place? Who gets up 
+ first at the table\, who serves? Are characters taking turns to speak\, wh
+ ich lines does each say\, who has the last word\, etc?  & finally... what
+  does it all mean?\nHow do your observations relate to the content of the 
+ course?\n\n \n\n* ["How do I reply to a discussion."] (https://community.
+ canvaslms.com/docs/DOC-10561-4212190706)\n\n* ["How do I upload and embed 
+ an image in the New Rich Content Editor as a student?"] (https://community
+ .canvaslms.com/docs/DOC-18280-42121157927)\n\n* ["How do I create hyperlin
+ ks to user files in the New Rich Content Editor as a student?"] (https://c
+ ommunity.canvaslms.com/docs/DOC-18278-42121157925)\n\n* ["How do I view th
+ e rubric for my graded discussion?"] (https://community.canvaslms.com/docs
+ /DOC-10577-4212540120)\n\nIf you have any technical issues with these item
+ s\, contact FIU Canvas Help Team by clicking on Help in your Global Naviga
+ tion Menu.
+SEQUENCE:0
+SUMMARY:Week 2 - Conversations about the readings [Samurai\, Sumo\, Shopkee
+ pers and Shogun: A Social and Cultural History of Edo Japan]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215783&month=01&year=2025#assignment_3132852
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><div class="item-description">\n<div class="vtbege
+ nerated">\n<table style="border-collapse: collapse\; width: 97.3106%\; hei
+ ght: 128px\; border-style: hidden\;"><caption><strong><span style="color: 
+ #5f5454\;">Readings Conversations</span></strong></caption>\n<tbody>\n<tr 
+ style="height: 159px\;">\n<th style="width: 20.3229%\; height: 128px\;" sc
+ ope="col"><img id="35621459" src="https://fiu.instructure.com/courses/2157
+ 83/files/35621459/preview" alt="Introduce yourself" data-api-endpoint="htt
+ ps://fiu.instructure.com/api/v1/courses/215783/files/35621459" data-api-re
+ turntype="File"><br>\n<p style="text-align: center\;">&nbsp\;</p>\n</th>\n
+ <th style="width: 104.642%\; height: 128px\;" scope="col">\n<p style="text
+ -align: left\;">After doing the readings and when assigned movies and docu
+ ments\, please join the conversation with the TeaMasters! Tea Masters\, po
+ st questions to spark academic and fruitful conversations\, others answer 
+ thorougly and add information\, keep the threads as interesting discussion
+ s on the topic. Remember we are all learning from one another\, expand on 
+ the conversation\, provide facts\, other resources\, and links :) <br>Do n
+ ot summarize readings here\, the idea is to analyze certain aspects by dis
+ cussing them.</p>\n<p style="text-align: left\;"><span style="background-c
+ olor: #ffffff\; color: #000000\; font-size: 10pt\;">**NOTE: when discussin
+ g documentaries\, and movies look for elements that confirm or expand on t
+ he themes from the readings rather than merely pointing out the plot.**</s
+ pan></p>\n<p style="text-align: left\;"><span style="background-color: #ff
+ ffff\; color: #000000\; font-size: 10pt\;">More than just thinking about t
+ he plot\, you need to look at every detail so that you can compare how you
+ r observations and the course content are related. <br>Examples of element
+ s to observe: characters dress code\, do elders and youth dress alike? Do 
+ different social classes dress similarly? You may also consider the archit
+ ecture\, how are spaces designed\, what spaces are occupied by whom? Is th
+ ere a difference between genders\, authorities\, young/elders or do they a
+ ll occupy the same place? Who gets up first at the table\, who serves? Are
+  characters taking turns to speak\, which lines does each say\, who has th
+ e last word\, etc? &nbsp\;&amp\; finally... what does it all mean? <br>How
+  do your observations relate to the content of the course? </span></p>\n</
+ th>\n</tr>\n</tbody>\n</table>\n<p style="text-align: left\;">&nbsp\;</p>\
+ n</div>\n</div>\n<hr>\n<ul>\n<li><a href="https://community.canvaslms.com/
+ docs/DOC-10561-4212190706" target="_blank"><span>"How do I reply to a disc
+ ussion."</span></a></li>\n<li><a href="https://community.canvaslms.com/doc
+ s/DOC-18280-42121157927" target="_blank">"How do I upload and embed an ima
+ ge in the New Rich Content Editor as a student?"</a></li>\n<li><span><a hr
+ ef="https://community.canvaslms.com/docs/DOC-18278-42121157925" target="_b
+ lank">"How do I create hyperlinks to user files in the New Rich Content Ed
+ itor as a student?"</a></span></li>\n<li><span><a href="https://community.
+ canvaslms.com/docs/DOC-10577-4212540120" target="_blank">"How do I view th
+ e rubric for my graded discussion?"</a></span></li>\n</ul>\n<p>If you have
+  any technical issues with these items\, contact <em>FIU Canvas Help Team<
+ /em> by clicking on Help in your Global Navigation Menu.</p><script src="h
+ ttps://instructure-uploads.s3.amazonaws.com/account_11810000000000001/atta
+ chments/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250126T165900Z
+UID:event-assignment-3139125
+DTSTART;VALUE=DATE;VALUE=DATE:20250118
+CLASS:PUBLIC
+DESCRIPTION:Analytic Paper Instructions\n\n[Citing sources is key] (https:/
+ /fiu.instructure.com/courses/215783/files/35736155/preview)\n\n \n\n \n\
+ n \n\n \n\nWrite an analysis paper evaluating three of the assigned prim
+ ary source documents. You should not try to cover all the material\; rathe
+ r select one or two topics you find particularly interesting and analyze t
+ hem.\nChoosing a clear focus will help you write an effective response bec
+ ause you must do more than merely summarize.\n\nResearch: Please make sure
+  to look up secondary sources (the  last part of each chapter offers plen
+ ty). If there are assigned films/documentaries find the bio and other work
+ s from the director\, and any other information that will enhance your ana
+ lysis.\n\nPurpose: This assignment is designed to help you evaluate and un
+ derstand Japan during the Edo Period. \n\nAudience: You are writing your 
+ analysis papers to show your Professor and classmates your analysis skills
+  by focusing on 3 specific documents shaped by your understanding of class
+ -related material. You must maintain an academic tone and your paper must 
+ be thoroughly and cohesively organized.\n\nRequirements:\nAnalysis Papers 
+ should be singled spaced\, Times New Roman\, 12-point size font\,\n200 to 
+ 250 words per document (a total of 600 to 750 words) .\n- Do not forget to
+  cite your sources (minimum of 3)\, or you will get point deductions. You 
+ cannot provide website links as a source\, rather reference them in MLA or
+  APA format.\nRemember: movies and videos are also sources.\nHow to cite I
+ nternet sources: [Citing Sources: Why & How to Do ItLinks to an external s
+ ite.] (https://www.youtube.com/watch?v=-JV9cLDCgas)\nFor semi-automatic ci
+ tations\, you can use this tool: [Citation GeneratorLinks to an external s
+ ite.] (https://www.scribbr.com/apa-citation-generator/)\n\nGuiding Questio
+ ns: choose those offered in the book right after each of the documents.\n\
+ nResources:\n** To learn how to write an Analysis Paper use this step-by-s
+ tep [GUIDELinks to an external site.] (https://www.wikihow.com/Write-an-An
+ alytical-Essay)\n\nDue Dates:\nPlease check the course schedule for deadli
+ nes. Reminder: Upload them to Turnitin before midnight on Saturdays.\n\n 
+ \n\n \n\nPoints Possible\n\n0- didn't turn in\, plagiarized or Minimally 
+ acceptable performance\, demonstrating at least partial familiarity with t
+ he subject matter and some capacity to deal with relatively simple problem
+ s\, but also containing deficiencies serious enough to make it inadvisable
+  to proceed further in the field without additional work.\n1- turned in bu
+ t didn't follow guidelines and Inadequate performance\, demonstrating an i
+ nadequate understanding of the subject matter\, lack of ability to handle 
+ relatively simple problems\, and inadequate preparation for moving on to 
+ more advanced work in the field.\n2- turned in but didn’t follow the gui
+ delines and Adequate performance or followed the guidelines but the perfor
+ mance is inadequate\, demonstrating an adequate understanding of the subje
+ ct matter\, an ability to handle relatively simple problems\, and adequate
+  preparation for moving on to more advanced work in the field.\n3- turned
+  in & followed the guidelines to some extent but it is missing thesis\, or
+  sources\, or does not show ability to move on to more advanced work in th
+ e field.\n4- turned in & followed guidelines  Good performance\, demonstr
+ ating the capacity to use the appropriate concepts\, a good understanding 
+ of the subject matter\, and an ability to handle the problems and material
+ s encountered in the subject.\n5- Exceptionally good performance\, demonst
+ rating a superior understanding of the subject matter and skillful use of 
+ concepts and/or materials. Clear thesis statement\, each paragraph has a c
+ lear focus that relates to the thesis statement\, clear examples from the 
+ readings and films illustrate the points made\, and the conclusion is a ca
+ ll for action not a mere summary of the paper. Grammar is clear\, there ar
+ e no misspellings\, proper names are capitalized\, the paper has a title t
+ hat reflects its thesis statement\, and sources have been cited by MLA or 
+ APA style requirements. Furthermore\, all formatting requirements have bee
+ n followed.
+SEQUENCE:0
+SUMMARY:Analytic Paper 1 (10%) [Samurai\, Sumo\, Shopkeepers and Shogun: A 
+ Social and Cultural History of Edo Japan]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215783&month=01&year=2025#assignment_3139125
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><table style="border-collapse: collapse\; width: 9
+ 7.910731%\; float: left\;" border="1"><caption><span style="font-size: 14p
+ t\;"><strong>Analytic Paper Instructions</strong></span></caption>\n<tbody
+ >\n<tr>\n<th style="width: 26.4629%\;" scope="col"><img src="https://fiu.i
+ nstructure.com/courses/215783/files/35736155/preview" alt="Citing sources 
+ is key" width="240" height="320" data-api-endpoint="https://fiu.instructur
+ e.com/api/v1/courses/215783/files/35736155" data-api-returntype="File"></t
+ h>\n<th style="width: 73.440106%\;" scope="col">\n<p>&nbsp\;</p>\n<p>&nbsp
+ \;</p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>\n<p style="text-align: left\;">Writ
+ e an analysis paper evaluating three of the assigned primary source docume
+ nts. You should not try to cover all the material\; rather select one or t
+ wo topics you find particularly interesting and analyze them. <br>Choosing
+  a clear focus will help you write an effective response because you must 
+ do more than merely summarize. <br><br><br><strong>Research:</strong> Plea
+ se make sure to look up secondary sources (the&nbsp\; last part of each ch
+ apter offers plenty). If there are assigned films/documentaries find the b
+ io and other works from the director\, and any other information that will
+  enhance your analysis.</p>\n<p style="text-align: left\;"><strong>Purpose
+ :</strong> This assignment is designed to help you evaluate and understand
+  Japan during the Edo Period.&nbsp\;<br><br><strong>Audience:</strong> You
+  are writing your analysis papers to show your Professor and classmates yo
+ ur analysis skills by focusing on 3 specific documents shaped by your unde
+ rstanding of class-related material. You must maintain an academic tone an
+ d your paper must be thoroughly and cohesively organized.<br><strong><br>R
+ equirements: <br></strong>Analysis Papers should be singled spaced\, Times
+  New Roman\, 12-point size font\, <br>200 to 250 words per document (a tot
+ al of 600 to 750 words) . <br>- Do not forget to cite your sources (minimu
+ m of 3)\, or you will get point deductions. You cannot provide website lin
+ ks as a source\, rather reference them in MLA or APA format. <br>Remember:
+  movies and videos are also sources<strong>.</strong><br>How to cite Inter
+ net sources: <a class="inline_disabled external" href="https://www.youtube
+ .com/watch?v=-JV9cLDCgas" target="_blank"><span>Citing Sources: Why &amp\;
+  How to Do It</span><span class="external_link_icon" role="presentation"><
+ span class="screenreader-only">Links to an external site.</span></span></a
+ ><br>For semi-automatic citations\, you can use this tool: <a class="inlin
+ e_disabled external" href="https://www.scribbr.com/apa-citation-generator/
+ " target="_blank"><span>Citation Generator</span><span class="external_lin
+ k_icon" role="presentation"><span class="screenreader-only">Links to an ex
+ ternal site.</span></span></a><br><strong></strong></p>\n<p style="text-al
+ ign: left\;"><strong><br><span>Guiding Questions:</span></strong><span> ch
+ oose those offered in the book right after each of the documents.</span><b
+ r><br></p>\n<p style="text-align: left\;"><strong>Resources: </strong><br>
+ ** <span><strong>To learn how to write an Analysis Paper use this step-by-
+ step <a class="inline_disabled external" href="https://www.wikihow.com/Wri
+ te-an-Analytical-Essay" target="_blank">GUIDE<span class="external_link_ic
+ on" role="presentation"><span class="screenreader-only">Links to an extern
+ al site.</span></span></a></strong></span><br><br><strong>Due Dates: <br><
+ /strong>Please check the course schedule for deadlines. Reminder: Upload t
+ hem to Turnitin before midnight on Saturdays.</p>\n</th>\n</tr>\n</tbody>\
+ n</table>\n<p style="text-align: left\;">&nbsp\;</p>\n<p style="text-align
+ : left\;">&nbsp\;</p>\n<table style="float: left\;" width="100%"><caption>
+ <strong><em>Points Possible</em></strong></caption>\n<tbody>\n<tr>\n<th sc
+ ope="col" width="100%">\n<p style="text-align: left\;">0- didn't turn in\,
+  plagiarized or Minimally acceptable performance\, demonstrating at least 
+ partial familiarity with the subject matter and some capacity to deal with
+  relatively simple problems\, but also containing deficiencies serious eno
+ ugh to make it inadvisable to proceed further in the field without additio
+ nal work.<br><span>1</span>- turned in but didn't follow guidelines and In
+ adequate performance\, demonstrating an inadequate understanding of the su
+ bject matter\, lack of ability to handle relatively simple problems\, and 
+ inadequate preparation for moving on&nbsp\;to more advanced work in the fi
+ eld.<br><span>2</span>- turned in but didn’t follow the guidelines and A
+ dequate performance or followed the guidelines but the performance is inad
+ equate\, demonstrating an adequate understanding of the subject matter\, a
+ n ability to handle relatively simple problems\, and adequate preparation 
+ for moving on&nbsp\;to more advanced work in the field.<br><span>3- turned
+  in &amp\; followed the guidelines to some extent but it is missing thesis
+ \, or sources\, or does not show ability to move on to more advanced work 
+ in the field.<br></span><span>4</span>- turned in &amp\; followed guidelin
+ es &nbsp\;Good performance\, demonstrating the capacity to use the appropr
+ iate concepts\, a good understanding of the subject matter\, and an abilit
+ y to handle the problems and materials encountered in the subject.<br><spa
+ n>5</span>- Exceptionally good performance\, demonstrating a superior unde
+ rstanding of the subject matter and skillful use of concepts and/or materi
+ als. <em><strong><span>Clear thesis statement\, each paragraph has a clear
+  focus that relates to the thesis statement\, clear examples from the read
+ ings and films illustrate the points made\, and the conclusion is a call f
+ or action not a mere summary of the paper</span></strong></em>. Grammar is
+  clear\, there are no misspellings\, proper names are capitalized\, the pa
+ per has a title that reflects its thesis statement\, and sources have been
+  cited by MLA or APA style requirements. Furthermore\, all formatting requ
+ irements have been followed.</p>\n</th>\n</tr>\n</tbody>\n</table><script 
+ src="https://instructure-uploads.s3.amazonaws.com/account_1181000000000000
+ 1/attachments/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250122T152400Z
+UID:event-assignment-3025769
+DTSTART;VALUE=DATE;VALUE=DATE:20250118
+CLASS:PUBLIC
+DESCRIPTION:Each week\, you are required to submit one current event paper 
+ focusing on a recent event in an East Asian country (such as Japan\, China
+ \, Korea\, or any other East Asian nation). These papers should be one pag
+ e in length\, double-spaced\, using Times New Roman 12\, and follow MLA gu
+ idelines PDF Format and it should fit in one page. Papers are due by Satur
+ day at 11:59 pm. Please note that submissions not adhering to MLA format a
+ nd the specified length will receive a grade of 0. Additionally\, there wi
+ ll be a grade reduction for submissions that are more than 24 hours late.
+  \n\nAssignment Instructions:\n\nFind a Recent Event: Look for a current 
+ news article related to East Asia.\n\nSummarize and Analyze: Summarize the
+  event and include your personal perspective on its significance.\n\nRelev
+ ance: Your paper should reflect the impact of the event and its relevance 
+ to East Asia’s global influence.\n\nThis assignment aims to keep you inf
+ ormed about East Asian current events and to help you understand the regio
+ n's global impact. Use various East Asian news sources for your research.\
+ n\nYour current event papers will assess your global awareness. The curren
+ t events will be completed using various East Asian news sources. Below ar
+ e a few suggested resources\; more will be provided in Canvas:\n\n*\n\n* A
+ sahi Shimbun: [http://www.asahi.com/english/Links to an external site.] (
+ http://www.asahi.com/english/)\n\n* Kyodo News: [http://english.kyodonews
+ .jp/Links to an external site.] (http://english.kyodonews.jp/)\n\n* NHK On
+ line: [http://www3.nhk.or.jp/nhkworld/index.htmlLinks to an external site
+ .] (http://www3.nhk.or.jp/nhkworld/index.html)\n\n* China Daily: [http://
+ usa.chinadaily.com.cn/Links to an external site.] (http://usa.chinadaily.c
+ om.cn/)\n\n* Shanghai Daily: [http://www.shanghaidaily.com/Links to an ex
+ ternal site.] (http://www.shanghaidaily.com/)\n\n* South Korean Newspapers
+  and News Sites: http://www.world-newspapers.com/southkorea.html
+SEQUENCE:0
+SUMMARY:Current Event #2 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=01&year=2025#assignment_3025769
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p>Each week\, you are required to submit one curr
+ ent event paper focusing on a recent event in an East Asian country (such 
+ as Japan\, China\, Korea\, or any other East Asian nation). These papers s
+ hould be one page in length\, double-spaced\, using Times New Roman 12\, a
+ nd follow MLA guidelines <strong>PDF Format and it should fit in one page<
+ /strong>. Papers are due by Saturday at 11:59 pm. Please note that submiss
+ ions not adhering to MLA format and the specified length will receive a gr
+ ade of 0. Additionally\, there will be a grade reduction for submissions t
+ hat are more than 24 hours late.&nbsp\;</p>\n<p><strong>Assignment Instruc
+ tions:</strong></p>\n<p><strong>Find a Recent Event:</strong> Look for a c
+ urrent news article related to East Asia.</p>\n<p><strong>Summarize and An
+ alyze:</strong> Summarize the event and include your personal perspective 
+ on its significance.</p>\n<p><strong>Relevance:</strong> Your paper should
+  reflect the impact of the event and its relevance to East Asia’s global
+  influence.</p>\n<p>This assignment aims to keep you informed about East A
+ sian current events and to help you understand the region's global impact.
+  Use various East Asian news sources for your research.</p>\n<p>Your curre
+ nt event papers will assess your global awareness. The current events will
+  be completed using various East Asian news sources. Below are a few sugge
+ sted resources\; more will be provided in Canvas:</p>\n<ul>\n<li style="li
+ st-style-type: none\;">\n<ul>\n<li>Asahi Shimbun:<span>&nbsp\;</span><a cl
+ ass="external" href="http://www.asahi.com/english/" target="_blank"><span>
+ http://www.asahi.com/english/</span><span class="external_link_icon" role=
+ "presentation"><span class="screenreader-only">Links to an external site.<
+ /span></span></a></li>\n<li>Kyodo News:<span>&nbsp\;</span><a class="exter
+ nal" href="http://english.kyodonews.jp/" target="_blank"><span>http://engl
+ ish.kyodonews.jp/</span><span class="external_link_icon" role="presentatio
+ n"><span class="screenreader-only">Links to an external site.</span></span
+ ></a></li>\n<li>NHK Online:<span>&nbsp\;</span><a class="external" href="h
+ ttp://www3.nhk.or.jp/nhkworld/index.html" target="_blank"><span>http://www
+ 3.nhk.or.jp/nhkworld/index.html</span><span class="external_link_icon" rol
+ e="presentation"><span class="screenreader-only">Links to an external site
+ .</span></span></a></li>\n<li>China Daily:<span>&nbsp\;</span><a class="ex
+ ternal" href="http://usa.chinadaily.com.cn/" target="_blank"><span>http://
+ usa.chinadaily.com.cn/</span><span class="external_link_icon" role="presen
+ tation"><span class="screenreader-only">Links to an external site.</span><
+ /span></a></li>\n<li>Shanghai Daily:<span>&nbsp\;</span><a class="external
+ " href="http://www.shanghaidaily.com/" target="_blank"><span>http://www.sh
+ anghaidaily.com/</span><span class="external_link_icon" role="presentation
+ "><span class="screenreader-only">Links to an external site.</span></span>
+ </a></li>\n<li>South Korean Newspapers and News Sites:<span>&nbsp\;</span>
+ <a class="external" href="http://www.world-newspapers.com/southkorea.html"
+  target="_blank"><span>http://www.world-newspapers.com/southkorea.html</sp
+ an></a></li>\n</ul>\n</li>\n</ul><script src="https://instructure-uploads.
+ s3.amazonaws.com/account_11810000000000001/attachments/29854757/canvas_glo
+ bal_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250117T233500Z
+UID:event-assignment-3164353
+DTSTART;VALUE=DATE;VALUE=DATE:20250118
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Week 2 Class 1 Jan 17th Upload [Pre-Calculus Algebra and Trigonomet
+ ry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=01&year=2025#assignment_3164353
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250110T083000Z
+UID:event-assignment-3096829
+DTSTART;VALUE=DATE;VALUE=DATE:20250119
+CLASS:PUBLIC
+DESCRIPTION:Review chapter 1 in your textbook before attempting this quiz.
+SEQUENCE:0
+SUMMARY:Ch 1 Quiz- Requires Respondus LockDown Browser [Emerging Topics in 
+ Digital Life]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 216374&month=01&year=2025#assignment_3096829
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p>Review chapter 1 in your textbook before attemp
+ ting this quiz.</p><script src="https://instructure-uploads.s3.amazonaws.c
+ om/account_11810000000000001/attachments/29854757/canvas_global_app.js"></
+ script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250124T202200Z
+UID:event-assignment-3096835
+DTSTART;VALUE=DATE;VALUE=DATE:20250119
+CLASS:PUBLIC
+DESCRIPTION:TOPIC 1 provided this article: [] (https://prod.ally.ac/static
+ /ally-icon-indicator-high-circle.f608a8b5a3987a75cfaf1554d59e0192.svg)[AI 
+ isn't plotting to overthrow humanity. But if it was\, here's how it would 
+ happen.pdf] (https://fiu.instructure.com/courses/216374/files/35537662?wra
+ p=1)\n\nFirst read this article\, then participate in the discussion with 
+ your classmates. Remember to follow the general [discussion forum require
+ ments] (https://fiu.instructure.com/courses/216374/pages/discussion-assign
+ ment-requirements).  To see the rubrics\, click on the 3-dot button in th
+ e upper right.\n\nComplete the following:\n\n* Make an original post (in 
+ your own words - no AI use allowed) describing which of the indicators yo
+ u think will be the most damaging to our society and culture. Explain why\
+ , and back up your discussion with at least one quality reference. Your re
+ ference should be shown in IEEE format.  Be specific and address these qu
+ estions as part of your post: \n\n* Which indicator do you think will be 
+ the most damaging to our society and culture\, and why?\n\n* What specific
+  technology related to the indicator that you selected will play an import
+ ant role in this?\n\n* Is this issue common across the world or will it af
+ fect only specific countries or regions or cultures? \n\n* How should/can
+  we protect against the outcomes described in the article?\n\n* Respond to
+  at least one post made by a classmate (in your own words - no AI use all
+ owed). In your response\, either add additional relevant information\, or
+  explain why you disagree with the original poster's stance. Back up your 
+ content with at least one quality reference. Your reference should be show
+ n in IEEE format. NOTE:  You are not critiquing the original poster and y
+ ou are not simply stating your opinions.  You are adding information to t
+ he issue.
+SEQUENCE:0
+SUMMARY:DISCUSSION 1 - AI and the Future [Emerging Topics in Digital Life]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 216374&month=01&year=2025#assignment_3096835
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p>TOPIC 1 provided this article:<span>&nbsp\;</sp
+ an><span class="instructure_file_holder link_holder instructure_file_link_
+ holder ally-file-link-holder"><img class="ally-accessibility-score-indicat
+ or-image" src="https://prod.ally.ac/static/ally-icon-indicator-high-circle
+ .f608a8b5a3987a75cfaf1554d59e0192.svg" alt=""><a class="inline_disabled pr
+ eview_in_overlay" title="AI isn't plotting to overthrow humanity. But if i
+ t was\, here's how it would happen.pdf" href="https://fiu.instructure.com/
+ courses/216374/files/35537662?wrap=1" target="_blank" data-api-endpoint="h
+ ttps://fiu.instructure.com/api/v1/courses/216374/files/35537662" data-api-
+ returntype="File" data-id="30174633">AI isn't plotting to overthrow humani
+ ty. But if it was\, here's how it would happen.pdf</a></span></p>\n<p>Firs
+ t read this article\, then <span>participate in the discussion with your c
+ lassmates. Remember to follow the general&nbsp\;</span><a title="Discussio
+ n Assignment Requirements" href="https://fiu.instructure.com/courses/21637
+ 4/pages/discussion-assignment-requirements" data-course-type="wikiPages" d
+ ata-published="true" data-api-endpoint="https://fiu.instructure.com/api/v1
+ /courses/216374/pages/discussion-assignment-requirements" data-api-returnt
+ ype="Page">discussion forum requirements</a><span>.&nbsp\; To see the rubr
+ ics\, click on the 3-dot button in the upper right.</span></p>\n<p>Complet
+ e the following:</p>\n<ol>\n<li>Make an original post<strong>&nbsp\;<span 
+ style="color: #ba372a\;"><em>(in your own words - no AI use allowed)</em><
+ /span></strong><span>&nbsp\;</span>describing which of the indicators you 
+ think will be the most damaging to our society and culture. Explain why\, 
+ and back up your discussion with at least one quality reference. Your refe
+ rence should be shown in IEEE format.&nbsp\; Be specific and address these
+  questions as part of your post:&nbsp\;\n<ul style="list-style-type: disc\
+ ;">\n<li>Which indicator do you think will be the most damaging to our soc
+ iety and culture\, and why?</li>\n<li>What specific technology related to 
+ the indicator that you selected will play an important role in this?</li>\
+ n<li>Is this issue common across the world or will it affect only specific
+  countries or regions or cultures?&nbsp\;</li>\n<li>How should/can we prot
+ ect against the outcomes described in the article?</li>\n</ul>\n</li>\n<li
+ >Respond to at least one post made by a classmate&nbsp\;<span><em><strong>
+ <span style="color: #ba372a\;">(in your own words - no AI use allowed)</sp
+ an></strong>.&nbsp\;</em></span>In your response\, either add additional r
+ elevant information\, or explain why you disagree with the original poster
+ 's stance. Back up your content with at least one quality reference. Your 
+ reference should be shown in IEEE format. <span style="text-decoration: un
+ derline\;">NOTE</span>:&nbsp\; You are not critiquing the original poster 
+ and you are not simply stating your opinions.&nbsp\; You are adding inform
+ ation to the issue.</li>\n</ol><script src="https://instructure-uploads.s3
+ .amazonaws.com/account_11810000000000001/attachments/29854757/canvas_globa
+ l_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106407
+DTSTART;VALUE=DATE;VALUE=DATE:20250120
+CLASS:PUBLIC
+DESCRIPTION:[Screen Shot 2019-08-13 at 8.08.20 AM.png] (https://fiu.instruc
+ ture.com/courses/126135/files/20061117/preview)Complete: Online Homework W
+ eek 2 in [Rational Reasoning.] (http://imathas.rationalreasoning.net)
+SEQUENCE:0
+SUMMARY:Online Homework Week 2 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=01&year=2025#assignment_3106407
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p><img id="17533796" src="https://fiu.instructure
+ .com/courses/126135/files/20061117/preview" alt="Screen Shot 2019-08-13 at
+  8.08.20 AM.png" width="149" height="53" data-api-endpoint="https://fiu.in
+ structure.com/api/v1/courses/126135/files/20061117" data-api-returntype="F
+ ile">Complete: Online Homework Week 2 in <a href="http://imathas.rationalr
+ easoning.net">Rational Reasoning.</a></p><script src="https://instructure-
+ uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854757/ca
+ nvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250129T212400Z
+UID:event-assignment-3106480
+DTSTART;VALUE=DATE;VALUE=DATE:20250120
+CLASS:PUBLIC
+DESCRIPTION:---------------------------------------------------------------
+ ---------------------------------------------\nDownload: [WEEK 02 WRITTEN 
+ HOMEWORK.docx] (https://fiu.instructure.com/courses/218497/files/35568500?
+ wrap=1)\n-----------------------------------------------------------------
+ -------------------------------------------\n\nPDF Version (for MAC or iPa
+ d):  [WEEK 02 WRITTEN HOMEWORK.pdf] (https://fiu.instructure.com/courses/
+ 218497/files/35568501?wrap=1)  \n\n \n\nUse the information from the tex
+ tbook and lesson content to complete and submit the written HW.\n\nYou can
+  either work directly on the downloaded document or take a picture of your
+  work.
+SEQUENCE:0
+SUMMARY:Written Homework Week 2 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=01&year=2025#assignment_3106480
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><h2><span class="instructure_file_holder link_hold
+ er">Download: <a id="35556141" class="instructure_file_link instructure_sc
+ ribd_file inline_disabled" title="Link" href="https://fiu.instructure.com/
+ courses/218497/files/35568500?wrap=1" target="_blank" data-canvas-previewa
+ ble="true" data-api-endpoint="https://fiu.instructure.com/api/v1/courses/2
+ 18497/files/35568500" data-api-returntype="File">WEEK 02 WRITTEN HOMEWORK.
+ docx</a></span></h2>\n<p><span style="font-size: 24pt\;">PDF Version (for 
+ MAC or iPad): &nbsp\;<a id="35556142" class="instructure_file_link instruc
+ ture_scribd_file inline_disabled" title="Link" href="https://fiu.instructu
+ re.com/courses/218497/files/35568501?wrap=1" target="_blank" data-canvas-p
+ reviewable="true" data-api-endpoint="https://fiu.instructure.com/api/v1/co
+ urses/218497/files/35568501" data-api-returntype="File">WEEK 02 WRITTEN HO
+ MEWORK.pdf</a> &nbsp\;</span></p>\n<p>&nbsp\;</p>\n<p>Use the information 
+ from the textbook and lesson content to complete and submit the written HW
+ .</p>\n<p>You can either work directly on the downloaded document or take 
+ a picture of your work.</p><script src="https://instructure-uploads.s3.ama
+ zonaws.com/account_11810000000000001/attachments/29854757/canvas_global_ap
+ p.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250113T050000Z
+UID:event-assignment-3106436
+DTSTART:20250122T220000Z
+DTEND:20250122T220000Z
+CLASS:PUBLIC
+DESCRIPTION:[Screen Shot 2019-08-13 at 8.08.20 AM.png] (https://fiu.instruc
+ ture.com/courses/126135/files/20061117/preview)Complete: Pre-Class Assignm
+ ent (Week 3 Class 1) in [Rational Reasoning.] (http://imathas.rationalreas
+ oning.net)
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 3 Class 1) [Pre-Calculus Algebra and Tri
+ gonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=01&year=2025#assignment_3106436
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p><img id="17533796" src="https://fiu.instructure
+ .com/courses/126135/files/20061117/preview" alt="Screen Shot 2019-08-13 at
+  8.08.20 AM.png" width="149" height="53" data-api-endpoint="https://fiu.in
+ structure.com/api/v1/courses/126135/files/20061117" data-api-returntype="F
+ ile">Complete: Pre-Class Assignment (Week 3 Class 1) in <a href="http://im
+ athas.rationalreasoning.net">Rational Reasoning.</a></p><script src="https
+ ://instructure-uploads.s3.amazonaws.com/account_11810000000000001/attachme
+ nts/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250131T180700Z
+UID:event-assignment-3096849
+DTSTART:20250124T170000Z
+DTEND:20250124T170000Z
+CLASS:PUBLIC
+DESCRIPTION:This is a team assignment. You must work within your assigned t
+ eam to complete this lab.\n\nThe attached document presents 25 challenging
+  questions related to AI. \n\n* Explore and research your team's assigned
+  challenge question to discuss in detail. Be sure to consider the global c
+ oncerns as well as our own country’s concerns.\n\n* As a group\, create 
+ a 7–10-minute PowerPoint presentation that addresses your assigned chall
+ enge. Your team will present your work in the next class meeting.\n\n* Eac
+ h member of the team must contribute to the slides and must present a port
+ ion of the material.\n\nOnly one team member should submit your team's com
+ pleted PowerPoint file here.\n\nChallenge Questions:   [Lab 1 - AI - The
+  25 Questions You Need to Ask Yourself Now That ChatGPT Is Here.docx] (htt
+ ps://fiu.instructure.com/courses/216374/files/35537694?wrap=1)\n\nChalleng
+ e Assignments: \n\nTEAM #\n\n CHALLENGE #\n\n1\n\n2\n\n2\n\n7\n\n3\n\n10
+ \n\n4\n\n16\n\n5\n\n19\n\n6\n\n21\n\n7\n\n24\n\n8\n\n1\n\n9\n\n20\n\n10\n\
+ n17\n\n11\n\n15\n\n12\n\n6\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n 
+ \n\n \n\n \n\n \n\n 
+SEQUENCE:0
+SUMMARY:Lab-1  [Emerging Topics in Digital Life]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 216374&month=01&year=2025#assignment_3096849
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p>This is a team assignment. You must work within
+  your assigned team to complete this lab.</p>\n<p>The attached document pr
+ esents 25 challenging questions related to AI.&nbsp\;</p>\n<ul>\n<li>Explo
+ re and research your team's assigned challenge question to discuss in deta
+ il. Be sure to consider the global concerns as well as our own country’s
+  concerns.</li>\n<li>As a group\, create a 7–10-minute PowerPoint presen
+ tation that addresses your assigned challenge. Your team will present your
+  work in the next class meeting.</li>\n<li>Each member of the team must co
+ ntribute to the slides and must present a portion of the material.</li>\n<
+ /ul>\n<p><strong>Only one team member should submit your team's completed 
+ PowerPoint file here.</strong></p>\n<p><span style="text-decoration: under
+ line\;">Challenge Questions:</span>&nbsp\;&nbsp\; <a class="instructure_fi
+ le_link instructure_scribd_file inline_disabled" title="Lab 1 - AI  - The 
+ 25 Questions You Need to Ask Yourself Now That ChatGPT Is Here.docx" href=
+ "https://fiu.instructure.com/courses/216374/files/35537694?wrap=1" target=
+ "_blank" data-api-endpoint="https://fiu.instructure.com/api/v1/courses/216
+ 374/files/35537694" data-api-returntype="File">Lab 1 - AI - The 25 Questio
+ ns You Need to Ask Yourself Now That ChatGPT Is Here.docx</a></p>\n<p><spa
+ n style="text-decoration: underline\;">Challenge Assignments:&nbsp\;</span
+ ></p>\n<table style="border-collapse: collapse\; width: 27.9808%\; border-
+ style: solid\; float: left\;" border="1" width="31.4423%">\n<tbody>\n<tr>\
+ n<td style="width: 27.3483%\;" width="64"><strong>TEAM #</strong></td>\n<t
+ d style="width: 72.5364%\;" width="99"><strong>&nbsp\;CHALLENGE #</strong>
+ </td>\n</tr>\n<tr>\n<td style="width: 27.3483%\; text-align: center\;">1</
+ td>\n<td style="width: 72.5364%\; text-align: center\;">2</td>\n</tr>\n<tr
+ >\n<td style="width: 27.3483%\; text-align: center\;">2</td>\n<td style="w
+ idth: 72.5364%\; text-align: center\;">7</td>\n</tr>\n<tr>\n<td style="wid
+ th: 27.3483%\; text-align: center\;">3</td>\n<td style="width: 72.5364%\; 
+ text-align: center\;">10</td>\n</tr>\n<tr>\n<td style="width: 27.3483%\; t
+ ext-align: center\;">4</td>\n<td style="width: 72.5364%\; text-align: cent
+ er\;">16</td>\n</tr>\n<tr>\n<td style="width: 27.3483%\; text-align: cente
+ r\;">5</td>\n<td style="width: 72.5364%\; text-align: center\;">19</td>\n<
+ /tr>\n<tr>\n<td style="width: 27.3483%\; text-align: center\;">6</td>\n<td
+  style="width: 72.5364%\; text-align: center\;">21</td>\n</tr>\n<tr>\n<td 
+ style="width: 27.3483%\; text-align: center\;">7</td>\n<td style="width: 7
+ 2.5364%\; text-align: center\;">24</td>\n</tr>\n<tr>\n<td style="width: 27
+ .3483%\; text-align: center\;">8</td>\n<td style="width: 72.5364%\; text-a
+ lign: center\;">1</td>\n</tr>\n<tr>\n<td style="width: 27.3483%\; text-ali
+ gn: center\;">9</td>\n<td style="width: 72.5364%\; text-align: center\;">2
+ 0</td>\n</tr>\n<tr>\n<td style="width: 27.3483%\; text-align: center\;">10
+ </td>\n<td style="width: 72.5364%\; text-align: center\;">17</td>\n</tr>\n
+ <tr>\n<td style="width: 27.3483%\; text-align: center\;">11</td>\n<td styl
+ e="width: 72.5364%\; text-align: center\;">15</td>\n</tr>\n<tr>\n<td style
+ ="width: 27.3483%\; text-align: center\;">12</td>\n<td style="width: 72.53
+ 64%\; text-align: center\;">6</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp\;<
+ /p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>\n<p>&n
+ bsp\;</p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>\
+ n<p>&nbsp\;</p>\n<p style="text-align: left\;">&nbsp\;</p><script src="htt
+ ps://instructure-uploads.s3.amazonaws.com/account_11810000000000001/attach
+ ments/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250113T050000Z
+UID:event-assignment-3106438
+DTSTART:20250124T220000Z
+DTEND:20250124T220000Z
+CLASS:PUBLIC
+DESCRIPTION:[Screen Shot 2019-08-13 at 8.08.20 AM.png] (https://fiu.instruc
+ ture.com/courses/126135/files/20061117/preview)Complete: Pre-Class Assignm
+ ent (Week 3 Class 2) in [Rational Reasoning.] (http://imathas.rationalreas
+ oning.net)
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 3 Class 2) [Pre-Calculus Algebra and Tri
+ gonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=01&year=2025#assignment_3106438
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p><img id="17533796" src="https://fiu.instructure
+ .com/courses/126135/files/20061117/preview" alt="Screen Shot 2019-08-13 at
+  8.08.20 AM.png" width="149" height="53" data-api-endpoint="https://fiu.in
+ structure.com/api/v1/courses/126135/files/20061117" data-api-returntype="F
+ ile">Complete: Pre-Class Assignment (Week 3 Class 2) in <a href="http://im
+ athas.rationalreasoning.net">Rational Reasoning.</a></p><script src="https
+ ://instructure-uploads.s3.amazonaws.com/account_11810000000000001/attachme
+ nts/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250126T173100Z
+UID:event-assignment-3132857
+DTSTART;VALUE=DATE;VALUE=DATE:20250125
+CLASS:PUBLIC
+DESCRIPTION:Readings Conversations\n\n[Introduce yourself] (https://fiu.ins
+ tructure.com/courses/215783/files/35621459/preview)\n\n \n\nAfter doing t
+ he readings and when assigned movies and documents\, please join the conve
+ rsation with the TeaMasters! Tea Masters\, post questions to spark academi
+ c and fruitful conversations\, others answer thorougly and add information
+ \, keep the threads as interesting discussions on the topic. Remember we a
+ re all learning from one another\, expand on the conversation\, provide fa
+ cts\, other resources\, and links :)\nDo not summarize readings here\, the
+  idea is to analyze certain aspects by discussing them.\n\n**NOTE: when di
+ scussing documentaries\, and movies look for elements that confirm or expa
+ nd on the themes from the readings rather than merely pointing out the plo
+ t.**\n\nMore than just thinking about the plot\, you need to look at every
+  detail so that you can compare how your observations and the course conte
+ nt are related.\nExamples of elements to observe: characters dress code\, 
+ do elders and youth dress alike? Do different social classes dress similar
+ ly? You may also consider the architecture\, how are spaces designed\, wha
+ t spaces are occupied by whom? Is there a difference between genders\, aut
+ horities\, young/elders or do they all occupy the same place? Who gets up 
+ first at the table\, who serves? Are characters taking turns to speak\, wh
+ ich lines does each say\, who has the last word\, etc?  & finally... what
+  does it all mean?\nHow do your observations relate to the content of the 
+ course?\n\n \n\n* ["How do I reply to a discussion."] (https://community.
+ canvaslms.com/docs/DOC-10561-4212190706)\n\n* ["How do I upload and embed 
+ an image in the New Rich Content Editor as a student?"] (https://community
+ .canvaslms.com/docs/DOC-18280-42121157927)\n\n* ["How do I create hyperlin
+ ks to user files in the New Rich Content Editor as a student?"] (https://c
+ ommunity.canvaslms.com/docs/DOC-18278-42121157925)\n\n* ["How do I view th
+ e rubric for my graded discussion?"] (https://community.canvaslms.com/docs
+ /DOC-10577-4212540120)\n\nIf you have any technical issues with these item
+ s\, contact FIU Canvas Help Team by clicking on Help in your Global Naviga
+ tion Menu.
+SEQUENCE:0
+SUMMARY:Week 3 - Conversations about the readings [Samurai\, Sumo\, Shopkee
+ pers and Shogun: A Social and Cultural History of Edo Japan]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215783&month=01&year=2025#assignment_3132857
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><div class="item-description">\n<div class="vtbege
+ nerated">\n<table style="border-collapse: collapse\; width: 97.3106%\; hei
+ ght: 128px\; border-style: hidden\;"><caption><strong><span style="color: 
+ #5f5454\;">Readings Conversations</span></strong></caption>\n<tbody>\n<tr 
+ style="height: 159px\;">\n<th style="width: 20.3229%\; height: 128px\;" sc
+ ope="col"><img id="35621459" src="https://fiu.instructure.com/courses/2157
+ 83/files/35621459/preview" alt="Introduce yourself" data-api-endpoint="htt
+ ps://fiu.instructure.com/api/v1/courses/215783/files/35621459" data-api-re
+ turntype="File"><br>\n<p style="text-align: center\;">&nbsp\;</p>\n</th>\n
+ <th style="width: 104.642%\; height: 128px\;" scope="col">\n<p style="text
+ -align: left\;">After doing the readings and when assigned movies and docu
+ ments\, please join the conversation with the TeaMasters! Tea Masters\, po
+ st questions to spark academic and fruitful conversations\, others answer 
+ thorougly and add information\, keep the threads as interesting discussion
+ s on the topic. Remember we are all learning from one another\, expand on 
+ the conversation\, provide facts\, other resources\, and links :) <br>Do n
+ ot summarize readings here\, the idea is to analyze certain aspects by dis
+ cussing them.</p>\n<p style="text-align: left\;"><span style="background-c
+ olor: #ffffff\; color: #000000\; font-size: 10pt\;">**NOTE: when discussin
+ g documentaries\, and movies look for elements that confirm or expand on t
+ he themes from the readings rather than merely pointing out the plot.**</s
+ pan></p>\n<p style="text-align: left\;"><span style="background-color: #ff
+ ffff\; color: #000000\; font-size: 10pt\;">More than just thinking about t
+ he plot\, you need to look at every detail so that you can compare how you
+ r observations and the course content are related. <br>Examples of element
+ s to observe: characters dress code\, do elders and youth dress alike? Do 
+ different social classes dress similarly? You may also consider the archit
+ ecture\, how are spaces designed\, what spaces are occupied by whom? Is th
+ ere a difference between genders\, authorities\, young/elders or do they a
+ ll occupy the same place? Who gets up first at the table\, who serves? Are
+  characters taking turns to speak\, which lines does each say\, who has th
+ e last word\, etc? &nbsp\;&amp\; finally... what does it all mean? <br>How
+  do your observations relate to the content of the course? </span></p>\n</
+ th>\n</tr>\n</tbody>\n</table>\n<p style="text-align: left\;">&nbsp\;</p>\
+ n</div>\n</div>\n<hr>\n<ul>\n<li><a href="https://community.canvaslms.com/
+ docs/DOC-10561-4212190706" target="_blank"><span>"How do I reply to a disc
+ ussion."</span></a></li>\n<li><a href="https://community.canvaslms.com/doc
+ s/DOC-18280-42121157927" target="_blank">"How do I upload and embed an ima
+ ge in the New Rich Content Editor as a student?"</a></li>\n<li><span><a hr
+ ef="https://community.canvaslms.com/docs/DOC-18278-42121157925" target="_b
+ lank">"How do I create hyperlinks to user files in the New Rich Content Ed
+ itor as a student?"</a></span></li>\n<li><span><a href="https://community.
+ canvaslms.com/docs/DOC-10577-4212540120" target="_blank">"How do I view th
+ e rubric for my graded discussion?"</a></span></li>\n</ul>\n<p>If you have
+  any technical issues with these items\, contact <em>FIU Canvas Help Team<
+ /em> by clicking on Help in your Global Navigation Menu.</p><script src="h
+ ttps://instructure-uploads.s3.amazonaws.com/account_11810000000000001/atta
+ chments/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250202T051500Z
+UID:event-assignment-3025770
+DTSTART;VALUE=DATE;VALUE=DATE:20250125
+CLASS:PUBLIC
+DESCRIPTION:Each week\, you are required to submit one current event paper 
+ focusing on a recent event in an East Asian country (such as Japan\, China
+ \, Korea\, or any other East Asian nation). These papers should be one pag
+ e in length\, double-spaced\, using Times New Roman 12\, and follow MLA gu
+ idelines PDF Format and it should fit in one page. Papers are due by Satur
+ day at 11:59 pm. Please note that submissions not adhering to MLA format a
+ nd the specified length will receive a grade of 0. Additionally\, there wi
+ ll be a grade reduction for submissions that are more than 24 hours late.
+  \n\nAssignment Instructions:\n\nFind a Recent Event: Look for a current 
+ news article related to East Asia.\n\nSummarize and Analyze: Summarize the
+  event and include your personal perspective on its significance.\n\nRelev
+ ance: Your paper should reflect the impact of the event and its relevance 
+ to East Asia’s global influence.\n\nThis assignment aims to keep you inf
+ ormed about East Asian current events and to help you understand the regio
+ n's global impact. Use various East Asian news sources for your research.\
+ n\nYour current event papers will assess your global awareness. The curren
+ t events will be completed using various East Asian news sources. Below ar
+ e a few suggested resources\; more will be provided in Canvas:\n\n* Asahi 
+ Shimbun: [http://www.asahi.com/english/Links to an external site.] (http:
+ //www.asahi.com/english/)\n\n* Kyodo News: [http://english.kyodonews.jp/L
+ inks to an external site.] (http://english.kyodonews.jp/)\n\n* NHK Online:
+  [http://www3.nhk.or.jp/nhkworld/index.htmlLinks to an external site.] (h
+ ttp://www3.nhk.or.jp/nhkworld/index.html)\n\n* China Daily: [http://usa.c
+ hinadaily.com.cn/Links to an external site.] (http://usa.chinadaily.com.cn
+ /)\n\n* Shanghai Daily: [http://www.shanghaidaily.com/Links to an externa
+ l site.] (http://www.shanghaidaily.com/)\n\n* South Korean Newspapers and 
+ News Sites: http://www.world-newspapers.com/southkorea.html
+SEQUENCE:0
+SUMMARY:Current Event #3 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=01&year=2025#assignment_3025770
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p>Each week\, you are required to submit one curr
+ ent event paper focusing on a recent event in an East Asian country (such 
+ as Japan\, China\, Korea\, or any other East Asian nation). These papers s
+ hould be one page in length\, double-spaced\, using Times New Roman 12\, a
+ nd follow MLA guidelines <strong>PDF Format and it should fit in one page<
+ /strong>. Papers are due by Saturday at 11:59 pm. Please note that submiss
+ ions not adhering to MLA format and the specified length will receive a gr
+ ade of 0. Additionally\, there will be a grade reduction for submissions t
+ hat are more than 24 hours late.&nbsp\;</p>\n<p><strong>Assignment Instruc
+ tions:</strong></p>\n<p><strong>Find a Recent Event:</strong> Look for a c
+ urrent news article related to East Asia.</p>\n<p><strong>Summarize and An
+ alyze:</strong> Summarize the event and include your personal perspective 
+ on its significance.</p>\n<p><strong>Relevance:</strong> Your paper should
+  reflect the impact of the event and its relevance to East Asia’s global
+  influence.</p>\n<p>This assignment aims to keep you informed about East A
+ sian current events and to help you understand the region's global impact.
+  Use various East Asian news sources for your research.</p>\n<p>Your curre
+ nt event papers will assess your global awareness. The current events will
+  be completed using various East Asian news sources. Below are a few sugge
+ sted resources\; more will be provided in Canvas:</p>\n<ul>\n<li>Asahi Shi
+ mbun:<span>&nbsp\;</span><a class="external" href="http://www.asahi.com/en
+ glish/" target="_blank"><span>http://www.asahi.com/english/</span><span cl
+ ass="external_link_icon" role="presentation"><span class="screenreader-onl
+ y">Links to an external site.</span></span></a></li>\n<li>Kyodo News:<span
+ >&nbsp\;</span><a class="external" href="http://english.kyodonews.jp/" tar
+ get="_blank"><span>http://english.kyodonews.jp/</span><span class="externa
+ l_link_icon" role="presentation"><span class="screenreader-only">Links to 
+ an external site.</span></span></a></li>\n<li>NHK Online:<span>&nbsp\;</sp
+ an><a class="external" href="http://www3.nhk.or.jp/nhkworld/index.html" ta
+ rget="_blank"><span>http://www3.nhk.or.jp/nhkworld/index.html</span><span 
+ class="external_link_icon" role="presentation"><span class="screenreader-o
+ nly">Links to an external site.</span></span></a></li>\n<li>China Daily:<s
+ pan>&nbsp\;</span><a class="external" href="http://usa.chinadaily.com.cn/"
+  target="_blank"><span>http://usa.chinadaily.com.cn/</span><span class="ex
+ ternal_link_icon" role="presentation"><span class="screenreader-only">Link
+ s to an external site.</span></span></a></li>\n<li>Shanghai Daily:<span>&n
+ bsp\;</span><a class="external" href="http://www.shanghaidaily.com/" targe
+ t="_blank"><span>http://www.shanghaidaily.com/</span><span class="external
+ _link_icon" role="presentation"><span class="screenreader-only">Links to a
+ n external site.</span></span></a></li>\n<li>South Korean Newspapers and N
+ ews Sites:<span>&nbsp\;</span><a class="external" href="http://www.world-n
+ ewspapers.com/southkorea.html" target="_blank"><span>http://www.world-news
+ papers.com/southkorea.html</span></a></li>\n</ul><script src="https://inst
+ ructure-uploads.s3.amazonaws.com/account_11810000000000001/attachments/298
+ 54757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250129T193700Z
+UID:event-assignment-3025789
+DTSTART;VALUE=DATE;VALUE=DATE:20250125
+CLASS:PUBLIC
+DESCRIPTION:Presentations:\n--------------\n\nAll presentations will be bas
+ ed on chapters from the book "A History of East Asia: From the Origins of 
+ Civilization to the Twenty-First Century". For the first presentation\, st
+ udents will collectively cover the first 4 chapters of the book\, with eac
+ h student selecting one of these chapters to summarize. Subsequent present
+ ations will focus on individual chapters chosen by each student. Each stud
+ ent will create slides and record audio narration\, providing clear explan
+ ations and commentary for their chosen chapter. Each slide should include 
+ no more than three photos to maintain clarity and focus. Presentations sho
+ uld be 8-10 minutes per student\, maintaining consistency in visual design
+  elements for a cohesive look. After practicing and reviewing\, students w
+ ill deliver presentations in the agreed-upon order and upload into VoiceTh
+ read an interactive collaboration and sharing tool.\n\nPresentation 1:\n-
+ --------------\n\n* Teams should be decided by January 11th. (Students wil
+ l have the same teams for all presentations)\n\n* Available: Week 3\n\n* B
+ ased on Chapters 1\,2\,3 and 4.\n\n* Each student picks a chapter.\n\n* Pr
+ esentation due on January 25th by 11:59pm.\n\n*Teams will be created under
+  the People tab > Create your groups.
+SEQUENCE:0
+SUMMARY:Presentation #1 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=01&year=2025#assignment_3025789
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><h3><span><strong>Presentations:</strong></span></
+ h3>\n<p><span>All presentations will be based on chapters from the book "A
+  History of East Asia: From the Origins of Civilization to the Twenty-Firs
+ t Century". For the first presentation\, students will collectively cover 
+ the first 4 chapters of the book\, with each student selecting one of thes
+ e chapters to summarize. Subsequent presentations will focus on individual
+  chapters chosen by each student. Each student will create slides and reco
+ rd audio narration\, providing clear explanations and commentary for their
+  chosen chapter. Each slide should include no more than three photos to ma
+ intain clarity and focus. Presentations should be 8-10 minutes per student
+ \, maintaining consistency in visual design elements for a cohesive look. 
+ After practicing and reviewing\, students will deliver presentations in th
+ e agreed-upon order and upload into <strong>VoiceThread</strong>&nbsp\;an 
+ interactive collaboration and sharing tool.</span></p>\n<h3><span><strong>
+ Presentation 1:</strong></span></h3>\n<ul>\n<li><span style="background-co
+ lor: #fbeeb8\;">Teams should be decided by <strong>January 11th</strong>. 
+ (Students will have the same teams for all presentations)</span></li>\n<li
+ >Available: Week 3</li>\n<li>Based on Chapters 1\,2\,3 and 4.</li>\n<li>Ea
+ ch student picks a chapter.</li>\n<li>Presentation due on January 25th by 
+ 11:59pm.</li>\n</ul>\n<p>*Teams will be created under the<span>&nbsp\;</sp
+ an><strong>People tab &gt\; Create your groups.</strong></p><script src="h
+ ttps://instructure-uploads.s3.amazonaws.com/account_11810000000000001/atta
+ chments/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250124T234900Z
+UID:event-assignment-3167433
+DTSTART;VALUE=DATE;VALUE=DATE:20250125
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Week 3 Class 1 Jan 22nd Upload [Pre-Calculus Algebra and Trigonomet
+ ry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=01&year=2025#assignment_3167433
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250126T053800Z
+UID:event-assignment-3168374
+DTSTART;VALUE=DATE;VALUE=DATE:20250125
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Week 3 Class 2 Jan 24th Upload [Pre-Calculus Algebra and Trigonomet
+ ry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=01&year=2025#assignment_3168374
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250117T050000Z
+UID:event-assignment-3106408
+DTSTART;VALUE=DATE;VALUE=DATE:20250127
+CLASS:PUBLIC
+DESCRIPTION:[Screen Shot 2019-08-13 at 8.08.20 AM.png] (https://fiu.instruc
+ ture.com/courses/126135/files/20061117/preview)Complete: Online Homework W
+ eek 3 in [Rational Reasoning.] (http://imathas.rationalreasoning.net)
+SEQUENCE:0
+SUMMARY:Online Homework Week 3 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=01&year=2025#assignment_3106408
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p><img id="17533796" src="https://fiu.instructure
+ .com/courses/126135/files/20061117/preview" alt="Screen Shot 2019-08-13 at
+  8.08.20 AM.png" width="149" height="53" data-api-endpoint="https://fiu.in
+ structure.com/api/v1/courses/126135/files/20061117" data-api-returntype="F
+ ile">Complete: Online Homework Week 3 in <a href="http://imathas.rationalr
+ easoning.net">Rational Reasoning.</a></p><script src="https://instructure-
+ uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854757/ca
+ nvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250118T045900Z
+UID:event-assignment-3106482
+DTSTART;VALUE=DATE;VALUE=DATE:20250127
+CLASS:PUBLIC
+DESCRIPTION:---------------------------------------------------------------
+ ---------------------------------------------\nDownload: [WEEK 03 WRITTEN 
+ HOMEWORK.docx] (https://fiu.instructure.com/courses/218497/files/35568503?
+ wrap=1)\n-----------------------------------------------------------------
+ -------------------------------------------\n\nPDF: [WEEK 03 WRITTEN HOMEW
+ ORK.pdf] (https://fiu.instructure.com/courses/218497/files/35568504?wrap=1
+ )  \n\n \n\nUse the information from the textbook and lesson content to 
+ complete and submit the written HW.\n\nYou can either work directly on the
+  downloaded document or take a picture of your work.
+SEQUENCE:0
+SUMMARY:Written Homework Week 3  [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=01&year=2025#assignment_3106482
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><h2><span class="instructure_file_holder link_hold
+ er">Download: <a id="35556143" class="instructure_file_link instructure_sc
+ ribd_file inline_disabled" title="Link" href="https://fiu.instructure.com/
+ courses/218497/files/35568503?wrap=1" target="_blank" data-canvas-previewa
+ ble="true" data-api-endpoint="https://fiu.instructure.com/api/v1/courses/2
+ 18497/files/35568503" data-api-returntype="File">WEEK 03 WRITTEN HOMEWORK.
+ docx</a></span></h2>\n<p><span class="instructure_file_holder link_holder"
+  style="font-size: 24pt\;">PDF: <a id="35556144" class="instructure_file_l
+ ink instructure_scribd_file inline_disabled" title="Link" href="https://fi
+ u.instructure.com/courses/218497/files/35568504?wrap=1" target="_blank" da
+ ta-canvas-previewable="true" data-api-endpoint="https://fiu.instructure.co
+ m/api/v1/courses/218497/files/35568504" data-api-returntype="File">WEEK 03
+  WRITTEN HOMEWORK.pdf</a> &nbsp\;</span></p>\n<p>&nbsp\;</p>\n<p>Use the i
+ nformation from the textbook and lesson content to complete and submit the
+  written HW.</p>\n<p>You can either work directly on the downloaded docume
+ nt or take a picture of your work.</p><script src="https://instructure-upl
+ oads.s3.amazonaws.com/account_11810000000000001/attachments/29854757/canva
+ s_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250120T050000Z
+UID:event-assignment-3106439
+DTSTART:20250129T220000Z
+DTEND:20250129T220000Z
+CLASS:PUBLIC
+DESCRIPTION:[Screen Shot 2019-08-13 at 8.08.20 AM.png] (https://fiu.instruc
+ ture.com/courses/126135/files/20061117/preview)Complete: Pre-Class Assignm
+ ent (Week 4 Class 1) in [Rational Reasoning.] (http://imathas.rationalreas
+ oning.net)
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 4 Class 1) [Pre-Calculus Algebra and Tri
+ gonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=01&year=2025#assignment_3106439
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p><img id="17533796" src="https://fiu.instructure
+ .com/courses/126135/files/20061117/preview" alt="Screen Shot 2019-08-13 at
+  8.08.20 AM.png" width="149" height="53" data-api-endpoint="https://fiu.in
+ structure.com/api/v1/courses/126135/files/20061117" data-api-returntype="F
+ ile">Complete: Pre-Class Assignment (Week 4 Class 1) in <a href="http://im
+ athas.rationalreasoning.net">Rational Reasoning.</a></p><script src="https
+ ://instructure-uploads.s3.amazonaws.com/account_11810000000000001/attachme
+ nts/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250120T050000Z
+UID:event-assignment-3106441
+DTSTART:20250130T130000Z
+DTEND:20250130T130000Z
+CLASS:PUBLIC
+DESCRIPTION:[Screen Shot 2019-08-13 at 8.08.20 AM.png] (https://fiu.instruc
+ ture.com/courses/126135/files/20061117/preview)Complete: Pre-Class Assignm
+ ent (Week 4 Class 2) in [Rational Reasoning.] (http://imathas.rationalreas
+ oning.net)
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 4 Class 2) [Pre-Calculus Algebra and Tri
+ gonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=01&year=2025#assignment_3106441
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p><img id="17533796" src="https://fiu.instructure
+ .com/courses/126135/files/20061117/preview" alt="Screen Shot 2019-08-13 at
+  8.08.20 AM.png" width="149" height="53" data-api-endpoint="https://fiu.in
+ structure.com/api/v1/courses/126135/files/20061117" data-api-returntype="F
+ ile">Complete: Pre-Class Assignment (Week 4 Class 2) in <a href="http://im
+ athas.rationalreasoning.net">Rational Reasoning.</a></p><script src="https
+ ://instructure-uploads.s3.amazonaws.com/account_11810000000000001/attachme
+ nts/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250129T232900Z
+UID:event-assignment-3170982
+DTSTART;VALUE=DATE;VALUE=DATE:20250130
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Week 4 Class 1 Jan 29th Upload [Pre-Calculus Algebra and Trigonomet
+ ry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=01&year=2025#assignment_3170982
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250131T173100Z
+UID:event-assignment-3096850
+DTSTART:20250131T203000Z
+DTEND:20250131T203000Z
+CLASS:PUBLIC
+DESCRIPTION:This is an individual requirement\, not a group activity.\n\nOp
+ en this form to critique each team's presentation. You will submit 1 respo
+ nse for each team that presents.\n\nYou must log in with your FIU credenti
+ als to use this form. \n\n[Presentation Critique form] (https://forms.off
+ ice.com/r/AS1wdvDLT5)
+SEQUENCE:0
+SUMMARY:Lab-1 Critique [Emerging Topics in Digital Life]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 216374&month=01&year=2025#assignment_3096850
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p>This is an individual requirement\, not a group
+  activity.</p>\n<p>Open this form to critique each team's presentation. Yo
+ u will submit 1 response for each team that presents.</p>\n<p>You must log
+  in with your FIU credentials to use this form.&nbsp\;</p>\n<p><a class="i
+ nline_disabled" href="https://forms.office.com/r/AS1wdvDLT5" target="_blan
+ k">Presentation Critique form</a></p><script src="https://instructure-uplo
+ ads.s3.amazonaws.com/account_11810000000000001/attachments/29854757/canvas
+ _global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250102T183200Z
+UID:event-assignment-3106456
+DTSTART;VALUE=DATE;VALUE=DATE:20250131
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Reassessment Upload #1 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=01&year=2025#assignment_3106456
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250204T191500Z
+UID:event-assignment-3157170
+DTSTART;VALUE=DATE;VALUE=DATE:20250201
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Midterm PPT [Samurai\, Sumo\, Shopkeepers and Shogun: A Social and 
+ Cultural History of Edo Japan]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215783&month=02&year=2025#assignment_3157170
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250204T170100Z
+UID:event-assignment-3139138
+DTSTART;VALUE=DATE;VALUE=DATE:20250201
+CLASS:PUBLIC
+DESCRIPTION:Check the instructions on [Midterm Team Podcast Video] (https:/
+ /fiu.instructure.com/courses/215783/pages/midterm-team-podcast-video-instr
+ uctions)
+SEQUENCE:0
+SUMMARY:Midterm Video - Team Project [Samurai\, Sumo\, Shopkeepers and Shog
+ un: A Social and Cultural History of Edo Japan]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215783&month=02&year=2025#assignment_3139138
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p>Check the instructions on <a title="Midterm Tea
+ m Podcast Video Instructions" href="https://fiu.instructure.com/courses/21
+ 5783/pages/midterm-team-podcast-video-instructions" data-course-type="wiki
+ Pages" data-published="false" data-api-endpoint="https://fiu.instructure.c
+ om/api/v1/courses/215783/pages/midterm-team-podcast-video-instructions" da
+ ta-api-returntype="Page">Midterm Team Podcast Video</a></p><script src="ht
+ tps://instructure-uploads.s3.amazonaws.com/account_11810000000000001/attac
+ hments/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250204T191400Z
+UID:event-assignment-3139140
+DTSTART;VALUE=DATE;VALUE=DATE:20250201
+CLASS:PUBLIC
+DESCRIPTION:Check the instructions on [Midterm Team Podcast Video] (https:/
+ /fiu.instructure.com/courses/215783/pages/midterm-team-podcast-video-instr
+ uctions)
+SEQUENCE:0
+SUMMARY:Midterm Video Transcript plus Sources [Samurai\, Sumo\, Shopkeepers
+  and Shogun: A Social and Cultural History of Edo Japan]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215783&month=02&year=2025#assignment_3139140
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p>Check the instructions on <a title="Midterm Tea
+ m Podcast Video Instructions" href="https://fiu.instructure.com/courses/21
+ 5783/pages/midterm-team-podcast-video-instructions" data-course-type="wiki
+ Pages" data-published="false" data-api-endpoint="https://fiu.instructure.c
+ om/api/v1/courses/215783/pages/midterm-team-podcast-video-instructions" da
+ ta-api-returntype="Page">Midterm Team Podcast Video</a></p><script src="ht
+ tps://instructure-uploads.s3.amazonaws.com/account_11810000000000001/attac
+ hments/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250204T192100Z
+UID:event-assignment-3132856
+DTSTART;VALUE=DATE;VALUE=DATE:20250201
+CLASS:PUBLIC
+DESCRIPTION:Readings Conversations\n\n[Introduce yourself] (https://fiu.ins
+ tructure.com/courses/215783/files/35621459/preview)\n\n \n\nAfter doing t
+ he readings and when assigned movies and documents\, please join the conve
+ rsation with the TeaMasters! Tea Masters\, post questions to spark academi
+ c and fruitful conversations\, others answer thorougly and add information
+ \, keep the threads as interesting discussions on the topic. Remember we a
+ re all learning from one another\, expand on the conversation\, provide fa
+ cts\, other resources\, and links :)\nDo not summarize readings here\, the
+  idea is to analyze certain aspects by discussing them.\n\n**NOTE: when di
+ scussing documentaries\, and movies look for elements that confirm or expa
+ nd on the themes from the readings rather than merely pointing out the plo
+ t.**\n\nMore than just thinking about the plot\, you need to look at every
+  detail so that you can compare how your observations and the course conte
+ nt are related.\nExamples of elements to observe: characters dress code\, 
+ do elders and youth dress alike? Do different social classes dress similar
+ ly? You may also consider the architecture\, how are spaces designed\, wha
+ t spaces are occupied by whom? Is there a difference between genders\, aut
+ horities\, young/elders or do they all occupy the same place? Who gets up 
+ first at the table\, who serves? Are characters taking turns to speak\, wh
+ ich lines does each say\, who has the last word\, etc?  & finally... what
+  does it all mean?\nHow do your observations relate to the content of the 
+ course?\n\n \n\n* ["How do I reply to a discussion."] (https://community.
+ canvaslms.com/docs/DOC-10561-4212190706)\n\n* ["How do I upload and embed 
+ an image in the New Rich Content Editor as a student?"] (https://community
+ .canvaslms.com/docs/DOC-18280-42121157927)\n\n* ["How do I create hyperlin
+ ks to user files in the New Rich Content Editor as a student?"] (https://c
+ ommunity.canvaslms.com/docs/DOC-18278-42121157925)\n\n* ["How do I view th
+ e rubric for my graded discussion?"] (https://community.canvaslms.com/docs
+ /DOC-10577-4212540120)\n\nIf you have any technical issues with these item
+ s\, contact FIU Canvas Help Team by clicking on Help in your Global Naviga
+ tion Menu.
+SEQUENCE:0
+SUMMARY:Week 4 - Conversations about the readings [Samurai\, Sumo\, Shopkee
+ pers and Shogun: A Social and Cultural History of Edo Japan]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215783&month=02&year=2025#assignment_3132856
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><div class="item-description">\n<div class="vtbege
+ nerated">\n<table style="border-collapse: collapse\; width: 97.3106%\; hei
+ ght: 128px\; border-style: hidden\;"><caption><strong><span style="color: 
+ #5f5454\;">Readings Conversations</span></strong></caption>\n<tbody>\n<tr 
+ style="height: 159px\;">\n<th style="width: 20.3229%\; height: 128px\;" sc
+ ope="col"><img id="35621459" src="https://fiu.instructure.com/courses/2157
+ 83/files/35621459/preview" alt="Introduce yourself" data-api-endpoint="htt
+ ps://fiu.instructure.com/api/v1/courses/215783/files/35621459" data-api-re
+ turntype="File"><br>\n<p style="text-align: center\;">&nbsp\;</p>\n</th>\n
+ <th style="width: 104.642%\; height: 128px\;" scope="col">\n<p style="text
+ -align: left\;">After doing the readings and when assigned movies and docu
+ ments\, please join the conversation with the TeaMasters! Tea Masters\, po
+ st questions to spark academic and fruitful conversations\, others answer 
+ thorougly and add information\, keep the threads as interesting discussion
+ s on the topic. Remember we are all learning from one another\, expand on 
+ the conversation\, provide facts\, other resources\, and links :) <br>Do n
+ ot summarize readings here\, the idea is to analyze certain aspects by dis
+ cussing them.</p>\n<p style="text-align: left\;"><span style="background-c
+ olor: #ffffff\; color: #000000\; font-size: 10pt\;">**NOTE: when discussin
+ g documentaries\, and movies look for elements that confirm or expand on t
+ he themes from the readings rather than merely pointing out the plot.**</s
+ pan></p>\n<p style="text-align: left\;"><span style="background-color: #ff
+ ffff\; color: #000000\; font-size: 10pt\;">More than just thinking about t
+ he plot\, you need to look at every detail so that you can compare how you
+ r observations and the course content are related. <br>Examples of element
+ s to observe: characters dress code\, do elders and youth dress alike? Do 
+ different social classes dress similarly? You may also consider the archit
+ ecture\, how are spaces designed\, what spaces are occupied by whom? Is th
+ ere a difference between genders\, authorities\, young/elders or do they a
+ ll occupy the same place? Who gets up first at the table\, who serves? Are
+  characters taking turns to speak\, which lines does each say\, who has th
+ e last word\, etc? &nbsp\;&amp\; finally... what does it all mean? <br>How
+  do your observations relate to the content of the course? </span></p>\n</
+ th>\n</tr>\n</tbody>\n</table>\n<p style="text-align: left\;">&nbsp\;</p>\
+ n</div>\n</div>\n<hr>\n<ul>\n<li><a href="https://community.canvaslms.com/
+ docs/DOC-10561-4212190706" target="_blank"><span>"How do I reply to a disc
+ ussion."</span></a></li>\n<li><a href="https://community.canvaslms.com/doc
+ s/DOC-18280-42121157927" target="_blank">"How do I upload and embed an ima
+ ge in the New Rich Content Editor as a student?"</a></li>\n<li><span><a hr
+ ef="https://community.canvaslms.com/docs/DOC-18278-42121157925" target="_b
+ lank">"How do I create hyperlinks to user files in the New Rich Content Ed
+ itor as a student?"</a></span></li>\n<li><span><a href="https://community.
+ canvaslms.com/docs/DOC-10577-4212540120" target="_blank">"How do I view th
+ e rubric for my graded discussion?"</a></span></li>\n</ul>\n<p>If you have
+  any technical issues with these items\, contact <em>FIU Canvas Help Team<
+ /em> by clicking on Help in your Global Navigation Menu.</p><script src="h
+ ttps://instructure-uploads.s3.amazonaws.com/account_11810000000000001/atta
+ chments/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250126T050000Z
+UID:event-assignment-3025771
+DTSTART;VALUE=DATE;VALUE=DATE:20250201
+CLASS:PUBLIC
+DESCRIPTION:Each week\, you are required to submit one current event paper 
+ focusing on a recent event in an East Asian country (such as Japan\, China
+ \, Korea\, or any other East Asian nation). These papers should be one pag
+ e in length\, double-spaced\, using Times New Roman 12\, and follow MLA gu
+ idelines PDF Format and it should fit in one page. Papers are due by Satur
+ day at 11:59 pm. Please note that submissions not adhering to MLA format a
+ nd the specified length will receive a grade of 0. Additionally\, there wi
+ ll be a grade reduction for submissions that are more than 24 hours late.
+  \n\nAssignment Instructions:\n\nFind a Recent Event: Look for a current 
+ news article related to East Asia.\n\nSummarize and Analyze: Summarize the
+  event and include your personal perspective on its significance.\n\nRelev
+ ance: Your paper should reflect the impact of the event and its relevance 
+ to East Asia’s global influence.\n\nThis assignment aims to keep you inf
+ ormed about East Asian current events and to help you understand the regio
+ n's global impact. Use various East Asian news sources for your research.\
+ n\nYour current event papers will assess your global awareness. The curren
+ t events will be completed using various East Asian news sources. Below ar
+ e a few suggested resources\; more will be provided in Canvas:\n\n*\n\n* A
+ sahi Shimbun: [http://www.asahi.com/english/Links to an external site.] (
+ http://www.asahi.com/english/)\n\n* Kyodo News: [http://english.kyodonews
+ .jp/Links to an external site.] (http://english.kyodonews.jp/)\n\n* NHK On
+ line: [http://www3.nhk.or.jp/nhkworld/index.htmlLinks to an external site
+ .] (http://www3.nhk.or.jp/nhkworld/index.html)\n\n* China Daily: [http://
+ usa.chinadaily.com.cn/Links to an external site.] (http://usa.chinadaily.c
+ om.cn/)\n\n* Shanghai Daily: [http://www.shanghaidaily.com/Links to an ex
+ ternal site.] (http://www.shanghaidaily.com/)\n\n* South Korean Newspapers
+  and News Sites: http://www.world-newspapers.com/southkorea.html
+SEQUENCE:0
+SUMMARY:Current Event #4 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=02&year=2025#assignment_3025771
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p>Each week\, you are required to submit one curr
+ ent event paper focusing on a recent event in an East Asian country (such 
+ as Japan\, China\, Korea\, or any other East Asian nation). These papers s
+ hould be one page in length\, double-spaced\, using Times New Roman 12\, a
+ nd follow MLA guidelines <strong>PDF Format and it should fit in one page<
+ /strong>. Papers are due by Saturday at 11:59 pm. Please note that submiss
+ ions not adhering to MLA format and the specified length will receive a gr
+ ade of 0. Additionally\, there will be a grade reduction for submissions t
+ hat are more than 24 hours late.&nbsp\;</p>\n<p><strong>Assignment Instruc
+ tions:</strong></p>\n<p><strong>Find a Recent Event:</strong> Look for a c
+ urrent news article related to East Asia.</p>\n<p><strong>Summarize and An
+ alyze:</strong> Summarize the event and include your personal perspective 
+ on its significance.</p>\n<p><strong>Relevance:</strong> Your paper should
+  reflect the impact of the event and its relevance to East Asia’s global
+  influence.</p>\n<p>This assignment aims to keep you informed about East A
+ sian current events and to help you understand the region's global impact.
+  Use various East Asian news sources for your research.</p>\n<p>Your curre
+ nt event papers will assess your global awareness. The current events will
+  be completed using various East Asian news sources. Below are a few sugge
+ sted resources\; more will be provided in Canvas:</p>\n<ul>\n<li style="li
+ st-style-type: none\;">\n<ul>\n<li>Asahi Shimbun:<span>&nbsp\;</span><a cl
+ ass="external" href="http://www.asahi.com/english/" target="_blank"><span>
+ http://www.asahi.com/english/</span><span class="external_link_icon" role=
+ "presentation"><span class="screenreader-only">Links to an external site.<
+ /span></span></a></li>\n<li>Kyodo News:<span>&nbsp\;</span><a class="exter
+ nal" href="http://english.kyodonews.jp/" target="_blank"><span>http://engl
+ ish.kyodonews.jp/</span><span class="external_link_icon" role="presentatio
+ n"><span class="screenreader-only">Links to an external site.</span></span
+ ></a></li>\n<li>NHK Online:<span>&nbsp\;</span><a class="external" href="h
+ ttp://www3.nhk.or.jp/nhkworld/index.html" target="_blank"><span>http://www
+ 3.nhk.or.jp/nhkworld/index.html</span><span class="external_link_icon" rol
+ e="presentation"><span class="screenreader-only">Links to an external site
+ .</span></span></a></li>\n<li>China Daily:<span>&nbsp\;</span><a class="ex
+ ternal" href="http://usa.chinadaily.com.cn/" target="_blank"><span>http://
+ usa.chinadaily.com.cn/</span><span class="external_link_icon" role="presen
+ tation"><span class="screenreader-only">Links to an external site.</span><
+ /span></a></li>\n<li>Shanghai Daily:<span>&nbsp\;</span><a class="external
+ " href="http://www.shanghaidaily.com/" target="_blank"><span>http://www.sh
+ anghaidaily.com/</span><span class="external_link_icon" role="presentation
+ "><span class="screenreader-only">Links to an external site.</span></span>
+ </a></li>\n<li>South Korean Newspapers and News Sites:<span>&nbsp\;</span>
+ <a class="external" href="http://www.world-newspapers.com/southkorea.html"
+  target="_blank"><span>http://www.world-newspapers.com/southkorea.html</sp
+ an></a></li>\n</ul>\n</li>\n</ul><script src="https://instructure-uploads.
+ s3.amazonaws.com/account_11810000000000001/attachments/29854757/canvas_glo
+ bal_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250131T224600Z
+UID:event-assignment-3171729
+DTSTART;VALUE=DATE;VALUE=DATE:20250201
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Week 4 Class 2 Jan 31st [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=02&year=2025#assignment_3171729
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250124T050000Z
+UID:event-assignment-3106409
+DTSTART;VALUE=DATE;VALUE=DATE:20250203
+CLASS:PUBLIC
+DESCRIPTION:[Screen Shot 2019-08-13 at 8.08.20 AM.png] (https://fiu.instruc
+ ture.com/courses/126135/files/20061117/preview)Complete: Online Homework W
+ eek 4 in [Rational Reasoning.] (http://imathas.rationalreasoning.net)
+SEQUENCE:0
+SUMMARY:Online Homework Week 4 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=02&year=2025#assignment_3106409
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p><img id="17533796" src="https://fiu.instructure
+ .com/courses/126135/files/20061117/preview" alt="Screen Shot 2019-08-13 at
+  8.08.20 AM.png" width="149" height="53" data-api-endpoint="https://fiu.in
+ structure.com/api/v1/courses/126135/files/20061117" data-api-returntype="F
+ ile">Complete: Online Homework Week 4 in <a href="http://imathas.rationalr
+ easoning.net">Rational Reasoning.</a></p><script src="https://instructure-
+ uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854757/ca
+ nvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250204T050500Z
+UID:event-assignment-3106483
+DTSTART;VALUE=DATE;VALUE=DATE:20250203
+CLASS:PUBLIC
+DESCRIPTION:---------------------------------------------------------------
+ ---------------------------------------------\nDownload: [WEEK 04 WRITTEN 
+ HOMEWORK.docx] (https://fiu.instructure.com/courses/218497/files/35568505?
+ wrap=1)\n-----------------------------------------------------------------
+ -------------------------------------------\n\nPDF Version:  [WEEK 04 WRI
+ TTEN HOMEWORK.pdf] (https://fiu.instructure.com/courses/218497/files/35568
+ 506?wrap=1)\n\n \n\nUse the information from the textbook and lesson cont
+ ent to complete and submit the written HW.\n\nYou can either work directly
+  on the downloaded document or take a picture of your work.
+SEQUENCE:0
+SUMMARY:Written Homework Week 4  [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=02&year=2025#assignment_3106483
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><h2><span class="instructure_file_holder link_hold
+ er">Download: <a id="35556145" class="instructure_file_link instructure_sc
+ ribd_file inline_disabled" title="Link" href="https://fiu.instructure.com/
+ courses/218497/files/35568505?wrap=1" target="_blank" data-canvas-previewa
+ ble="true" data-api-endpoint="https://fiu.instructure.com/api/v1/courses/2
+ 18497/files/35568505" data-api-returntype="File">WEEK 04 WRITTEN HOMEWORK.
+ docx</a></span></h2>\n<p><span style="font-size: 24pt\;">PDF Version: &nbs
+ p\;<a id="35556146" class="instructure_file_link instructure_scribd_file i
+ nline_disabled" title="Link" href="https://fiu.instructure.com/courses/218
+ 497/files/35568506?wrap=1" target="_blank" data-canvas-previewable="true" 
+ data-api-endpoint="https://fiu.instructure.com/api/v1/courses/218497/files
+ /35568506" data-api-returntype="File">WEEK 04 WRITTEN HOMEWORK.pdf</a></sp
+ an></p>\n<p>&nbsp\;</p>\n<p>Use the information from the textbook and less
+ on content to complete and submit the written HW.</p>\n<p>You can either w
+ ork directly on the downloaded document or take a picture of your work.</p
+ ><script src="https://instructure-uploads.s3.amazonaws.com/account_1181000
+ 0000000001/attachments/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250127T050000Z
+UID:event-assignment-3106442
+DTSTART:20250205T220000Z
+DTEND:20250205T220000Z
+CLASS:PUBLIC
+DESCRIPTION:[Screen Shot 2019-08-13 at 8.08.20 AM.png] (https://fiu.instruc
+ ture.com/courses/126135/files/20061117/preview)Complete: Pre-Class Assignm
+ ent (Week 5 Class 1) in [Rational Reasoning.] (http://imathas.rationalreas
+ oning.net)
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 5 Class 1) [Pre-Calculus Algebra and Tri
+ gonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=02&year=2025#assignment_3106442
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p><img id="17533796" src="https://fiu.instructure
+ .com/courses/126135/files/20061117/preview" alt="Screen Shot 2019-08-13 at
+  8.08.20 AM.png" width="149" height="53" data-api-endpoint="https://fiu.in
+ structure.com/api/v1/courses/126135/files/20061117" data-api-returntype="F
+ ile">Complete: Pre-Class Assignment (Week 5 Class 1) in <a href="http://im
+ athas.rationalreasoning.net">Rational Reasoning.</a></p><script src="https
+ ://instructure-uploads.s3.amazonaws.com/account_11810000000000001/attachme
+ nts/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250127T050000Z
+UID:event-assignment-3106444
+DTSTART:20250207T220000Z
+DTEND:20250207T220000Z
+CLASS:PUBLIC
+DESCRIPTION:[Screen Shot 2019-08-13 at 8.08.20 AM.png] (https://fiu.instruc
+ ture.com/courses/126135/files/20061117/preview)Complete: Pre-Class Assignm
+ ent (Week 5 Class 2) in [Rational Reasoning.] (http://imathas.rationalreas
+ oning.net)
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 5 Class 2) [Pre-Calculus Algebra and Tri
+ gonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=02&year=2025#assignment_3106444
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p><img id="17533796" src="https://fiu.instructure
+ .com/courses/126135/files/20061117/preview" alt="Screen Shot 2019-08-13 at
+  8.08.20 AM.png" width="149" height="53" data-api-endpoint="https://fiu.in
+ structure.com/api/v1/courses/126135/files/20061117" data-api-returntype="F
+ ile">Complete: Pre-Class Assignment (Week 5 Class 2) in <a href="http://im
+ athas.rationalreasoning.net">Rational Reasoning.</a></p><script src="https
+ ://instructure-uploads.s3.amazonaws.com/account_11810000000000001/attachme
+ nts/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250206T042100Z
+UID:event-assignment-3025794
+DTSTART;VALUE=DATE;VALUE=DATE:20250207
+CLASS:PUBLIC
+DESCRIPTION:Quiz is based on chapters 4\,5 and 6 from "A history of East As
+ ia by Charles Holcombe." 
+SEQUENCE:0
+SUMMARY:Quiz 2 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=02&year=2025#assignment_3025794
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p>Quiz is based on chapters 4\,5 and 6 from "A hi
+ story of East Asia by Charles Holcombe."&nbsp\;</p><script src="https://in
+ structure-uploads.s3.amazonaws.com/account_11810000000000001/attachments/2
+ 9854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250107T155300Z
+UID:event-assignment-3132855
+DTSTART;VALUE=DATE;VALUE=DATE:20250208
+CLASS:PUBLIC
+DESCRIPTION:Readings Conversations\n\n[Introduce yourself] (https://fiu.ins
+ tructure.com/courses/215783/files/35621459/preview)\n\n \n\nAfter doing t
+ he readings and when assigned movies and documents\, please join the conve
+ rsation with the TeaMasters! Tea Masters\, post questions to spark academi
+ c and fruitful conversations\, others answer thorougly and add information
+ \, keep the threads as interesting discussions on the topic. Remember we a
+ re all learning from one another\, expand on the conversation\, provide fa
+ cts\, other resources\, and links :)\nDo not summarize readings here\, the
+  idea is to analyze certain aspects by discussing them.\n\n**NOTE: when di
+ scussing documentaries\, and movies look for elements that confirm or expa
+ nd on the themes from the readings rather than merely pointing out the plo
+ t.**\n\nMore than just thinking about the plot\, you need to look at every
+  detail so that you can compare how your observations and the course conte
+ nt are related.\nExamples of elements to observe: characters dress code\, 
+ do elders and youth dress alike? Do different social classes dress similar
+ ly? You may also consider the architecture\, how are spaces designed\, wha
+ t spaces are occupied by whom? Is there a difference between genders\, aut
+ horities\, young/elders or do they all occupy the same place? Who gets up 
+ first at the table\, who serves? Are characters taking turns to speak\, wh
+ ich lines does each say\, who has the last word\, etc?  & finally... what
+  does it all mean?\nHow do your observations relate to the content of the 
+ course?\n\n \n\n* ["How do I reply to a discussion."] (https://community.
+ canvaslms.com/docs/DOC-10561-4212190706)\n\n* ["How do I upload and embed 
+ an image in the New Rich Content Editor as a student?"] (https://community
+ .canvaslms.com/docs/DOC-18280-42121157927)\n\n* ["How do I create hyperlin
+ ks to user files in the New Rich Content Editor as a student?"] (https://c
+ ommunity.canvaslms.com/docs/DOC-18278-42121157925)\n\n* ["How do I view th
+ e rubric for my graded discussion?"] (https://community.canvaslms.com/docs
+ /DOC-10577-4212540120)\n\nIf you have any technical issues with these item
+ s\, contact FIU Canvas Help Team by clicking on Help in your Global Naviga
+ tion Menu.
+SEQUENCE:0
+SUMMARY:Week 5 - Conversations about the readings [Samurai\, Sumo\, Shopkee
+ pers and Shogun: A Social and Cultural History of Edo Japan]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215783&month=02&year=2025#assignment_3132855
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><div class="item-description">\n<div class="vtbege
+ nerated">\n<table style="border-collapse: collapse\; width: 97.3106%\; hei
+ ght: 128px\; border-style: hidden\;"><caption><strong><span style="color: 
+ #5f5454\;">Readings Conversations</span></strong></caption>\n<tbody>\n<tr 
+ style="height: 159px\;">\n<th style="width: 20.3229%\; height: 128px\;" sc
+ ope="col"><img id="35621459" src="https://fiu.instructure.com/courses/2157
+ 83/files/35621459/preview" alt="Introduce yourself" data-api-endpoint="htt
+ ps://fiu.instructure.com/api/v1/courses/215783/files/35621459" data-api-re
+ turntype="File"><br>\n<p style="text-align: center\;">&nbsp\;</p>\n</th>\n
+ <th style="width: 104.642%\; height: 128px\;" scope="col">\n<p style="text
+ -align: left\;">After doing the readings and when assigned movies and docu
+ ments\, please join the conversation with the TeaMasters! Tea Masters\, po
+ st questions to spark academic and fruitful conversations\, others answer 
+ thorougly and add information\, keep the threads as interesting discussion
+ s on the topic. Remember we are all learning from one another\, expand on 
+ the conversation\, provide facts\, other resources\, and links :) <br>Do n
+ ot summarize readings here\, the idea is to analyze certain aspects by dis
+ cussing them.</p>\n<p style="text-align: left\;"><span style="background-c
+ olor: #ffffff\; color: #000000\; font-size: 10pt\;">**NOTE: when discussin
+ g documentaries\, and movies look for elements that confirm or expand on t
+ he themes from the readings rather than merely pointing out the plot.**</s
+ pan></p>\n<p style="text-align: left\;"><span style="background-color: #ff
+ ffff\; color: #000000\; font-size: 10pt\;">More than just thinking about t
+ he plot\, you need to look at every detail so that you can compare how you
+ r observations and the course content are related. <br>Examples of element
+ s to observe: characters dress code\, do elders and youth dress alike? Do 
+ different social classes dress similarly? You may also consider the archit
+ ecture\, how are spaces designed\, what spaces are occupied by whom? Is th
+ ere a difference between genders\, authorities\, young/elders or do they a
+ ll occupy the same place? Who gets up first at the table\, who serves? Are
+  characters taking turns to speak\, which lines does each say\, who has th
+ e last word\, etc? &nbsp\;&amp\; finally... what does it all mean? <br>How
+  do your observations relate to the content of the course? </span></p>\n</
+ th>\n</tr>\n</tbody>\n</table>\n<p style="text-align: left\;">&nbsp\;</p>\
+ n</div>\n</div>\n<hr>\n<ul>\n<li><a href="https://community.canvaslms.com/
+ docs/DOC-10561-4212190706" target="_blank"><span>"How do I reply to a disc
+ ussion."</span></a></li>\n<li><a href="https://community.canvaslms.com/doc
+ s/DOC-18280-42121157927" target="_blank">"How do I upload and embed an ima
+ ge in the New Rich Content Editor as a student?"</a></li>\n<li><span><a hr
+ ef="https://community.canvaslms.com/docs/DOC-18278-42121157925" target="_b
+ lank">"How do I create hyperlinks to user files in the New Rich Content Ed
+ itor as a student?"</a></span></li>\n<li><span><a href="https://community.
+ canvaslms.com/docs/DOC-10577-4212540120" target="_blank">"How do I view th
+ e rubric for my graded discussion?"</a></span></li>\n</ul>\n<p>If you have
+  any technical issues with these items\, contact <em>FIU Canvas Help Team<
+ /em> by clicking on Help in your Global Navigation Menu.</p><script src="h
+ ttps://instructure-uploads.s3.amazonaws.com/account_11810000000000001/atta
+ chments/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250111T145100Z
+UID:event-assignment-3139128
+DTSTART;VALUE=DATE;VALUE=DATE:20250208
+CLASS:PUBLIC
+DESCRIPTION:Analytic Paper Instructions\n\n[Citing sources is key] (https:/
+ /fiu.instructure.com/courses/215783/files/35736155/preview)\n\n \n\n \n\
+ n \n\n \n\nWrite an analysis paper evaluating three of the assigned prim
+ ary source documents. You should not try to cover all the material\; rathe
+ r select one or two topics you find particularly interesting and analyze t
+ hem.\nChoosing a clear focus will help you write an effective response bec
+ ause you must do more than merely summarize.\n\nResearch: Please make sure
+  to look up secondary sources (the  last part of each chapter offers plen
+ ty). If there are assigned films/documentaries find the bio and other work
+ s from the director\, and any other information that will enhance your ana
+ lysis.\n\nPurpose: This assignment is designed to help you evaluate and un
+ derstand Japan during the Edo Period. \n\nAudience: You are writing your 
+ analysis papers to show your Professor and classmates your analysis skills
+  by focusing on 3 specific documents shaped by your understanding of class
+ -related material. You must maintain an academic tone and your paper must 
+ be thoroughly and cohesively organized.\n\nRequirements:\nAnalysis Papers 
+ should be singled spaced\, Times New Roman\, 12-point size font\,\n200 to 
+ 250 words per document (a total of 600 to 750 words) .\n- Do not forget to
+  cite your sources (minimum of 3)\, or you will get point deductions. You 
+ cannot provide website links as a source\, rather reference them in MLA or
+  APA format.\nRemember: movies and videos are also sources.\nHow to cite I
+ nternet sources: [Citing Sources: Why & How to Do ItLinks to an external s
+ ite.] (https://www.youtube.com/watch?v=-JV9cLDCgas)\nFor semi-automatic ci
+ tations\, you can use this tool: [Citation GeneratorLinks to an external s
+ ite.] (https://www.scribbr.com/apa-citation-generator/)\n\nGuiding Questio
+ ns: choose those offered in the book right after each of the documents.\n\
+ nResources:\n** To learn how to write an Analysis Paper use this step-by-s
+ tep [GUIDELinks to an external site.] (https://www.wikihow.com/Write-an-An
+ alytical-Essay)\n\nDue Dates:\nPlease check the course schedule for deadli
+ nes. Reminder: Upload them to Turnitin before midnight on Saturdays.\n\n 
+ \n\n \n\nPoints Possible\n\n0- didn't turn in\, plagiarized or Minimally 
+ acceptable performance\, demonstrating at least partial familiarity with t
+ he subject matter and some capacity to deal with relatively simple problem
+ s\, but also containing deficiencies serious enough to make it inadvisable
+  to proceed further in the field without additional work.\n1- turned in bu
+ t didn't follow guidelines and Inadequate performance\, demonstrating an i
+ nadequate understanding of the subject matter\, lack of ability to handle 
+ relatively simple problems\, and inadequate preparation for moving on to 
+ more advanced work in the field.\n2- turned in but didn’t follow the gui
+ delines and Adequate performance or followed the guidelines but the perfor
+ mance is inadequate\, demonstrating an adequate understanding of the subje
+ ct matter\, an ability to handle relatively simple problems\, and adequate
+  preparation for moving on to more advanced work in the field.\n3- turned
+  in & followed the guidelines to some extent but it is missing thesis\, or
+  sources\, or does not show ability to move on to more advanced work in th
+ e field.\n4- turned in & followed guidelines  Good performance\, demonstr
+ ating the capacity to use the appropriate concepts\, a good understanding 
+ of the subject matter\, and an ability to handle the problems and material
+ s encountered in the subject.\n5- Exceptionally good performance\, demonst
+ rating a superior understanding of the subject matter and skillful use of 
+ concepts and/or materials. Clear thesis statement\, each paragraph has a c
+ lear focus that relates to the thesis statement\, clear examples from the 
+ readings and films illustrate the points made\, and the conclusion is a ca
+ ll for action not a mere summary of the paper. Grammar is clear\, there ar
+ e no misspellings\, proper names are capitalized\, the paper has a title t
+ hat reflects its thesis statement\, and sources have been cited by MLA or 
+ APA style requirements. Furthermore\, all formatting requirements have bee
+ n followed.
+SEQUENCE:0
+SUMMARY:Analytic Paper 2 (10%)  [Samurai\, Sumo\, Shopkeepers and Shogun: A
+  Social and Cultural History of Edo Japan]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215783&month=02&year=2025#assignment_3139128
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><table style="border-collapse: collapse\; width: 9
+ 7.910731%\; float: left\;" border="1"><caption><span style="font-size: 14p
+ t\;"><strong>Analytic Paper Instructions</strong></span></caption>\n<tbody
+ >\n<tr>\n<th style="width: 26.4629%\;" scope="col"><img src="https://fiu.i
+ nstructure.com/courses/215783/files/35736155/preview" alt="Citing sources 
+ is key" width="240" height="320" data-api-endpoint="https://fiu.instructur
+ e.com/api/v1/courses/215783/files/35736155" data-api-returntype="File"></t
+ h>\n<th style="width: 73.440106%\;" scope="col">\n<p>&nbsp\;</p>\n<p>&nbsp
+ \;</p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>\n<p style="text-align: left\;">Writ
+ e an analysis paper evaluating three of the assigned primary source docume
+ nts. You should not try to cover all the material\; rather select one or t
+ wo topics you find particularly interesting and analyze them. <br>Choosing
+  a clear focus will help you write an effective response because you must 
+ do more than merely summarize. <br><br><br><strong>Research:</strong> Plea
+ se make sure to look up secondary sources (the&nbsp\; last part of each ch
+ apter offers plenty). If there are assigned films/documentaries find the b
+ io and other works from the director\, and any other information that will
+  enhance your analysis.</p>\n<p style="text-align: left\;"><strong>Purpose
+ :</strong> This assignment is designed to help you evaluate and understand
+  Japan during the Edo Period.&nbsp\;<br><br><strong>Audience:</strong> You
+  are writing your analysis papers to show your Professor and classmates yo
+ ur analysis skills by focusing on 3 specific documents shaped by your unde
+ rstanding of class-related material. You must maintain an academic tone an
+ d your paper must be thoroughly and cohesively organized.<br><strong><br>R
+ equirements: <br></strong>Analysis Papers should be singled spaced\, Times
+  New Roman\, 12-point size font\, <br>200 to 250 words per document (a tot
+ al of 600 to 750 words) . <br>- Do not forget to cite your sources (minimu
+ m of 3)\, or you will get point deductions. You cannot provide website lin
+ ks as a source\, rather reference them in MLA or APA format. <br>Remember:
+  movies and videos are also sources<strong>.</strong><br>How to cite Inter
+ net sources: <a class="inline_disabled external" href="https://www.youtube
+ .com/watch?v=-JV9cLDCgas" target="_blank"><span>Citing Sources: Why &amp\;
+  How to Do It</span><span class="external_link_icon" role="presentation"><
+ span class="screenreader-only">Links to an external site.</span></span></a
+ ><br>For semi-automatic citations\, you can use this tool: <a class="inlin
+ e_disabled external" href="https://www.scribbr.com/apa-citation-generator/
+ " target="_blank"><span>Citation Generator</span><span class="external_lin
+ k_icon" role="presentation"><span class="screenreader-only">Links to an ex
+ ternal site.</span></span></a><br><strong></strong></p>\n<p style="text-al
+ ign: left\;"><strong><br><span>Guiding Questions:</span></strong><span> ch
+ oose those offered in the book right after each of the documents.</span><b
+ r><br></p>\n<p style="text-align: left\;"><strong>Resources: </strong><br>
+ ** <span><strong>To learn how to write an Analysis Paper use this step-by-
+ step <a class="inline_disabled external" href="https://www.wikihow.com/Wri
+ te-an-Analytical-Essay" target="_blank">GUIDE<span class="external_link_ic
+ on" role="presentation"><span class="screenreader-only">Links to an extern
+ al site.</span></span></a></strong></span><br><br><strong>Due Dates: <br><
+ /strong>Please check the course schedule for deadlines. Reminder: Upload t
+ hem to Turnitin before midnight on Saturdays.</p>\n</th>\n</tr>\n</tbody>\
+ n</table>\n<p style="text-align: left\;">&nbsp\;</p>\n<p style="text-align
+ : left\;">&nbsp\;</p>\n<table style="float: left\;" width="100%"><caption>
+ <strong><em>Points Possible</em></strong></caption>\n<tbody>\n<tr>\n<th sc
+ ope="col" width="100%">\n<p style="text-align: left\;">0- didn't turn in\,
+  plagiarized or Minimally acceptable performance\, demonstrating at least 
+ partial familiarity with the subject matter and some capacity to deal with
+  relatively simple problems\, but also containing deficiencies serious eno
+ ugh to make it inadvisable to proceed further in the field without additio
+ nal work.<br><span>1</span>- turned in but didn't follow guidelines and In
+ adequate performance\, demonstrating an inadequate understanding of the su
+ bject matter\, lack of ability to handle relatively simple problems\, and 
+ inadequate preparation for moving on&nbsp\;to more advanced work in the fi
+ eld.<br><span>2</span>- turned in but didn’t follow the guidelines and A
+ dequate performance or followed the guidelines but the performance is inad
+ equate\, demonstrating an adequate understanding of the subject matter\, a
+ n ability to handle relatively simple problems\, and adequate preparation 
+ for moving on&nbsp\;to more advanced work in the field.<br><span>3- turned
+  in &amp\; followed the guidelines to some extent but it is missing thesis
+ \, or sources\, or does not show ability to move on to more advanced work 
+ in the field.<br></span><span>4</span>- turned in &amp\; followed guidelin
+ es &nbsp\;Good performance\, demonstrating the capacity to use the appropr
+ iate concepts\, a good understanding of the subject matter\, and an abilit
+ y to handle the problems and materials encountered in the subject.<br><spa
+ n>5</span>- Exceptionally good performance\, demonstrating a superior unde
+ rstanding of the subject matter and skillful use of concepts and/or materi
+ als. <em><strong><span>Clear thesis statement\, each paragraph has a clear
+  focus that relates to the thesis statement\, clear examples from the read
+ ings and films illustrate the points made\, and the conclusion is a call f
+ or action not a mere summary of the paper</span></strong></em>. Grammar is
+  clear\, there are no misspellings\, proper names are capitalized\, the pa
+ per has a title that reflects its thesis statement\, and sources have been
+  cited by MLA or APA style requirements. Furthermore\, all formatting requ
+ irements have been followed.</p>\n</th>\n</tr>\n</tbody>\n</table><script 
+ src="https://instructure-uploads.s3.amazonaws.com/account_1181000000000000
+ 1/attachments/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250202T050000Z
+UID:event-assignment-3025772
+DTSTART;VALUE=DATE;VALUE=DATE:20250208
+CLASS:PUBLIC
+DESCRIPTION:Each week\, you are required to submit one current event paper 
+ focusing on a recent event in an East Asian country (such as Japan\, China
+ \, Korea\, or any other East Asian nation). These papers should be one pag
+ e in length\, double-spaced\, using Times New Roman 12\, and follow MLA gu
+ idelines PDF Format and it should fit in one page. Papers are due by Satur
+ day at 11:59 pm. Please note that submissions not adhering to MLA format a
+ nd the specified length will receive a grade of 0. Additionally\, there wi
+ ll be a grade reduction for submissions that are more than 24 hours late.
+  \n\nAssignment Instructions:\n\nFind a Recent Event: Look for a current 
+ news article related to East Asia.\n\nSummarize and Analyze: Summarize the
+  event and include your personal perspective on its significance.\n\nRelev
+ ance: Your paper should reflect the impact of the event and its relevance 
+ to East Asia’s global influence.\n\nThis assignment aims to keep you inf
+ ormed about East Asian current events and to help you understand the regio
+ n's global impact. Use various East Asian news sources for your research.\
+ n\nYour current event papers will assess your global awareness. The curren
+ t events will be completed using various East Asian news sources. Below ar
+ e a few suggested resources\; more will be provided in Canvas:\n\n*\n\n* A
+ sahi Shimbun: [http://www.asahi.com/english/Links to an external site.] (
+ http://www.asahi.com/english/)\n\n* Kyodo News: [http://english.kyodonews
+ .jp/Links to an external site.] (http://english.kyodonews.jp/)\n\n* NHK On
+ line: [http://www3.nhk.or.jp/nhkworld/index.htmlLinks to an external site
+ .] (http://www3.nhk.or.jp/nhkworld/index.html)\n\n* China Daily: [http://
+ usa.chinadaily.com.cn/Links to an external site.] (http://usa.chinadaily.c
+ om.cn/)\n\n* Shanghai Daily: [http://www.shanghaidaily.com/Links to an ex
+ ternal site.] (http://www.shanghaidaily.com/)\n\n* South Korean Newspapers
+  and News Sites: http://www.world-newspapers.com/southkorea.html
+SEQUENCE:0
+SUMMARY:Current Event #5 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=02&year=2025#assignment_3025772
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p>Each week\, you are required to submit one curr
+ ent event paper focusing on a recent event in an East Asian country (such 
+ as Japan\, China\, Korea\, or any other East Asian nation). These papers s
+ hould be one page in length\, double-spaced\, using Times New Roman 12\, a
+ nd follow MLA guidelines <strong>PDF Format and it should fit in one page<
+ /strong>. Papers are due by Saturday at 11:59 pm. Please note that submiss
+ ions not adhering to MLA format and the specified length will receive a gr
+ ade of 0. Additionally\, there will be a grade reduction for submissions t
+ hat are more than 24 hours late.&nbsp\;</p>\n<p><strong>Assignment Instruc
+ tions:</strong></p>\n<p><strong>Find a Recent Event:</strong> Look for a c
+ urrent news article related to East Asia.</p>\n<p><strong>Summarize and An
+ alyze:</strong> Summarize the event and include your personal perspective 
+ on its significance.</p>\n<p><strong>Relevance:</strong> Your paper should
+  reflect the impact of the event and its relevance to East Asia’s global
+  influence.</p>\n<p>This assignment aims to keep you informed about East A
+ sian current events and to help you understand the region's global impact.
+  Use various East Asian news sources for your research.</p>\n<p>Your curre
+ nt event papers will assess your global awareness. The current events will
+  be completed using various East Asian news sources. Below are a few sugge
+ sted resources\; more will be provided in Canvas:</p>\n<ul>\n<li style="li
+ st-style-type: none\;">\n<ul>\n<li>Asahi Shimbun:<span>&nbsp\;</span><a cl
+ ass="external" href="http://www.asahi.com/english/" target="_blank"><span>
+ http://www.asahi.com/english/</span><span class="external_link_icon" role=
+ "presentation"><span class="screenreader-only">Links to an external site.<
+ /span></span></a></li>\n<li>Kyodo News:<span>&nbsp\;</span><a class="exter
+ nal" href="http://english.kyodonews.jp/" target="_blank"><span>http://engl
+ ish.kyodonews.jp/</span><span class="external_link_icon" role="presentatio
+ n"><span class="screenreader-only">Links to an external site.</span></span
+ ></a></li>\n<li>NHK Online:<span>&nbsp\;</span><a class="external" href="h
+ ttp://www3.nhk.or.jp/nhkworld/index.html" target="_blank"><span>http://www
+ 3.nhk.or.jp/nhkworld/index.html</span><span class="external_link_icon" rol
+ e="presentation"><span class="screenreader-only">Links to an external site
+ .</span></span></a></li>\n<li>China Daily:<span>&nbsp\;</span><a class="ex
+ ternal" href="http://usa.chinadaily.com.cn/" target="_blank"><span>http://
+ usa.chinadaily.com.cn/</span><span class="external_link_icon" role="presen
+ tation"><span class="screenreader-only">Links to an external site.</span><
+ /span></a></li>\n<li>Shanghai Daily:<span>&nbsp\;</span><a class="external
+ " href="http://www.shanghaidaily.com/" target="_blank"><span>http://www.sh
+ anghaidaily.com/</span><span class="external_link_icon" role="presentation
+ "><span class="screenreader-only">Links to an external site.</span></span>
+ </a></li>\n<li>South Korean Newspapers and News Sites:<span>&nbsp\;</span>
+ <a class="external" href="http://www.world-newspapers.com/southkorea.html"
+  target="_blank"><span>http://www.world-newspapers.com/southkorea.html</sp
+ an></a></li>\n</ul>\n</li>\n</ul><script src="https://instructure-uploads.
+ s3.amazonaws.com/account_11810000000000001/attachments/29854757/canvas_glo
+ bal_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250131T231500Z
+UID:event-assignment-3096832
+DTSTART;VALUE=DATE;VALUE=DATE:20250209
+CLASS:PUBLIC
+DESCRIPTION:Review chapters 2 and 3 in your textbook before attempting this
+  quiz.
+SEQUENCE:0
+SUMMARY:Ch 2 & 3 Quiz- Requires Respondus LockDown Browser [Emerging Topics
+  in Digital Life]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 216374&month=02&year=2025#assignment_3096832
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p>Review chapters 2 and 3 in your textbook before
+  attempting this quiz.</p><script src="https://instructure-uploads.s3.amaz
+ onaws.com/account_11810000000000001/attachments/29854757/canvas_global_app
+ .js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250131T050000Z
+UID:event-assignment-3106410
+DTSTART;VALUE=DATE;VALUE=DATE:20250210
+CLASS:PUBLIC
+DESCRIPTION:[Screen Shot 2019-08-13 at 8.08.20 AM.png] (https://fiu.instruc
+ ture.com/courses/126135/files/20061117/preview)Complete: Online Homework W
+ eek 5 in [Rational Reasoning.] (http://imathas.rationalreasoning.net)
+SEQUENCE:0
+SUMMARY:Online Homework Week 5 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=02&year=2025#assignment_3106410
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p><img id="17533796" src="https://fiu.instructure
+ .com/courses/126135/files/20061117/preview" alt="Screen Shot 2019-08-13 at
+  8.08.20 AM.png" width="149" height="53" data-api-endpoint="https://fiu.in
+ structure.com/api/v1/courses/126135/files/20061117" data-api-returntype="F
+ ile">Complete: Online Homework Week 5 in <a href="http://imathas.rationalr
+ easoning.net">Rational Reasoning.</a></p><script src="https://instructure-
+ uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854757/ca
+ nvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106484
+DTSTART;VALUE=DATE;VALUE=DATE:20250210
+CLASS:PUBLIC
+DESCRIPTION:---------------------------------------------------------------
+ ---------------------------------------------\nDownload: [WEEK 05 WRITTEN 
+ HOMEWORK.docx] (https://fiu.instructure.com/courses/218497/files/35568507?
+ wrap=1)\n-----------------------------------------------------------------
+ -------------------------------------------\n\nPDF Version:  [WEEK 05 WRI
+ TTEN HOMEWORK.pdf] (https://fiu.instructure.com/courses/218497/files/35568
+ 508?wrap=1)\n\n \n\nUse the information from the textbook and lesson cont
+ ent to complete and submit the written HW.\n\nYou can either work directly
+  on the downloaded document or take a picture of your work.
+SEQUENCE:0
+SUMMARY:Written Homework Week 5 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=02&year=2025#assignment_3106484
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><h2><span class="instructure_file_holder link_hold
+ er">Download: <a id="35556147" class="instructure_file_link instructure_sc
+ ribd_file inline_disabled" title="Link" href="https://fiu.instructure.com/
+ courses/218497/files/35568507?wrap=1" target="_blank" data-canvas-previewa
+ ble="true" data-api-endpoint="https://fiu.instructure.com/api/v1/courses/2
+ 18497/files/35568507" data-api-returntype="File">WEEK 05 WRITTEN HOMEWORK.
+ docx</a></span></h2>\n<p><span class="instructure_file_holder link_holder"
+  style="font-size: 24pt\;">PDF Version: &nbsp\;<a id="35556148" class="ins
+ tructure_file_link instructure_scribd_file inline_disabled" title="Link" h
+ ref="https://fiu.instructure.com/courses/218497/files/35568508?wrap=1" tar
+ get="_blank" data-canvas-previewable="true" data-api-endpoint="https://fiu
+ .instructure.com/api/v1/courses/218497/files/35568508" data-api-returntype
+ ="File">WEEK 05 WRITTEN HOMEWORK.pdf</a></span></p>\n<p>&nbsp\;</p>\n<p>Us
+ e the information from the textbook and lesson content to complete and sub
+ mit the written HW.</p>\n<p>You can either work directly on the downloaded
+  document or take a picture of your work.</p><script src="https://instruct
+ ure-uploads.s3.amazonaws.com/account_11810000000000001/attachments/2985475
+ 7/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250203T050000Z
+UID:event-assignment-3106445
+DTSTART:20250212T220000Z
+DTEND:20250212T220000Z
+CLASS:PUBLIC
+DESCRIPTION:[Screen Shot 2019-08-13 at 8.08.20 AM.png] (https://fiu.instruc
+ ture.com/courses/126135/files/20061117/preview)Complete: Pre-Class Assignm
+ ent (Week 6 Class 1) in [Rational Reasoning.] (http://imathas.rationalreas
+ oning.net)
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 6 Class 1) [Pre-Calculus Algebra and Tri
+ gonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=02&year=2025#assignment_3106445
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p><img id="17533796" src="https://fiu.instructure
+ .com/courses/126135/files/20061117/preview" alt="Screen Shot 2019-08-13 at
+  8.08.20 AM.png" width="149" height="53" data-api-endpoint="https://fiu.in
+ structure.com/api/v1/courses/126135/files/20061117" data-api-returntype="F
+ ile">Complete: Pre-Class Assignment (Week 6 Class 1) in <a href="http://im
+ athas.rationalreasoning.net">Rational Reasoning.</a></p><script src="https
+ ://instructure-uploads.s3.amazonaws.com/account_11810000000000001/attachme
+ nts/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250203T050000Z
+UID:event-assignment-3106447
+DTSTART:20250214T220000Z
+DTEND:20250214T220000Z
+CLASS:PUBLIC
+DESCRIPTION:[Screen Shot 2019-08-13 at 8.08.20 AM.png] (https://fiu.instruc
+ ture.com/courses/126135/files/20061117/preview)Complete: Pre-Class Assignm
+ ent (Week 6 Class 2) in [Rational Reasoning.] (http://imathas.rationalreas
+ oning.net)
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 6 Class 2) [Pre-Calculus Algebra and Tri
+ gonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=02&year=2025#assignment_3106447
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p><img id="17533796" src="https://fiu.instructure
+ .com/courses/126135/files/20061117/preview" alt="Screen Shot 2019-08-13 at
+  8.08.20 AM.png" width="149" height="53" data-api-endpoint="https://fiu.in
+ structure.com/api/v1/courses/126135/files/20061117" data-api-returntype="F
+ ile">Complete: Pre-Class Assignment (Week 6 Class 2) in <a href="http://im
+ athas.rationalreasoning.net">Rational Reasoning.</a></p><script src="https
+ ://instructure-uploads.s3.amazonaws.com/account_11810000000000001/attachme
+ nts/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250102T183200Z
+UID:event-assignment-3106457
+DTSTART;VALUE=DATE;VALUE=DATE:20250214
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Reassessment Upload #2 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=02&year=2025#assignment_3106457
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250107T155200Z
+UID:event-assignment-3132854
+DTSTART;VALUE=DATE;VALUE=DATE:20250215
+CLASS:PUBLIC
+DESCRIPTION:Readings Conversations\n\n[Introduce yourself] (https://fiu.ins
+ tructure.com/courses/215783/files/35621459/preview)\n\n \n\nAfter doing t
+ he readings and when assigned movies and documents\, please join the conve
+ rsation with the TeaMasters! Tea Masters\, post questions to spark academi
+ c and fruitful conversations\, others answer thorougly and add information
+ \, keep the threads as interesting discussions on the topic. Remember we a
+ re all learning from one another\, expand on the conversation\, provide fa
+ cts\, other resources\, and links :)\nDo not summarize readings here\, the
+  idea is to analyze certain aspects by discussing them.\n\n**NOTE: when di
+ scussing documentaries\, and movies look for elements that confirm or expa
+ nd on the themes from the readings rather than merely pointing out the plo
+ t.**\n\nMore than just thinking about the plot\, you need to look at every
+  detail so that you can compare how your observations and the course conte
+ nt are related.\nExamples of elements to observe: characters dress code\, 
+ do elders and youth dress alike? Do different social classes dress similar
+ ly? You may also consider the architecture\, how are spaces designed\, wha
+ t spaces are occupied by whom? Is there a difference between genders\, aut
+ horities\, young/elders or do they all occupy the same place? Who gets up 
+ first at the table\, who serves? Are characters taking turns to speak\, wh
+ ich lines does each say\, who has the last word\, etc?  & finally... what
+  does it all mean?\nHow do your observations relate to the content of the 
+ course?\n\n \n\n* ["How do I reply to a discussion."] (https://community.
+ canvaslms.com/docs/DOC-10561-4212190706)\n\n* ["How do I upload and embed 
+ an image in the New Rich Content Editor as a student?"] (https://community
+ .canvaslms.com/docs/DOC-18280-42121157927)\n\n* ["How do I create hyperlin
+ ks to user files in the New Rich Content Editor as a student?"] (https://c
+ ommunity.canvaslms.com/docs/DOC-18278-42121157925)\n\n* ["How do I view th
+ e rubric for my graded discussion?"] (https://community.canvaslms.com/docs
+ /DOC-10577-4212540120)\n\nIf you have any technical issues with these item
+ s\, contact FIU Canvas Help Team by clicking on Help in your Global Naviga
+ tion Menu.
+SEQUENCE:0
+SUMMARY:Week 6 - Conversations about the readings [Samurai\, Sumo\, Shopkee
+ pers and Shogun: A Social and Cultural History of Edo Japan]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215783&month=02&year=2025#assignment_3132854
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><div class="item-description">\n<div class="vtbege
+ nerated">\n<table style="border-collapse: collapse\; width: 97.3106%\; hei
+ ght: 128px\; border-style: hidden\;"><caption><strong><span style="color: 
+ #5f5454\;">Readings Conversations</span></strong></caption>\n<tbody>\n<tr 
+ style="height: 159px\;">\n<th style="width: 20.3229%\; height: 128px\;" sc
+ ope="col"><img id="35621459" src="https://fiu.instructure.com/courses/2157
+ 83/files/35621459/preview" alt="Introduce yourself" data-api-endpoint="htt
+ ps://fiu.instructure.com/api/v1/courses/215783/files/35621459" data-api-re
+ turntype="File"><br>\n<p style="text-align: center\;">&nbsp\;</p>\n</th>\n
+ <th style="width: 104.642%\; height: 128px\;" scope="col">\n<p style="text
+ -align: left\;">After doing the readings and when assigned movies and docu
+ ments\, please join the conversation with the TeaMasters! Tea Masters\, po
+ st questions to spark academic and fruitful conversations\, others answer 
+ thorougly and add information\, keep the threads as interesting discussion
+ s on the topic. Remember we are all learning from one another\, expand on 
+ the conversation\, provide facts\, other resources\, and links :) <br>Do n
+ ot summarize readings here\, the idea is to analyze certain aspects by dis
+ cussing them.</p>\n<p style="text-align: left\;"><span style="background-c
+ olor: #ffffff\; color: #000000\; font-size: 10pt\;">**NOTE: when discussin
+ g documentaries\, and movies look for elements that confirm or expand on t
+ he themes from the readings rather than merely pointing out the plot.**</s
+ pan></p>\n<p style="text-align: left\;"><span style="background-color: #ff
+ ffff\; color: #000000\; font-size: 10pt\;">More than just thinking about t
+ he plot\, you need to look at every detail so that you can compare how you
+ r observations and the course content are related. <br>Examples of element
+ s to observe: characters dress code\, do elders and youth dress alike? Do 
+ different social classes dress similarly? You may also consider the archit
+ ecture\, how are spaces designed\, what spaces are occupied by whom? Is th
+ ere a difference between genders\, authorities\, young/elders or do they a
+ ll occupy the same place? Who gets up first at the table\, who serves? Are
+  characters taking turns to speak\, which lines does each say\, who has th
+ e last word\, etc? &nbsp\;&amp\; finally... what does it all mean? <br>How
+  do your observations relate to the content of the course? </span></p>\n</
+ th>\n</tr>\n</tbody>\n</table>\n<p style="text-align: left\;">&nbsp\;</p>\
+ n</div>\n</div>\n<hr>\n<ul>\n<li><a href="https://community.canvaslms.com/
+ docs/DOC-10561-4212190706" target="_blank"><span>"How do I reply to a disc
+ ussion."</span></a></li>\n<li><a href="https://community.canvaslms.com/doc
+ s/DOC-18280-42121157927" target="_blank">"How do I upload and embed an ima
+ ge in the New Rich Content Editor as a student?"</a></li>\n<li><span><a hr
+ ef="https://community.canvaslms.com/docs/DOC-18278-42121157925" target="_b
+ lank">"How do I create hyperlinks to user files in the New Rich Content Ed
+ itor as a student?"</a></span></li>\n<li><span><a href="https://community.
+ canvaslms.com/docs/DOC-10577-4212540120" target="_blank">"How do I view th
+ e rubric for my graded discussion?"</a></span></li>\n</ul>\n<p>If you have
+  any technical issues with these items\, contact <em>FIU Canvas Help Team<
+ /em> by clicking on Help in your Global Navigation Menu.</p><script src="h
+ ttps://instructure-uploads.s3.amazonaws.com/account_11810000000000001/atta
+ chments/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250114T182300Z
+UID:event-assignment-3025773
+DTSTART;VALUE=DATE;VALUE=DATE:20250215
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Current Event #6 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=02&year=2025#assignment_3025773
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20241127T221100Z
+UID:event-assignment-3025790
+DTSTART;VALUE=DATE;VALUE=DATE:20250215
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Presentation #2 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=02&year=2025#assignment_3025790
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106411
+DTSTART;VALUE=DATE;VALUE=DATE:20250217
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Online Homework Week 6 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=02&year=2025#assignment_3106411
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106485
+DTSTART;VALUE=DATE;VALUE=DATE:20250217
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Written Homework Week 6 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=02&year=2025#assignment_3106485
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106448
+DTSTART:20250219T220000Z
+DTEND:20250219T220000Z
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 7 Class 1) [Pre-Calculus Algebra and Tri
+ gonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=02&year=2025#assignment_3106448
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106450
+DTSTART:20250221T220000Z
+DTEND:20250221T220000Z
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 7 Class 2) [Pre-Calculus Algebra and Tri
+ gonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=02&year=2025#assignment_3106450
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20241127T220200Z
+UID:event-assignment-3025795
+DTSTART;VALUE=DATE;VALUE=DATE:20250221
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Quiz 3 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=02&year=2025#assignment_3025795
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250107T155000Z
+UID:event-assignment-3132853
+DTSTART;VALUE=DATE;VALUE=DATE:20250222
+CLASS:PUBLIC
+DESCRIPTION:Readings Conversations\n\n[Introduce yourself] (https://fiu.ins
+ tructure.com/courses/215783/files/35621459/preview)\n\n \n\nAfter doing t
+ he readings and when assigned movies and documents\, please join the conve
+ rsation with the TeaMasters! Tea Masters\, post questions to spark academi
+ c and fruitful conversations\, others answer thorougly and add information
+ \, keep the threads as interesting discussions on the topic. Remember we a
+ re all learning from one another\, expand on the conversation\, provide fa
+ cts\, other resources\, and links :)\nDo not summarize readings here\, the
+  idea is to analyze certain aspects by discussing them.\n\n**NOTE: when di
+ scussing documentaries\, and movies look for elements that confirm or expa
+ nd on the themes from the readings rather than merely pointing out the plo
+ t.**\n\nMore than just thinking about the plot\, you need to look at every
+  detail so that you can compare how your observations and the course conte
+ nt are related.\nExamples of elements to observe: characters dress code\, 
+ do elders and youth dress alike? Do different social classes dress similar
+ ly? You may also consider the architecture\, how are spaces designed\, wha
+ t spaces are occupied by whom? Is there a difference between genders\, aut
+ horities\, young/elders or do they all occupy the same place? Who gets up 
+ first at the table\, who serves? Are characters taking turns to speak\, wh
+ ich lines does each say\, who has the last word\, etc?  & finally... what
+  does it all mean?\nHow do your observations relate to the content of the 
+ course?\n\n \n\n* ["How do I reply to a discussion."] (https://community.
+ canvaslms.com/docs/DOC-10561-4212190706)\n\n* ["How do I upload and embed 
+ an image in the New Rich Content Editor as a student?"] (https://community
+ .canvaslms.com/docs/DOC-18280-42121157927)\n\n* ["How do I create hyperlin
+ ks to user files in the New Rich Content Editor as a student?"] (https://c
+ ommunity.canvaslms.com/docs/DOC-18278-42121157925)\n\n* ["How do I view th
+ e rubric for my graded discussion?"] (https://community.canvaslms.com/docs
+ /DOC-10577-4212540120)\n\nIf you have any technical issues with these item
+ s\, contact FIU Canvas Help Team by clicking on Help in your Global Naviga
+ tion Menu.
+SEQUENCE:0
+SUMMARY:Week 7 - Conversations about the readings [Samurai\, Sumo\, Shopkee
+ pers and Shogun: A Social and Cultural History of Edo Japan]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215783&month=02&year=2025#assignment_3132853
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><div class="item-description">\n<div class="vtbege
+ nerated">\n<table style="border-collapse: collapse\; width: 97.3106%\; hei
+ ght: 128px\; border-style: hidden\;"><caption><strong><span style="color: 
+ #5f5454\;">Readings Conversations</span></strong></caption>\n<tbody>\n<tr 
+ style="height: 159px\;">\n<th style="width: 20.3229%\; height: 128px\;" sc
+ ope="col"><img id="35621459" src="https://fiu.instructure.com/courses/2157
+ 83/files/35621459/preview" alt="Introduce yourself" data-api-endpoint="htt
+ ps://fiu.instructure.com/api/v1/courses/215783/files/35621459" data-api-re
+ turntype="File"><br>\n<p style="text-align: center\;">&nbsp\;</p>\n</th>\n
+ <th style="width: 104.642%\; height: 128px\;" scope="col">\n<p style="text
+ -align: left\;">After doing the readings and when assigned movies and docu
+ ments\, please join the conversation with the TeaMasters! Tea Masters\, po
+ st questions to spark academic and fruitful conversations\, others answer 
+ thorougly and add information\, keep the threads as interesting discussion
+ s on the topic. Remember we are all learning from one another\, expand on 
+ the conversation\, provide facts\, other resources\, and links :) <br>Do n
+ ot summarize readings here\, the idea is to analyze certain aspects by dis
+ cussing them.</p>\n<p style="text-align: left\;"><span style="background-c
+ olor: #ffffff\; color: #000000\; font-size: 10pt\;">**NOTE: when discussin
+ g documentaries\, and movies look for elements that confirm or expand on t
+ he themes from the readings rather than merely pointing out the plot.**</s
+ pan></p>\n<p style="text-align: left\;"><span style="background-color: #ff
+ ffff\; color: #000000\; font-size: 10pt\;">More than just thinking about t
+ he plot\, you need to look at every detail so that you can compare how you
+ r observations and the course content are related. <br>Examples of element
+ s to observe: characters dress code\, do elders and youth dress alike? Do 
+ different social classes dress similarly? You may also consider the archit
+ ecture\, how are spaces designed\, what spaces are occupied by whom? Is th
+ ere a difference between genders\, authorities\, young/elders or do they a
+ ll occupy the same place? Who gets up first at the table\, who serves? Are
+  characters taking turns to speak\, which lines does each say\, who has th
+ e last word\, etc? &nbsp\;&amp\; finally... what does it all mean? <br>How
+  do your observations relate to the content of the course? </span></p>\n</
+ th>\n</tr>\n</tbody>\n</table>\n<p style="text-align: left\;">&nbsp\;</p>\
+ n</div>\n</div>\n<hr>\n<ul>\n<li><a href="https://community.canvaslms.com/
+ docs/DOC-10561-4212190706" target="_blank"><span>"How do I reply to a disc
+ ussion."</span></a></li>\n<li><a href="https://community.canvaslms.com/doc
+ s/DOC-18280-42121157927" target="_blank">"How do I upload and embed an ima
+ ge in the New Rich Content Editor as a student?"</a></li>\n<li><span><a hr
+ ef="https://community.canvaslms.com/docs/DOC-18278-42121157925" target="_b
+ lank">"How do I create hyperlinks to user files in the New Rich Content Ed
+ itor as a student?"</a></span></li>\n<li><span><a href="https://community.
+ canvaslms.com/docs/DOC-10577-4212540120" target="_blank">"How do I view th
+ e rubric for my graded discussion?"</a></span></li>\n</ul>\n<p>If you have
+  any technical issues with these items\, contact <em>FIU Canvas Help Team<
+ /em> by clicking on Help in your Global Navigation Menu.</p><script src="h
+ ttps://instructure-uploads.s3.amazonaws.com/account_11810000000000001/atta
+ chments/29854757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250114T182300Z
+UID:event-assignment-3025774
+DTSTART;VALUE=DATE;VALUE=DATE:20250222
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Current Event #7 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=02&year=2025#assignment_3025774
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106412
+DTSTART;VALUE=DATE;VALUE=DATE:20250224
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Online Homework Week 7 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=02&year=2025#assignment_3106412
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106486
+DTSTART;VALUE=DATE;VALUE=DATE:20250224
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Written Homework Week 7 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=02&year=2025#assignment_3106486
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106451
+DTSTART:20250305T220000Z
+DTEND:20250305T220000Z
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 9 Class 1) [Pre-Calculus Algebra and Tri
+ gonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=03&year=2025#assignment_3106451
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106453
+DTSTART:20250307T220000Z
+DTEND:20250307T220000Z
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 9 Class 2) [Pre-Calculus Algebra and Tri
+ gonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=03&year=2025#assignment_3106453
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250102T183200Z
+UID:event-assignment-3106459
+DTSTART;VALUE=DATE;VALUE=DATE:20250307
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Reassessment Upload #3 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=03&year=2025#assignment_3106459
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250114T182300Z
+UID:event-assignment-3025775
+DTSTART;VALUE=DATE;VALUE=DATE:20250308
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Current Event #8 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=03&year=2025#assignment_3025775
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20241127T221200Z
+UID:event-assignment-3025791
+DTSTART;VALUE=DATE;VALUE=DATE:20250308
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Presentation #3 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=03&year=2025#assignment_3025791
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106414
+DTSTART;VALUE=DATE;VALUE=DATE:20250310
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Online Homework Week 9 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=03&year=2025#assignment_3106414
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106487
+DTSTART;VALUE=DATE;VALUE=DATE:20250310
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Written Homework Week 9 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=03&year=2025#assignment_3106487
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106416
+DTSTART:20250312T210000Z
+DTEND:20250312T210000Z
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 10 Class 1) [Pre-Calculus Algebra and Tr
+ igonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=03&year=2025#assignment_3106416
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106418
+DTSTART:20250314T210000Z
+DTEND:20250314T210000Z
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 10 Class 2) [Pre-Calculus Algebra and Tr
+ igonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=03&year=2025#assignment_3106418
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250108T190700Z
+UID:event-assignment-3025798
+DTSTART;VALUE=DATE;VALUE=DATE:20250314
+CLASS:PUBLIC
+DESCRIPTION:Each student is required to visit an Asia-related site in the a
+ rea and participate in a cultural event. The site can be a temple\, museum
+ \, park\, memorial\, etc.\, with examples including the Morikami Museum (a
+ dmission will be waived for students*Send me message to further inquiry*) 
+ and the Wat Buddharangsi temple in Homestead. Following the visit\, you wi
+ ll write a three-page reflection paper in double-spaced\, Times New Roman 
+ 12\, MLA format\, detailing your experience. This assignment\, due in Week
+  10\, will assess your global engagement. While you may visit the site in 
+ groups\, each student must individually submit their own reflection paper.
+  Feedback will be provided within 2-3 days after the submission deadline. 
+ Your paper should include details about the site visited\, the cultural ev
+ ent attended\, and your personal reflections and insights on the experienc
+ e. Further information will be available on Canvas and discussed in class.
+SEQUENCE:0
+SUMMARY:Site Reflection [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=03&year=2025#assignment_3025798
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854747
+ /canvas_global_app.css"><p><span>Each student is required to visit an Asia
+ -related site in the area and participate in a cultural event. The site ca
+ n be a temple\, museum\, park\, memorial\, etc.\, with examples including 
+ the Morikami Museum (admission will be waived for students</span><span sty
+ le="font-family: inherit\;">*Send me message to further inquiry*) and</spa
+ n><span style="font-family: inherit\;"> the Wat Buddharangsi temple in Hom
+ estead. Following the visit\, you will write a three-page reflection paper
+  in double-spaced\, Times New Roman 12\, MLA format\, detailing your exper
+ ience. This assignment\, due in Week 10\, will assess your global engageme
+ nt. While you may visit the site in groups\, each student must individuall
+ y submit their own reflection paper. Feedback will be provided within 2-3 
+ days after the submission deadline. Your paper should include details abou
+ t the site visited\, the cultural event attended\, and your personal refle
+ ctions and insights on the experience. Further information will be availab
+ le on Canvas and discussed in class.</span></p><script src="https://instru
+ cture-uploads.s3.amazonaws.com/account_11810000000000001/attachments/29854
+ 757/canvas_global_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250114T182400Z
+UID:event-assignment-3025776
+DTSTART;VALUE=DATE;VALUE=DATE:20250315
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Current Event #9 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=03&year=2025#assignment_3025776
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106401
+DTSTART;VALUE=DATE;VALUE=DATE:20250317
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Online Homework Week 10 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=03&year=2025#assignment_3106401
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106471
+DTSTART;VALUE=DATE;VALUE=DATE:20250317
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Written Homework Week 10 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=03&year=2025#assignment_3106471
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106420
+DTSTART:20250319T210000Z
+DTEND:20250319T210000Z
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 11 Class 1) [Pre-Calculus Algebra and Tr
+ igonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=03&year=2025#assignment_3106420
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106421
+DTSTART:20250321T210000Z
+DTEND:20250321T210000Z
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 11 Class 2) [Pre-Calculus Algebra and Tr
+ igonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=03&year=2025#assignment_3106421
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20241127T220300Z
+UID:event-assignment-3025796
+DTSTART;VALUE=DATE;VALUE=DATE:20250321
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Quiz 4 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=03&year=2025#assignment_3025796
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250102T183200Z
+UID:event-assignment-3106460
+DTSTART;VALUE=DATE;VALUE=DATE:20250321
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Reassessment Upload #4 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=03&year=2025#assignment_3106460
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250114T182400Z
+UID:event-assignment-3025777
+DTSTART;VALUE=DATE;VALUE=DATE:20250322
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Current Event #10 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=03&year=2025#assignment_3025777
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106402
+DTSTART;VALUE=DATE;VALUE=DATE:20250324
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Online Homework Week 11 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=03&year=2025#assignment_3106402
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106473
+DTSTART;VALUE=DATE;VALUE=DATE:20250324
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Written Homework Week 11 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=03&year=2025#assignment_3106473
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106423
+DTSTART:20250326T210000Z
+DTEND:20250326T210000Z
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 12 Class 1) [Pre-Calculus Algebra and Tr
+ igonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=03&year=2025#assignment_3106423
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106424
+DTSTART:20250328T210000Z
+DTEND:20250328T210000Z
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 12 Class 2) [Pre-Calculus Algebra and Tr
+ igonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=03&year=2025#assignment_3106424
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250114T182400Z
+UID:event-assignment-3025778
+DTSTART;VALUE=DATE;VALUE=DATE:20250329
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Current Event #11 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=03&year=2025#assignment_3025778
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20241127T221500Z
+UID:event-assignment-3025792
+DTSTART;VALUE=DATE;VALUE=DATE:20250329
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Presentation #4 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=03&year=2025#assignment_3025792
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106403
+DTSTART;VALUE=DATE;VALUE=DATE:20250331
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Online Homework Week 12 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=03&year=2025#assignment_3106403
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106474
+DTSTART;VALUE=DATE;VALUE=DATE:20250331
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Written Homework Week 12 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=03&year=2025#assignment_3106474
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106426
+DTSTART:20250402T210000Z
+DTEND:20250402T210000Z
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 13 Class 1) [Pre-Calculus Algebra and Tr
+ igonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=04&year=2025#assignment_3106426
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106427
+DTSTART:20250404T210000Z
+DTEND:20250404T210000Z
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 13 Class 2) [Pre-Calculus Algebra and Tr
+ igonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=04&year=2025#assignment_3106427
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250117T202000Z
+UID:event-assignment-3025784
+DTSTART;VALUE=DATE;VALUE=DATE:20250404
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Film Reflection Paper #1 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=04&year=2025#assignment_3025784
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250102T183200Z
+UID:event-assignment-3106463
+DTSTART;VALUE=DATE;VALUE=DATE:20250404
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Reassessment Upload #5 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=04&year=2025#assignment_3106463
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250114T182600Z
+UID:event-assignment-3025779
+DTSTART;VALUE=DATE;VALUE=DATE:20250405
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Current Event #12 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=04&year=2025#assignment_3025779
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106404
+DTSTART;VALUE=DATE;VALUE=DATE:20250407
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Online Homework Week 13 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=04&year=2025#assignment_3106404
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106476
+DTSTART;VALUE=DATE;VALUE=DATE:20250407
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Written Homework Week 13 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=04&year=2025#assignment_3106476
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106429
+DTSTART:20250409T210000Z
+DTEND:20250409T210000Z
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 14 Class 1) [Pre-Calculus Algebra and Tr
+ igonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=04&year=2025#assignment_3106429
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106430
+DTSTART:20250411T210000Z
+DTEND:20250411T210000Z
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 14 Class 2) [Pre-Calculus Algebra and Tr
+ igonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=04&year=2025#assignment_3106430
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250117T202000Z
+UID:event-assignment-3025785
+DTSTART;VALUE=DATE;VALUE=DATE:20250411
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Film Reflection Paper #2 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=04&year=2025#assignment_3025785
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250114T182600Z
+UID:event-assignment-3025780
+DTSTART;VALUE=DATE;VALUE=DATE:20250412
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Current Event #13 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=04&year=2025#assignment_3025780
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106405
+DTSTART;VALUE=DATE;VALUE=DATE:20250414
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Online Homework Week 14 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=04&year=2025#assignment_3106405
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106477
+DTSTART;VALUE=DATE;VALUE=DATE:20250414
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Written Homework Week 14 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=04&year=2025#assignment_3106477
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106432
+DTSTART:20250416T210000Z
+DTEND:20250416T210000Z
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Pre-Class Assignment (Week 15 Class 1) [Pre-Calculus Algebra and Tr
+ igonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=04&year=2025#assignment_3106432
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250102T183200Z
+UID:event-assignment-3106464
+DTSTART;VALUE=DATE;VALUE=DATE:20250418
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Reassessment Upload #6 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=04&year=2025#assignment_3106464
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250117T202000Z
+UID:event-assignment-3025786
+DTSTART;VALUE=DATE;VALUE=DATE:20250418
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Film Reflection Paper #3 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=04&year=2025#assignment_3025786
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250114T182500Z
+UID:event-assignment-3025781
+DTSTART;VALUE=DATE;VALUE=DATE:20250419
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Current Event #14 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=04&year=2025#assignment_3025781
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250106T051000Z
+UID:event-assignment-3106406
+DTSTART;VALUE=DATE;VALUE=DATE:20250421
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Online Homework Week 15 [Pre-Calculus Algebra and Trigonometry]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 218497&month=04&year=2025#assignment_3106406
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250117T202000Z
+UID:event-assignment-3025787
+DTSTART;VALUE=DATE;VALUE=DATE:20250425
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Film Reflection Paper #4 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=04&year=2025#assignment_3025787
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250117T202000Z
+UID:event-assignment-3025782
+DTSTART;VALUE=DATE;VALUE=DATE:20250426
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Current Event #15 [Introduction to East Asia]
+URL;VALUE=URI:https://fiu.instructure.com/calendar?include_contexts=course_
+ 215794&month=04&year=2025#assignment_3025782
+END:VEVENT
+END:VCALENDAR
