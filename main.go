@@ -12,7 +12,7 @@ func main() {
 	}
 
 	for _, e := range Events {
-		fmt.Printf("\nStart: %s\nCourse: %s\nSummary: %s\nDescription: %s\nDone: %v\n",
+		fmt.Printf("\nStart: %s\nCourse: %s\nSummary: %s\nDescription:\n%s\nDone: %v\n",
 			e.GetFormattedStartDate(),
 			e.Course,
 			e.Summary,
