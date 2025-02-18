@@ -26,6 +26,7 @@ func NewEventParser(fileName string) *EventParser {
 		return &EventParser{err: ErrNotICSFile}
 	}
 
+	// NOTE: preferrably add a check if it's a canvas calendar
 	return &EventParser{
 		fileName: fileName,
 		scanner:  bufio.NewScanner(file),
@@ -33,9 +34,12 @@ func NewEventParser(fileName string) *EventParser {
 	}
 }
 
+// The name of the course can always be found inside the summary,
+// enclosed by a "[" and "]"
 func (p *EventParser) parseCourse(s string) string {
 	left := strings.IndexRune(s, '[')
 	right := strings.IndexRune(s, ']')
+	// offset left by +1 because that char ("[") is included in the string
 	return s[left+1 : right]
 }
 
@@ -77,7 +81,7 @@ func (p *EventParser) Parse() []*Event {
 			event.Description = desc
 			event.Course = p.parseCourse(summary)
 			Events = append(Events, event)
-
+			event = nil
 		}
 	}
 

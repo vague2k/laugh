@@ -20,14 +20,14 @@ func (e *Event) GetFormattedStartDate() string {
 	if strings.Contains(e.StartDate, "Z") {
 		stamp, err := time.Parse("20060102T150405Z", e.StartDate)
 		if err != nil {
-			panic(err) // FIXME: handle this correctly idk how yet
+			return "Unknown Time"
 		}
 		t = stamp
 		// format with no hour included
 	} else {
 		stamp, err := time.Parse("20060102", e.StartDate)
 		if err != nil {
-			panic(err) // FIXME: handle this correctly idk how yet
+			return "Unknown Time"
 		}
 		t = stamp
 	}
@@ -39,7 +39,10 @@ func (e *Event) GetFormattedStartDate() string {
 	return fmt.Sprintf("%s %d, %d. %s", month, day, year, hour)
 }
 
-// NOTE: for formatting description, take into account escape char like "\n" or "\\" and handle word wrapping.
 func (e *Event) GetFormattedDescription() string {
-	return ""
+	escapeCharReplacer := strings.NewReplacer("\\n", "\n", "\\t", "\t", "\\,", ",")
+	descWithReplacedEscChar := escapeCharReplacer.Replace(e.Description)
+
+	// FIXME: handle word wrapping
+	return descWithReplacedEscChar
 }

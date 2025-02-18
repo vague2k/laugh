@@ -16,7 +16,7 @@ func main() {
 			e.GetFormattedStartDate(),
 			e.Course,
 			e.Summary,
-			e.Description,
+			e.GetFormattedDescription(),
 			e.Done,
 		)
 	}
