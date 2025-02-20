@@ -40,7 +40,9 @@ func (p *EventParser) parseCourse(s string) string {
 	left := strings.IndexRune(s, '[')
 	right := strings.IndexRune(s, ']')
 	// offset left by +1 because that char ("[") is included in the string
-	return s[left+1 : right]
+	parsed := s[left+1 : right]
+	course := strings.ReplaceAll(parsed, "\\,", ",")
+	return course
 }
 
 func (p *EventParser) Parse() []*Event {
@@ -81,7 +83,11 @@ func (p *EventParser) Parse() []*Event {
 			event.Description = desc
 			event.Course = p.parseCourse(summary)
 			Events = append(Events, event)
+
+			// cleanup
 			event = nil
+			desc = ""
+			summary = ""
 		}
 	}
 
