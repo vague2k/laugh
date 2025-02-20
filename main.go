@@ -1,23 +1,16 @@
 package main
 
-import "fmt"
-
 func main() {
-	parser := NewEventParser("spring_2025_cal.ics")
-
-	Events := parser.Parse()
-
-	if err := parser.Err(); err != nil {
+	parser, err := NewEventParser("spring_2025_cal.ics")
+	if err != nil {
 		panic(err)
 	}
 
-	for _, e := range Events {
-		fmt.Printf("\nStart: %s\nCourse: %s\nSummary: %s\nDescription:\n%s\nDone: %v\n",
-			e.GetFormattedStartDate(),
-			e.Course,
-			e.Summary,
-			e.GetFormattedDescription(),
-			e.Done,
-		)
-	}
+	Events := parser.Parse()
+
+	tui := NewTuiInstance(Events)
+
+	// NOTE: i know the current iteration just prints,
+	// but i'd assume at some point this would also return an error?
+	tui.render()
 }
