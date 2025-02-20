@@ -11,27 +11,25 @@ import (
 type EventParser struct {
 	fileName string
 	scanner  *bufio.Scanner
-	err      error
 }
 
 var ErrNotICSFile = errors.New("the file provided is not an .ics file")
 
-func NewEventParser(fileName string) *EventParser {
+func NewEventParser(fileName string) (*EventParser, error) {
 	file, openPathErr := os.Open(fileName)
 	if openPathErr != nil {
-		return &EventParser{err: openPathErr}
+		return nil, openPathErr
 	}
 
 	if filepath.Ext(fileName) != ".ics" {
-		return &EventParser{err: ErrNotICSFile}
+		return nil, ErrNotICSFile
 	}
 
 	// NOTE: preferrably add a check if it's a canvas calendar
 	return &EventParser{
 		fileName: fileName,
 		scanner:  bufio.NewScanner(file),
-		err:      nil,
-	}
+	}, nil
 }
 
 // The name of the course can always be found inside the summary,
@@ -96,11 +94,4 @@ func (p *EventParser) Parse() []*Event {
 	}
 
 	return Events
-}
-
-func (p *EventParser) Err() error {
-	if p.err != nil {
-		return p.err
-	}
-	return nil
 }
