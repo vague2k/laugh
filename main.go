@@ -1,16 +1,24 @@
 package main
 
+import (
+	"log"
+
+	tea "github.com/charmbracelet/bubbletea"
+)
+
 func main() {
 	parser, err := NewEventParser("spring_2025_cal.ics")
 	if err != nil {
-		panic(err)
+		log.Fatal(err)
 	}
 
 	Events := parser.Parse()
 
-	tui := NewTuiInstance(Events)
+	// tui model
+	model := newModel(Events)
 
-	// NOTE: i know the current iteration just prints,
-	// but i'd assume at some point this would also return an error?
-	tui.render()
+	p := tea.NewProgram(model, tea.WithAltScreen())
+	if _, err := p.Run(); err != nil {
+		log.Fatal(err)
+	}
 }

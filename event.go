@@ -57,6 +57,7 @@ func (e *Event) GetFormattedDescription() string {
 	return descWithReplacedEscChar
 }
 
+// NOTE: this word wrap implementation MIGHT be cut, depending on if the bubbletea TUI view has word wrapping builtin
 func (e *Event) wrapWords(s string, width int) string {
 	words := strings.Fields(s)
 	wrappedLen := 0

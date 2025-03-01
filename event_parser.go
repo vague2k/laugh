@@ -2,7 +2,7 @@ package main
 
 import (
 	"bufio"
-	"errors"
+	"fmt"
 	"os"
 	"path/filepath"
 	"strings"
@@ -13,16 +13,14 @@ type EventParser struct {
 	scanner  *bufio.Scanner
 }
 
-var ErrNotICSFile = errors.New("the file provided is not an .ics file")
-
 func NewEventParser(fileName string) (*EventParser, error) {
-	file, openPathErr := os.Open(fileName)
-	if openPathErr != nil {
-		return nil, openPathErr
+	file, err := os.Open(fileName)
+	if err != nil {
+		return nil, err
 	}
 
 	if filepath.Ext(fileName) != ".ics" {
-		return nil, ErrNotICSFile
+		return nil, fmt.Errorf("the file provided is not an .ics file: %s", fileName)
 	}
 
 	// NOTE: preferrably add a check if it's a canvas calendar
@@ -68,7 +66,6 @@ func (p *EventParser) Parse() []*Event {
 			processingSummary = true
 			summary = strings.Split(s, "SUMMARY:")[1]
 
-		// NOTE: descriptions contain string chars like "\" or "\n". this has to be handled eventually to properly format in calendar view
 		case strings.Contains(s, "DESCRIPTION"):
 			processingSummary = false
 			desc = strings.Split(s, "DESCRIPTION:")[1]
