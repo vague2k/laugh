@@ -41,8 +41,8 @@ func (p *EventParser) parseCourse(s string) string {
 	return course
 }
 
-func (p *EventParser) Parse() []*Event {
-	var Events []*Event
+func (p *EventParser) Parse() *[]Event {
+	var Events []Event
 	var event *Event
 	var summary string
 	var desc string
@@ -77,7 +77,7 @@ func (p *EventParser) Parse() []*Event {
 			event.Summary = strings.Split(summary, "[")[0]
 			event.Description = desc
 			event.Course = p.parseCourse(summary)
-			Events = append(Events, event)
+			Events = append(Events, *event)
 
 			// cleanup
 			event = nil
@@ -90,5 +90,5 @@ func (p *EventParser) Parse() []*Event {
 		panic(err)
 	}
 
-	return Events
+	return &Events
 }

@@ -17,7 +17,11 @@ type Event struct {
 	Done        bool
 }
 
-func (e *Event) GetFormattedStartDate() string {
+func (e Event) FilterValue() string {
+	return e.Summary
+}
+
+func (e Event) GetFormattedStartDate() string {
 	var t time.Time
 	// format includes the hour
 	if strings.Contains(e.StartDate, "Z") {
@@ -42,7 +46,7 @@ func (e *Event) GetFormattedStartDate() string {
 	return fmt.Sprintf("%s %d, %d. %s", month, day, year, hour)
 }
 
-func (e *Event) GetFormattedDescription() string {
+func (e Event) GetFormattedDescription() string {
 	// HACK: this works for now, but width would eventually have to be based on
 	// the window where the description is being shown in a TUI.
 	termWidth, _, err := term.GetSize(int(os.Stderr.Fd()))
@@ -58,7 +62,7 @@ func (e *Event) GetFormattedDescription() string {
 }
 
 // NOTE: this word wrap implementation MIGHT be cut, depending on if the bubbletea TUI view has word wrapping builtin
-func (e *Event) wrapWords(s string, width int) string {
+func (e Event) wrapWords(s string, width int) string {
 	words := strings.Fields(s)
 	wrappedLen := 0
 	var wrappedWords string

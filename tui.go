@@ -29,7 +29,6 @@ var (
 	width  = int(math.Round(float64(TermWidth())/2) - 3)
 	height = TermHeight() - 3
 
-	// TODO: use terminal colors instead of hardcoded values
 	modelStyle = lipgloss.NewStyle().
 			Width(width).
 			Height(height).
@@ -39,9 +38,9 @@ var (
 				Width(width).
 				Height(height).
 				BorderStyle(lipgloss.RoundedBorder()).
-				BorderForeground(lipgloss.Color("69"))
+				BorderForeground(lipgloss.Color(termANSIBrightBlack.String()))
 
-	helpStyle = lipgloss.NewStyle().Foreground(lipgloss.Color(""))
+	helpStyle = lipgloss.NewStyle().Foreground(lipgloss.Color(termANSIBlue.String()))
 )
 
 type ParentModel struct {
@@ -51,20 +50,8 @@ type ParentModel struct {
 	Events  *[]Event
 }
 
-func newModel(events []*Event) ParentModel {
-	// convert []*Event to []list.item
-	var items []list.Item
-	for _, event := range events {
-		eventToItem := item{
-			title: event.Summary,
-			desc:  event.Course,
-		}
-		items = append(items, eventToItem)
-	}
-	// TODO: add more styling to list view elements, like item title, desc etc.
-	// FIXME: FilterValue/filtering doesn't seem to do anything??? check docs
-	l := list.New(items, list.NewDefaultDelegate(), width, height)
-	l.Title = "Events"
+func newModel(events *[]Event) ParentModel {
+	l := NewEventListModel(events)
 
 	// HACK: for now, just to have something on the screen im using another list model
 	// to show the right side of the view.
