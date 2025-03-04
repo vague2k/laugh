@@ -15,7 +15,7 @@ func main() {
 	Events := parser.Parse()
 
 	// tui model
-	model := newModel(Events)
+	model := NewGlobalModel(Events)
 
 	p := tea.NewProgram(model, tea.WithAltScreen())
 	if _, err := p.Run(); err != nil {

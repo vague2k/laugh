@@ -1,10 +1,16 @@
 package main
 
 import (
+	"fmt"
 	"os"
+	"strings"
 
 	"golang.org/x/term"
 )
+
+func WriteStringf(builder *strings.Builder, s string, a ...any) {
+	fmt.Fprintf(builder, s, a...)
+}
 
 func getTerminalDimensions() (int, int) {
 	w, h, err := term.GetSize(int(os.Stderr.Fd()))

@@ -9,35 +9,46 @@ import (
 	"github.com/charmbracelet/lipgloss"
 )
 
-var (
-	titleStyle = lipgloss.NewStyle().
-			Padding(0, 1).
-			Background(lipgloss.Color(termANSIYellow.String())).
-			Foreground(lipgloss.Color(termANSIBlack.String()))
-	activePageStyle  = lipgloss.NewStyle().Foreground(lipgloss.Color(termANSIBrightWhite.String())).Render("•")
-	summaryStyle     = lipgloss.NewStyle().Foreground(lipgloss.Color(termANSIYellow.String()))
-	descriptionStyle = lipgloss.NewStyle().Foreground(lipgloss.Color(termANSIBrightBlack.String()))
-)
+// EventListModel is a wrapper over the list component, where the list this
+// model uses under the hood, uses an "EventDelegate" for custom functionality
+// for list items.
+type EventListModel struct {
+	list list.Model
+}
 
-func NewEventListModel(events *[]Event) list.Model {
-	// even though Event implements item, go treats 2 seperate slices differently,
-	// even if both slices contain items that implement the same interface
+func NewEventListModel(events *[]Event) EventListModel {
+	// even though Event implements item, go treats 2 seperate slices
+	// differently even if both slices contain items that implement the same
+	// interface
 	items := make([]list.Item, len(*events))
 	for i, e := range *events {
 		items[i] = e
 	}
 
-	l := list.New(items, NewEventDelegate(), width, height)
+	d := NewEventDelegate()
+	l := list.New(items, d, width, height)
 	l.Title = "Events"
-	l.Paginator.ActiveDot = activePageStyle
-	l.Styles.Title = titleStyle
+	l.Paginator.ActiveDot = lipgloss.NewStyle().
+		Foreground(lipgloss.Color(termANSIBrightWhite.String())).
+		Render("•")
+	l.Paginator.InactiveDot = lipgloss.NewStyle().
+		Foreground(lipgloss.Color(termANSIBrightBlack.String())).
+		Render("•")
+	l.Styles.Title = lipgloss.NewStyle().
+		Padding(0, 1).
+		Background(lipgloss.Color(termANSIBrightYellow.String())).
+		Foreground(lipgloss.Color(termANSIBlack.String()))
 
-	return l
+	return EventListModel{
+		list: l,
+	}
 }
 
-// A "delegate" is bubbletea's (more specifically the bubbles list component) way of encapsulating functionality for list items.
+// A "delegate" is bubbletea's (more specifically the bubbles list component)
+// way of encapsulating functionality for list items.
 //
-// See the ItemDelegate interface and source code at https://github.com/charmbracelet/bubbles/list for more info.
+// See the ItemDelegate interface and source code at
+// https://github.com/charmbracelet/bubbles/list for more info.
 type EventDelegate struct {
 	height, spacing int
 }
@@ -51,25 +62,11 @@ func NewEventDelegate() EventDelegate {
 
 // TODO: implement filtering
 func (d EventDelegate) Update(msg tea.Msg, m *list.Model) tea.Cmd {
-	// the model's cursor has to be incremeneted/decremented manually because for some reason
-	// m.CursorUp() and m.CursorDown() incremenet and decrement by 2 instead of 1?
-	// this is probably a bug,
-	// TODO: make a pr on this
-	cursor := m.Cursor()
-
 	switch msg := msg.(type) {
 	case tea.KeyMsg:
 		switch msg.String() {
 		case "enter":
 			return m.NewStatusMessage(fmt.Sprintf("%d", m.Index()))
-		case "up", "k":
-			if cursor > 0 {
-				cursor--
-			}
-		case "down", "j":
-			if cursor < len(m.Items())-1 {
-				cursor++
-			}
 		}
 	}
 	return nil
@@ -86,17 +83,26 @@ func (d EventDelegate) Height() int {
 func (d EventDelegate) Render(w io.Writer, m list.Model, index int, item list.Item) {
 	var summary, course, date string
 
+	hoveredStyle := lipgloss.NewStyle().Foreground(lipgloss.Color(termANSIBrightYellow.String()))
+	descriptionStyle := lipgloss.NewStyle().Foreground(lipgloss.Color(termANSIBrightBlack.String()))
+
 	if i, ok := item.(Event); ok {
 		summary = i.Summary
 		course = descriptionStyle.Render(i.Course)
 		date = descriptionStyle.Render(i.GetFormattedStartDate())
 	}
 
-	cursor := summaryStyle.Render("│")
 	if m.Index() == index {
-		summary = summaryStyle.Render(summary)
-		fmt.Fprintf(w, "%s %s\n%s %s\n%s %s", cursor, summary, cursor, course, cursor, date)
+		cursor := hoveredStyle.Render("│")
+		summary = hoveredStyle.Render(summary)
+		fmt.Fprintf(w, "%s %s\n%s %s\n%s %s",
+			cursor, summary,
+			cursor, course,
+			cursor, date)
 	} else {
-		fmt.Fprintf(w, " %s\n %s\n %s", summary, course, date)
+		fmt.Fprintf(w, " %s\n %s\n %s",
+			summary,
+			course,
+			date)
 	}
 }

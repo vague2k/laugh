@@ -41,7 +41,10 @@ func (e Event) GetFormattedStartDate() string {
 	month := t.Format("Jan")
 	day := t.Day()
 	year := t.Year()
-	hour := t.Format("3:04 PM") // if format includes the date only, hour is set to 12:00 AM, which is not a bug for this use case
+
+	// if format includes the date only, hour is set to 12:00 AM, which is
+	// intended behavior
+	hour := t.Format("3:04 PM")
 
 	return fmt.Sprintf("%s %d, %d. %s", month, day, year, hour)
 }
@@ -61,7 +64,8 @@ func (e Event) GetFormattedDescription() string {
 	return descWithReplacedEscChar
 }
 
-// NOTE: this word wrap implementation MIGHT be cut, depending on if the bubbletea TUI view has word wrapping builtin
+// NOTE: this word wrap implementation MIGHT be cut, depending on if the
+// bubbletea TUI view has word wrapping builtin
 func (e Event) wrapWords(s string, width int) string {
 	words := strings.Fields(s)
 	wrappedLen := 0
