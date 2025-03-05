@@ -11,16 +11,15 @@ import (
 // the DetailsModel only serves to show an event's details in a pretty way, and
 // nothing more
 type DetailsModel struct {
-	list   list.Model
-	styles DetailsStyles
+	focused list.Item
+	styles  DetailsStyles
 }
 
 var detailModelStyle = lipgloss.NewStyle()
 
-func NewDetailsModel(listModel list.Model) tea.Model {
+func NewDetailsModel() tea.Model {
 	s := DefaultDetailsStyles()
 	return DetailsModel{
-		list:   listModel,
 		styles: s,
 	}
 }
@@ -30,16 +29,17 @@ func (m DetailsModel) Init() tea.Cmd {
 }
 
 func (m DetailsModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
+	switch msg := msg.(type) {
+	case list.Item:
+		m.focused = msg
+	}
 	return m, nil
 }
 
-// FIXME: details view not updating when hovering different items in the list
-// component
 func (m DetailsModel) View() string {
 	var summary, course, date string
 
-	items := m.list.Items()
-	if i, ok := items[m.list.Cursor()].(Event); ok {
+	if i, ok := m.focused.(Event); ok {
 		summary = i.Summary
 		course = i.Course
 		date = i.GetFormattedStartDate()

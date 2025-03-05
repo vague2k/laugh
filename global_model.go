@@ -31,14 +31,14 @@ type GlobalModel struct {
 
 func NewGlobalModel(events *[]Event) GlobalModel {
 	eventListModel := NewEventListModel(events)
-	eventListDetailsModel := NewDetailsModel(eventListModel.list)
+	eventListDetailsModel := NewDetailsModel()
 	styles := DefaultGlobalStyles()
 
 	model := GlobalModel{
-		list:    eventListModel.list,
+		list:    eventListModel,
 		details: eventListDetailsModel,
 		styles:  styles,
-		focused: eventListView, // this view is focused by default when the TUI runs
+		focused: eventListView, // focused by default on program start
 	}
 
 	return model
@@ -49,7 +49,7 @@ func (m GlobalModel) Init() tea.Cmd {
 }
 
 func (m GlobalModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
-	var cmd tea.Cmd
+	var updateList, updateDetails tea.Cmd
 	switch msg := msg.(type) {
 	case tea.KeyMsg:
 		switch msg.String() {
@@ -65,12 +65,13 @@ func (m GlobalModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 
 		switch m.focused {
 		case eventListView:
-			m.list, cmd = m.list.Update(msg)
-		case eventListDetailsView:
-			m.details, cmd = m.details.Update(msg)
+			m.list, updateList = m.list.Update(msg)
 		}
 	}
-	return m, tea.Batch(cmd)
+
+	item := m.list.Items()[m.list.Index()]
+	m.details, updateDetails = m.details.Update(item)
+	return m, tea.Batch(updateList, updateDetails)
 }
 
 func (m GlobalModel) View() string {

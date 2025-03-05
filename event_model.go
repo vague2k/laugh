@@ -10,14 +10,10 @@ import (
 )
 
 // EventListModel is a wrapper over the list component, where the list this
-// model uses under the hood, uses an "EventDelegate" for custom functionality
+// model uses under the hood, uses an [EventDelegate] for custom functionality
 // for list items.
-type EventListModel struct {
-	list list.Model
-}
-
-func NewEventListModel(events *[]Event) EventListModel {
-	// even though Event implements item, go treats 2 seperate slices
+func NewEventListModel(events *[]Event) list.Model {
+	// even though [Event] implements [list.Item], go treats 2 seperate slices
 	// differently even if both slices contain items that implement the same
 	// interface
 	items := make([]list.Item, len(*events))
@@ -39,15 +35,13 @@ func NewEventListModel(events *[]Event) EventListModel {
 		Background(lipgloss.Color(termANSIBrightYellow.String())).
 		Foreground(lipgloss.Color(termANSIBlack.String()))
 
-	return EventListModel{
-		list: l,
-	}
+	return l
 }
 
 // A "delegate" is bubbletea's (more specifically the bubbles list component)
 // way of encapsulating functionality for list items.
 //
-// See the ItemDelegate interface and source code at
+// See the [list.ItemDelegate] interface and source code at
 // https://github.com/charmbracelet/bubbles/list for more info.
 type EventDelegate struct {
 	height, spacing int
@@ -55,11 +49,12 @@ type EventDelegate struct {
 
 func NewEventDelegate() EventDelegate {
 	return EventDelegate{
-		height:  3, // how many lines an item takes up in the view
-		spacing: 1, // gap inbetween each item in the view
+		height:  3, // The height of the [list.Item] in the view.
+		spacing: 1, // The space inbetween each [list.Item] in the view.
 	}
 }
 
+// Update
 // TODO: implement filtering
 func (d EventDelegate) Update(msg tea.Msg, m *list.Model) tea.Cmd {
 	switch msg := msg.(type) {
@@ -72,14 +67,17 @@ func (d EventDelegate) Update(msg tea.Msg, m *list.Model) tea.Cmd {
 	return nil
 }
 
+// The space inbetween each [list.Item] in the view.
 func (d EventDelegate) Spacing() int {
 	return d.spacing
 }
 
+// The height of the [list.Item] in the view.
 func (d EventDelegate) Height() int {
 	return d.height
 }
 
+// Render handles how each [list.Item] is shown in the list view.
 func (d EventDelegate) Render(w io.Writer, m list.Model, index int, item list.Item) {
 	var summary, course, date string
 
@@ -92,6 +90,7 @@ func (d EventDelegate) Render(w io.Writer, m list.Model, index int, item list.It
 		date = descriptionStyle.Render(i.GetFormattedStartDate())
 	}
 
+	// Set styles differently if it's the currently focused item in the view.
 	if m.Index() == index {
 		cursor := hoveredStyle.Render("│")
 		summary = hoveredStyle.Render(summary)
