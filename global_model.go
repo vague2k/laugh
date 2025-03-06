@@ -21,6 +21,8 @@ var (
 	height = TermHeight() - 3
 )
 
+// TODO: write a scrollable view that shows currently focused event description
+// when this view is written, the details view should not be focusable
 type GlobalModel struct {
 	list    list.Model
 	details tea.Model
@@ -48,6 +50,7 @@ func (m GlobalModel) Init() tea.Cmd {
 	return nil
 }
 
+// TODO: how to handle TUI resizing?
 func (m GlobalModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	var updateList, updateDetails tea.Cmd
 	switch msg := msg.(type) {
