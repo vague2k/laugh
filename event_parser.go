@@ -32,7 +32,7 @@ func NewEventParser(fileName string) (*EventParser, error) {
 
 // The name of the course can always be found inside the summary,
 // enclosed by a "[" and "]"
-func (p *EventParser) parseCourse(s string) string {
+func (p EventParser) parseCourse(s string) string {
 	left := strings.IndexRune(s, '[')
 	right := strings.IndexRune(s, ']')
 	// offset left by +1 because that char ("[") is included in the string
@@ -41,7 +41,7 @@ func (p *EventParser) parseCourse(s string) string {
 	return course
 }
 
-func (p *EventParser) Parse() *[]Event {
+func (p EventParser) Parse() *[]Event {
 	var Events []Event
 	var event *Event
 	var summary string
