@@ -16,8 +16,6 @@ type DetailsModel struct {
 	styles  DetailsStyles
 }
 
-var detailModelStyle = lipgloss.NewStyle()
-
 func NewDetailsModel() tea.Model {
 	s := DefaultDetailsStyles()
 	return DetailsModel{
