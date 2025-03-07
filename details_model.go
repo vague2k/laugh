@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"strings"
 
 	"github.com/charmbracelet/bubbles/list"
@@ -46,14 +47,14 @@ func (m DetailsModel) View() string {
 	}
 
 	s := &strings.Builder{}
-	WriteStringf(s, "%s\n\n", m.styles.Title.Render("Event Details"))
-	WriteStringf(s, "\n%s %s\n",
+	fmt.Fprintf(s, "%s\n\n", m.styles.Title.Render("Event Details"))
+	fmt.Fprintf(s, "\n%s %s\n",
 		m.styles.DueDateLabel.Render("Due Date:"),
 		m.styles.DueDate.Render(date))
-	WriteStringf(s, "\n%s %s\n",
+	fmt.Fprintf(s, "\n%s %s\n",
 		m.styles.SummaryLabel.Render("Classwork:"),
 		m.styles.Summary.Render(summary))
-	WriteStringf(s, "\n%s %s\n",
+	fmt.Fprintf(s, "\n%s %s\n",
 		m.styles.CourseLabel.Render("For Course:"),
 		m.styles.Course.Render(course))
 
