@@ -38,7 +38,7 @@ func (m DetailsModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 func (m DetailsModel) View() string {
 	var summary, course, date string
 
-	if i, ok := m.focused.(Event); ok {
+	if i, ok := m.focused.(CalendarEvent); ok {
 		summary = i.Summary
 		course = i.Course
 		date = i.GetFormattedStartDate()

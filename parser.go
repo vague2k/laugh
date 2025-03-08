@@ -11,7 +11,7 @@ import (
 //
 // If the iCalendar file isn't detected to be a student canvas calendar, It's
 // treated as an error.
-func Parse(fileName string) (*[]Event, error) {
+func Parse(fileName string) (*[]CalendarEvent, error) {
 	file, err := os.Open(fileName)
 	if err != nil {
 		return nil, err
@@ -20,8 +20,8 @@ func Parse(fileName string) (*[]Event, error) {
 
 	scanner := bufio.NewScanner(file)
 
-	var Events []Event
-	var event *Event
+	var Events []CalendarEvent
+	var event *CalendarEvent
 	var summary string
 	var desc string
 	processingSummary := false
@@ -38,7 +38,7 @@ func Parse(fileName string) (*[]Event, error) {
 			}
 
 		case strings.Contains(s, "BEGIN:VEVENT"):
-			event = &Event{}
+			event = &CalendarEvent{}
 
 		case strings.Contains(s, "SUMMARY"):
 			processingSummary = true

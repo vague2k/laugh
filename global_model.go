@@ -28,10 +28,10 @@ type GlobalModel struct {
 	details tea.Model
 	focused focusedState
 	styles  GlobalStyles
-	events  *[]Event
+	events  *[]CalendarEvent
 }
 
-func NewGlobalModel(events *[]Event) GlobalModel {
+func NewGlobalModel(events *[]CalendarEvent) GlobalModel {
 	eventListModel := NewEventListModel(events)
 	eventListDetailsModel := NewDetailsModel()
 	styles := DefaultGlobalStyles()

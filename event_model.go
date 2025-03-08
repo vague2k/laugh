@@ -12,10 +12,10 @@ import (
 // EventListModel is a wrapper over the list component, where the list this
 // model uses under the hood, uses an [EventDelegate] for custom functionality
 // for list items.
-func NewEventListModel(events *[]Event) list.Model {
-	// even though [Event] implements [list.Item], go treats 2 seperate slices
-	// differently even if both slices contain items that implement the same
-	// interface
+func NewEventListModel(events *[]CalendarEvent) list.Model {
+	// even though [CalendarEvent] implements [list.Item], go treats 2 seperate
+	// slices differently even if both slices contain items that implement the
+	// same interface
 	items := make([]list.Item, len(*events))
 	for i, e := range *events {
 		items[i] = e
@@ -84,7 +84,7 @@ func (d EventDelegate) Render(w io.Writer, m list.Model, index int, item list.It
 	hoveredStyle := lipgloss.NewStyle().Foreground(lipgloss.Color(termANSIBrightYellow.String()))
 	descriptionStyle := lipgloss.NewStyle().Foreground(lipgloss.Color(termANSIBrightBlack.String()))
 
-	if i, ok := item.(Event); ok {
+	if i, ok := item.(CalendarEvent); ok {
 		summary = i.Summary
 		course = descriptionStyle.Render(i.Course)
 		date = descriptionStyle.Render(i.GetFormattedStartDate())
