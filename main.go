@@ -21,13 +21,10 @@ func main() {
 	// have to check the internet every single time on startup, perhaps it can
 	// only do a check after a certain hour of the day a limited number of
 	// times
-
-	parser, err := NewEventParser("spring_2025_cal.ics")
+	Events, err := Parse("spring_2025_cal.ics")
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	Events := parser.Parse()
 
 	// tui model
 	model := NewGlobalModel(Events)
