@@ -1,4 +1,4 @@
-package main
+package models
 
 import (
 	"fmt"
@@ -7,12 +7,13 @@ import (
 	"github.com/charmbracelet/bubbles/list"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
+	"github.com/vague2k/laugh/parser"
 )
 
-// EventListModel is a wrapper over the list component, where the list this
+// NewEventListModel wraps over the list component, where the list this
 // model uses under the hood, uses an [EventDelegate] for custom functionality
 // for list items.
-func NewEventListModel(events *[]CalendarEvent) list.Model {
+func NewEventListModel(events *[]parser.CalendarEvent) list.Model {
 	// even though [CalendarEvent] implements [list.Item], go treats 2 seperate
 	// slices differently even if both slices contain items that implement the
 	// same interface
@@ -84,7 +85,7 @@ func (d EventDelegate) Render(w io.Writer, m list.Model, index int, item list.It
 	hoveredStyle := lipgloss.NewStyle().Foreground(lipgloss.Color(termANSIBrightYellow.String()))
 	descriptionStyle := lipgloss.NewStyle().Foreground(lipgloss.Color(termANSIBrightBlack.String()))
 
-	if i, ok := item.(CalendarEvent); ok {
+	if i, ok := item.(parser.CalendarEvent); ok {
 		summary = i.Summary
 		course = descriptionStyle.Render(i.Course)
 		date = descriptionStyle.Render(i.GetFormattedStartDate())

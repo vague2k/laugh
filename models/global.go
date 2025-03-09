@@ -1,4 +1,4 @@
-package main
+package models
 
 import (
 	"fmt"
@@ -7,6 +7,7 @@ import (
 	"github.com/charmbracelet/bubbles/list"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
+	"github.com/vague2k/laugh/parser"
 )
 
 type focusedState uint // tracks which part of the view is focused
@@ -28,10 +29,10 @@ type GlobalModel struct {
 	details tea.Model
 	focused focusedState
 	styles  GlobalStyles
-	events  *[]CalendarEvent
+	events  *[]parser.CalendarEvent
 }
 
-func NewGlobalModel(events *[]CalendarEvent) GlobalModel {
+func NewGlobalModel(events *[]parser.CalendarEvent) GlobalModel {
 	eventListModel := NewEventListModel(events)
 	eventListDetailsModel := NewDetailsModel()
 	styles := DefaultGlobalStyles()

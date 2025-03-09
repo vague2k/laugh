@@ -4,9 +4,9 @@ import (
 	"log"
 
 	tea "github.com/charmbracelet/bubbletea"
+	"github.com/vague2k/laugh/models"
+	"github.com/vague2k/laugh/parser"
 )
-
-// TODO: project wide file restructure???
 
 func main() {
 	// HACK: currently this works fine.
@@ -21,13 +21,13 @@ func main() {
 	// have to check the internet every single time on startup, perhaps it can
 	// only do a check after a certain hour of the day a limited number of
 	// times
-	Events, err := Parse("spring_2025_cal.ics")
+	Events, err := parser.Parse("spring_2025_cal.ics")
 	if err != nil {
 		log.Fatal(err)
 	}
 
 	// tui model
-	model := NewGlobalModel(Events)
+	model := models.NewGlobalModel(Events)
 
 	p := tea.NewProgram(model, tea.WithAltScreen())
 	if _, err := p.Run(); err != nil {

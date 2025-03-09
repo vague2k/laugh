@@ -1,4 +1,4 @@
-package main
+package models
 
 import (
 	"fmt"
@@ -7,6 +7,7 @@ import (
 	"github.com/charmbracelet/bubbles/list"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
+	"github.com/vague2k/laugh/parser"
 )
 
 // the DetailsModel only serves to show an event's details in a pretty way, and
@@ -38,7 +39,7 @@ func (m DetailsModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 func (m DetailsModel) View() string {
 	var summary, course, date string
 
-	if i, ok := m.focused.(CalendarEvent); ok {
+	if i, ok := m.focused.(parser.CalendarEvent); ok {
 		summary = i.Summary
 		course = i.Course
 		date = i.GetFormattedStartDate()
