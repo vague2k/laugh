@@ -5,23 +5,23 @@ import "fmt"
 type termANSIColor uint
 
 const (
-	termANSIBlack termANSIColor = iota
-	termANSIRed
-	termANSIGreen
-	termANSIYellow
-	termANSIBlue
-	termANSIMagenta
-	termANSICyan
-	termANSIWhite
+	TermANSIBlack termANSIColor = iota
+	TermANSIRed
+	TermANSIGreen
+	TermANSIYellow
+	TermANSIBlue
+	TermANSIMagenta
+	TermANSICyan
+	TermANSIWhite
 
-	termANSIBrightBlack
-	termANSIBrightRed
-	termANSIBrightGreen
-	termANSIBrightYellow
-	termANSIBrightBlue
-	termANSIBrightMagenta
-	termANSIBrightCyan
-	termANSIBrightWhite
+	TermANSIBrightBlack
+	TermANSIBrightRed
+	TermANSIBrightGreen
+	TermANSIBrightYellow
+	TermANSIBrightBlue
+	TermANSIBrightMagenta
+	TermANSIBrightCyan
+	TermANSIBrightWhite
 )
 
 func (c termANSIColor) String() string {
