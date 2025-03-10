@@ -2,8 +2,10 @@ package parser
 
 import (
 	"bufio"
+	"fmt"
 	"os"
 	"strings"
+	"time"
 )
 
 // Parse parses calendar events from an iCalendar (.ics) file as specified by
@@ -49,19 +51,15 @@ func Parse(fileName string) (*[]CalendarEvent, error) {
 			desc = strings.Split(s, "DESCRIPTION:")[1]
 
 		case strings.Contains(s, "DTSTART"):
-			event.StartDate = strings.Split(s, ":")[1]
+			timestamp := strings.Split(s, ":")[1]
+			date, hour := parseDateAndHour(timestamp)
+			event.DueDate = date
+			event.DueHour = hour
 
 		case strings.Contains(s, "END:VEVENT"):
 			event.Summary = strings.Split(summary, "[")[0]
 			event.Description = desc
-
-			// parse course from the summary
-			left := strings.IndexRune(summary, '[')
-			right := strings.IndexRune(summary, ']')
-			// offset left by 1 because that char "[" is included in the string
-			parsed := summary[left+1 : right]
-			course := strings.ReplaceAll(parsed, "\\,", ",")
-			event.Course = course
+			event.Course = parseCourse(summary)
 
 			Events = append(Events, *event)
 
@@ -77,4 +75,50 @@ func Parse(fileName string) (*[]CalendarEvent, error) {
 	}
 
 	return &Events, nil
+}
+
+func parseCourse(s string) string {
+	// parse course from the summary
+	left := strings.IndexRune(s, '[')
+	right := strings.IndexRune(s, ']')
+	// offset left by 1 because that char "[" is included in the string
+	parsed := s[left+1 : right]
+	course := strings.ReplaceAll(parsed, "\\,", ",")
+	return course
+}
+
+func parseDateAndHour(s string) (string, string) {
+	var t time.Time
+
+	// set the timezone location
+	//
+	// TODO: perhaps this could be configured in a config? I don't think anyone
+	// else would use this besides me but just in case someone does idk
+	loc, err := time.LoadLocation("America/New_York")
+	if err != nil {
+		return "Unknown Date", "Unknown Hour"
+	}
+
+	// format includes the hour
+	if strings.Contains(s, "Z") {
+		stamp, err := time.Parse("20060102T150405Z", s)
+		if err != nil {
+			return "Unknown Date", "Unknown Hour"
+		}
+		t = stamp.In(loc)
+		// format with no hour included
+	} else {
+		stamp, err := time.Parse("20060102", s)
+		if err != nil {
+			return "Unknown Date", "Unknown Hour"
+		}
+		// No need to set loc for this timestamp since the hour being set to
+		// midnight is intended behavior
+		t = stamp
+	}
+
+	date := fmt.Sprintf("%s %d, %d", t.Format("Jan"), t.Day(), t.Year())
+	hour := t.Format("3:04 PM")
+
+	return date, hour
 }

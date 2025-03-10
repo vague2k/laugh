@@ -1,16 +1,15 @@
 package parser
 
 import (
-	"fmt"
 	"os"
 	"strings"
-	"time"
 
 	"golang.org/x/term"
 )
 
 type CalendarEvent struct {
-	StartDate   string
+	DueDate     string
+	DueHour     string
 	Summary     string
 	Description string
 	Course      string
@@ -20,34 +19,6 @@ type CalendarEvent struct {
 // this function is here to conform to the [list.Item] interface.
 func (e CalendarEvent) FilterValue() string {
 	return e.Summary
-}
-
-func (e CalendarEvent) GetFormattedStartDate() string {
-	var t time.Time
-	// format includes the hour
-	if strings.Contains(e.StartDate, "Z") {
-		stamp, err := time.Parse("20060102T150405Z", e.StartDate)
-		if err != nil {
-			return "Unknown Time"
-		}
-		t = stamp
-		// format with no hour included
-	} else {
-		stamp, err := time.Parse("20060102", e.StartDate)
-		if err != nil {
-			return "Unknown Time"
-		}
-		t = stamp
-	}
-	month := t.Format("Jan")
-	day := t.Day()
-	year := t.Year()
-
-	// if format includes the date only, hour is set to 12:00 AM, which is
-	// intended behavior
-	hour := t.Format("3:04 PM")
-
-	return fmt.Sprintf("%s %d, %d. %s", month, day, year, hour)
 }
 
 func (e CalendarEvent) GetFormattedDescription() string {

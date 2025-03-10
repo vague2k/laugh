@@ -37,19 +37,24 @@ func (m DetailsModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 }
 
 func (m DetailsModel) View() string {
-	var summary, course, date string
+	var summary, course, dueDate, dueHour string
 
 	if i, ok := m.focused.(parser.CalendarEvent); ok {
 		summary = i.Summary
 		course = i.Course
-		date = i.GetFormattedStartDate()
+		dueDate = i.DueDate
+		dueHour = i.DueHour
 	}
 
 	s := &strings.Builder{}
 	fmt.Fprintf(s, "%s\n\n", m.styles.Title.Render("Event Details"))
 	fmt.Fprintf(s, "\n%s %s\n",
 		m.styles.DueDateLabel.Render("Due Date:"),
-		m.styles.DueDate.Render(date))
+		m.styles.DueDate.Render(dueDate))
+	fmt.Fprintf(s, "\n%s %s %s\n",
+		m.styles.DueDateLabel.Render("Hour Due:"),
+		m.styles.DueDate.Render(dueHour),
+		m.styles.DueDate.Render("EST Time"))
 	fmt.Fprintf(s, "\n%s %s\n",
 		m.styles.SummaryLabel.Render("Classwork:"),
 		m.styles.Summary.Render(summary))

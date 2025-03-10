@@ -88,7 +88,7 @@ func (d EventDelegate) Render(w io.Writer, m list.Model, index int, item list.It
 	if i, ok := item.(parser.CalendarEvent); ok {
 		summary = i.Summary
 		course = descriptionStyle.Render(i.Course)
-		date = descriptionStyle.Render(i.GetFormattedStartDate())
+		date = descriptionStyle.Render(i.DueDate)
 	}
 
 	// Set styles differently if it's the currently focused item in the view.
