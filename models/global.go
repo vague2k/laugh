@@ -10,10 +10,13 @@ import (
 	"github.com/vague2k/laugh/parser"
 )
 
-type focusedState uint // tracks which part of the view is focused
+type (
+	focusedState uint // tracks which part of the view is focused
+)
+
 const (
 	eventListView focusedState = iota
-	eventListDetailsView
+	descriptionView
 )
 
 var (
@@ -27,6 +30,7 @@ var (
 type GlobalModel struct {
 	list    list.Model
 	details tea.Model
+	pager   tea.Model
 	focused focusedState
 	styles  GlobalStyles
 	events  *[]parser.CalendarEvent
@@ -35,11 +39,13 @@ type GlobalModel struct {
 func NewGlobalModel(events *[]parser.CalendarEvent) GlobalModel {
 	eventListModel := NewEventListModel(events)
 	eventListDetailsModel := NewDetailsModel()
+	pagerModel := NewPagerModel()
 	styles := DefaultGlobalStyles()
 
 	model := GlobalModel{
 		list:    eventListModel,
 		details: eventListDetailsModel,
+		pager:   pagerModel,
 		styles:  styles,
 		focused: eventListView, // focused by default on program start
 	}
@@ -53,7 +59,7 @@ func (m GlobalModel) Init() tea.Cmd {
 
 // TODO: how to handle TUI resizing?
 func (m GlobalModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
-	var updateList, updateDetails tea.Cmd
+	var updateList, updateDetails, updatePager tea.Cmd
 	switch msg := msg.(type) {
 	case tea.KeyMsg:
 		switch msg.String() {
@@ -61,7 +67,7 @@ func (m GlobalModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			return m, tea.Quit
 		case "tab":
 			if m.focused == eventListView {
-				m.focused = eventListDetailsView
+				m.focused = descriptionView
 			} else {
 				m.focused = eventListView
 			}
@@ -72,25 +78,42 @@ func (m GlobalModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			m.list, updateList = m.list.Update(msg)
 		}
 	}
+	pagerMsg := PagerMsg{}
+	pagerMsg.Window.Height = height - 13
+	pagerMsg.Window.Width = width
+	pagerMsg.Focused = m.list.Items()[m.list.Index()]
+
+	m.pager, updatePager = m.pager.Update(pagerMsg)
 
 	item := m.list.Items()[m.list.Index()]
 	m.details, updateDetails = m.details.Update(item)
-	return m, tea.Batch(updateList, updateDetails)
+	return m, tea.Batch(updateList, updateDetails, updatePager)
 }
 
 func (m GlobalModel) View() string {
 	var s string
+	detailsHeight := height - 85
+	pagerHeight := height - 13
 	if m.focused == eventListView {
 		s += lipgloss.
 			JoinHorizontal(
 				lipgloss.Top,
 				m.styles.Focused.Render(fmt.Sprintf("%4s", m.list.View())),
-				m.styles.Unfocused.Render(m.details.View()))
+				lipgloss.
+					JoinVertical(
+						lipgloss.Top,
+						m.styles.Unfocusable.Height(detailsHeight).Render(m.details.View()),
+						m.styles.Unfocused.Height(pagerHeight).Render(m.pager.View())))
 	} else {
 		s += lipgloss.
-			JoinHorizontal(lipgloss.Top,
+			JoinHorizontal(
+				lipgloss.Top,
 				m.styles.Unfocused.Render(fmt.Sprintf("%4s", m.list.View())),
-				m.styles.Focused.Render(m.details.View()))
+				lipgloss.
+					JoinVertical(
+						lipgloss.Top,
+						m.styles.Unfocusable.Height(detailsHeight).Render(m.details.View()),
+						m.styles.Focused.Height(pagerHeight).Render(m.pager.View())))
 	}
 	s += m.styles.Help.Render("\ntab: focus next • q: exit")
 	return s
@@ -101,6 +124,7 @@ func (m GlobalModel) View() string {
 type GlobalStyles struct {
 	Focused,
 	Unfocused,
+	Unfocusable,
 	Help lipgloss.Style
 }
 
@@ -116,6 +140,8 @@ func DefaultGlobalStyles() (s GlobalStyles) {
 		Height(height).
 		BorderStyle(lipgloss.RoundedBorder()).
 		BorderForeground(lipgloss.Color(TermANSIBrightBlack.String()))
+
+	s.Unfocusable = s.Unfocused
 
 	s.Help = lipgloss.NewStyle().Foreground(lipgloss.Color(TermANSIBrightBlack.String()))
 
