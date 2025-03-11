@@ -1,8 +1,5 @@
 package models
 
-// An example program demonstrating the pager component from the Bubbles
-// component library.
-
 import (
 	"fmt"
 
@@ -21,7 +18,7 @@ type PagerModel struct {
 func NewPagerModel() PagerModel {
 	p := PagerModel{}
 	p.viewport.HighPerformanceRendering = true
-	return PagerModel{}
+	return p
 }
 
 func (m PagerModel) Init() tea.Cmd {
@@ -29,10 +26,7 @@ func (m PagerModel) Init() tea.Cmd {
 }
 
 func (m PagerModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
-	var (
-		cmd  tea.Cmd
-		cmds []tea.Cmd
-	)
+	var cmd tea.Cmd
 
 	switch msg := msg.(type) {
 	case PagerMsg:
@@ -60,19 +54,11 @@ func (m PagerModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			m.viewport.Height = msg.Window.Height - verticalMarginHeight
 		}
 	case tea.KeyMsg:
-		switch msg.String() {
-		case "up", "k":
-			m.viewport.LineUp(1)
-		case "down", "j":
-			m.viewport.LineDown(1)
-		}
+		// Handle keyboard and mouse events in the viewport
+		m.viewport, cmd = m.viewport.Update(msg)
 	}
 
-	// Handle keyboard and mouse events in the viewport
-	m.viewport, cmd = m.viewport.Update(msg)
-	cmds = append(cmds, cmd)
-
-	return m, tea.Batch(cmds...)
+	return m, tea.Batch(cmd)
 }
 
 // TODO: add percent to show amount scrolled,
@@ -103,11 +89,4 @@ func (m PagerModel) footerView() string {
 		Foreground(lipgloss.Color(TermANSIBrightBlack.String())).
 		Render("Help here")
 	return fmt.Sprintf("\n%s", s)
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
 }

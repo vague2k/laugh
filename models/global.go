@@ -25,8 +25,6 @@ var (
 	height = TermHeight() - 3
 )
 
-// TODO: write a scrollable view that shows currently focused event description
-// when this view is written, the details view should not be focusable
 type GlobalModel struct {
 	list    list.Model
 	details tea.Model
@@ -59,7 +57,9 @@ func (m GlobalModel) Init() tea.Cmd {
 
 // TODO: how to handle TUI resizing?
 func (m GlobalModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
-	var updateList, updateDetails, updatePager tea.Cmd
+	var cmd tea.Cmd
+	var cmds []tea.Cmd
+
 	switch msg := msg.(type) {
 	case tea.KeyMsg:
 		switch msg.String() {
@@ -75,19 +75,23 @@ func (m GlobalModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 
 		switch m.focused {
 		case eventListView:
-			m.list, updateList = m.list.Update(msg)
+			m.list, cmd = m.list.Update(msg)
+			cmds = append(cmds, cmd)
+		case descriptionView:
+			m.pager, cmd = m.pager.Update(msg)
+			cmds = append(cmds, cmd)
 		}
 	}
-	pagerMsg := PagerMsg{}
-	pagerMsg.Window.Height = height - 13
-	pagerMsg.Window.Width = width
-	pagerMsg.Focused = m.list.Items()[m.list.Index()]
-
-	m.pager, updatePager = m.pager.Update(pagerMsg)
 
 	item := m.list.Items()[m.list.Index()]
-	m.details, updateDetails = m.details.Update(item)
-	return m, tea.Batch(updateList, updateDetails, updatePager)
+
+	m.pager, cmd = m.pager.Update(SendPagerMsg(width, height-13, item))
+	cmds = append(cmds, cmd)
+
+	m.details, cmd = m.details.Update(item)
+	cmds = append(cmds, cmd)
+
+	return m, tea.Batch(cmds...)
 }
 
 func (m GlobalModel) View() string {
