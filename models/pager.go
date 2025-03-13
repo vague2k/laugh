@@ -25,6 +25,9 @@ func (m PagerModel) Init() tea.Cmd {
 	return nil
 }
 
+// FIXME: event description not being shown in it's entirety in the viewport.
+// I already checked the parser just in case it was an issue there, and it seems
+// to not be
 func (m PagerModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	var cmd tea.Cmd
 
@@ -61,13 +64,12 @@ func (m PagerModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	return m, tea.Batch(cmd)
 }
 
-// TODO: add percent to show amount scrolled,
+// TODO: how to pad the viewport itself without it bugging out??
 func (m PagerModel) View() string {
 	if !m.ready {
 		return "\n  Initializing..."
 	}
 
-	// TODO: how to pad the viewport view without it bugging out??
 	header := lipgloss.NewStyle().Padding(0, 1).Render(m.headerView())
 	footer := lipgloss.NewStyle().Padding(0, 1).Render(m.footerView())
 	return fmt.Sprintf("%s\n%s\n%s", header, m.viewport.View(), footer)
@@ -82,8 +84,10 @@ func (m PagerModel) headerView() string {
 	return fmt.Sprintf("%s\n", s)
 }
 
+// TODO:
+// 1. add percent to show amount scrolled,
+// 2. add help for mappings, similiar to the event list
 func (m PagerModel) footerView() string {
-	// TODO: Help should go here
 	s := lipgloss.NewStyle().
 		Padding(0, 1).
 		Foreground(lipgloss.Color(TermANSIBrightBlack.String())).
