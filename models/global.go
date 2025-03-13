@@ -103,6 +103,7 @@ func (m GlobalModel) View() string {
 			JoinHorizontal(
 				lipgloss.Top,
 				m.styles.Focused.Render(fmt.Sprintf("%4s", m.list.View())),
+				m.styles.Gap,
 				lipgloss.
 					JoinVertical(
 						lipgloss.Top,
@@ -113,6 +114,7 @@ func (m GlobalModel) View() string {
 			JoinHorizontal(
 				lipgloss.Top,
 				m.styles.Unfocused.Render(fmt.Sprintf("%4s", m.list.View())),
+				m.styles.Gap,
 				lipgloss.
 					JoinVertical(
 						lipgloss.Top,
@@ -130,22 +132,25 @@ type GlobalStyles struct {
 	Unfocused,
 	Unfocusable,
 	Help lipgloss.Style
+	Gap string
 }
 
 func DefaultGlobalStyles() (s GlobalStyles) {
 	s.Focused = lipgloss.NewStyle().
 		Width(width).
 		Height(height).
-		BorderStyle(lipgloss.RoundedBorder()).
+		BorderStyle(lipgloss.NormalBorder()).
 		BorderForeground(lipgloss.Color(TermANSIBrightYellow.String()))
 
 	s.Unfocused = lipgloss.NewStyle().
 		Width(width).
 		Height(height).
-		BorderStyle(lipgloss.RoundedBorder()).
+		BorderStyle(lipgloss.NormalBorder()).
 		BorderForeground(lipgloss.Color(TermANSIBrightBlack.String()))
 
 	s.Unfocusable = s.Unfocused
+
+	s.Gap = lipgloss.NewStyle().Render("  ")
 
 	s.Help = lipgloss.NewStyle().Foreground(lipgloss.Color(TermANSIBrightBlack.String()))
 
