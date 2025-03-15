@@ -150,7 +150,7 @@ func DefaultGlobalStyles() (s GlobalStyles) {
 
 	s.Unfocusable = s.Unfocused
 
-	s.Gap = lipgloss.NewStyle().Render("  ")
+	s.Gap = lipgloss.NewStyle().Render(" ")
 
 	s.Help = lipgloss.NewStyle().Foreground(lipgloss.Color(TermANSIBrightBlack.String()))
 

@@ -2,6 +2,7 @@ package models
 
 import (
 	"fmt"
+	"strings"
 
 	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
@@ -10,7 +11,6 @@ import (
 )
 
 type PagerModel struct {
-	focused  string
 	ready    bool
 	viewport viewport.Model
 }
@@ -71,8 +71,7 @@ func (m PagerModel) View() string {
 	}
 
 	header := lipgloss.NewStyle().Padding(0, 1).Render(m.headerView())
-	footer := lipgloss.NewStyle().Padding(0, 1).Render(m.footerView())
-	return fmt.Sprintf("%s\n%s\n%s", header, m.viewport.View(), footer)
+	return fmt.Sprintf("%s\n%s\n%s", header, m.viewport.View(), m.footerView())
 }
 
 func (m PagerModel) headerView() string {
@@ -84,13 +83,26 @@ func (m PagerModel) headerView() string {
 	return fmt.Sprintf("%s\n", s)
 }
 
-// TODO:
-// 1. add percent to show amount scrolled,
-// 2. add help for mappings, similiar to the event list
+// TODO: add help for mappings, similiar to the event list
 func (m PagerModel) footerView() string {
-	s := lipgloss.NewStyle().
+	help := lipgloss.NewStyle().
 		Padding(0, 1).
 		Foreground(lipgloss.Color(TermANSIBrightBlack.String())).
 		Render("Help here")
-	return fmt.Sprintf("\n%s", s)
+
+	scrolled := lipgloss.NewStyle().
+		Padding(0, 1).
+		Foreground(lipgloss.Color(TermANSIBrightBlack.String())).
+		Render(fmt.Sprintf("%3.f%%", m.viewport.ScrollPercent()*100))
+
+	maxLen := lipgloss.Width(help) + lipgloss.Width(scrolled)
+	gap := strings.Repeat(" ", max(0, m.viewport.Width-maxLen))
+	return lipgloss.JoinHorizontal(lipgloss.Center, help, gap, scrolled)
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }
