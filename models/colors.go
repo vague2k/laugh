@@ -1,6 +1,10 @@
 package models
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/charmbracelet/lipgloss"
+)
 
 type termANSIColor uint
 
@@ -24,6 +28,6 @@ const (
 	TermANSIBrightWhite
 )
 
-func (c termANSIColor) String() string {
-	return fmt.Sprintf("%d", c)
+func (c termANSIColor) Color() lipgloss.Color {
+	return lipgloss.Color(fmt.Sprintf("%d", c))
 }

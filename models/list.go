@@ -26,15 +26,15 @@ func NewEventListModel(events *[]parser.CalendarEvent) list.Model {
 	l := list.New(items, d, width, height)
 	l.Title = "Events"
 	l.Paginator.ActiveDot = lipgloss.NewStyle().
-		Foreground(lipgloss.Color(TermANSIBrightWhite.String())).
+		Foreground(TermANSIBrightWhite.Color()).
 		Render("•")
 	l.Paginator.InactiveDot = lipgloss.NewStyle().
-		Foreground(lipgloss.Color(TermANSIBrightBlack.String())).
+		Foreground(TermANSIBrightBlack.Color()).
 		Render("•")
 	l.Styles.Title = lipgloss.NewStyle().
 		Padding(0, 1).
-		Background(lipgloss.Color(TermANSIBrightYellow.String())).
-		Foreground(lipgloss.Color(TermANSIBlack.String()))
+		Background(TermANSIBrightYellow.Color()).
+		Foreground(TermANSIBlack.Color())
 
 	return l
 }
@@ -82,8 +82,8 @@ func (d EventDelegate) Height() int {
 func (d EventDelegate) Render(w io.Writer, m list.Model, index int, item list.Item) {
 	var summary, course, date string
 
-	hoveredStyle := lipgloss.NewStyle().Foreground(lipgloss.Color(TermANSIBrightYellow.String()))
-	descriptionStyle := lipgloss.NewStyle().Foreground(lipgloss.Color(TermANSIBrightBlack.String()))
+	hoveredStyle := lipgloss.NewStyle().Foreground(TermANSIBrightYellow.Color())
+	descriptionStyle := lipgloss.NewStyle().Foreground(TermANSIBrightBlack.Color())
 
 	if i, ok := item.(parser.CalendarEvent); ok {
 		summary = i.Summary

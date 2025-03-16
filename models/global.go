@@ -139,19 +139,19 @@ func DefaultGlobalStyles() (s GlobalStyles) {
 		Width(width).
 		Height(height).
 		BorderStyle(lipgloss.NormalBorder()).
-		BorderForeground(lipgloss.Color(TermANSIBrightYellow.String()))
+		BorderForeground(TermANSIBrightYellow.Color())
 
 	s.Unfocused = lipgloss.NewStyle().
 		Width(width).
 		Height(height).
 		BorderStyle(lipgloss.NormalBorder()).
-		BorderForeground(lipgloss.Color(TermANSIBrightBlack.String()))
+		BorderForeground(TermANSIBrightBlack.Color())
 
 	s.Unfocusable = s.Unfocused
 
 	s.Gap = lipgloss.NewStyle().Render(" ")
 
-	s.Help = lipgloss.NewStyle().Foreground(lipgloss.Color(TermANSIBrightBlack.String()))
+	s.Help = lipgloss.NewStyle().Foreground(TermANSIBrightBlack.Color())
 
 	return s
 }

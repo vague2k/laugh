@@ -77,8 +77,8 @@ func (m PagerModel) View() string {
 func (m PagerModel) headerView() string {
 	s := lipgloss.NewStyle().
 		Padding(0, 1).
-		Foreground(lipgloss.Color(TermANSIBlack.String())).
-		Background(lipgloss.Color(TermANSIYellow.String())).
+		Foreground(TermANSIBlack.Color()).
+		Background(TermANSIYellow.Color()).
 		Render("Event Description")
 	return fmt.Sprintf("%s\n", s)
 }
@@ -87,12 +87,12 @@ func (m PagerModel) headerView() string {
 func (m PagerModel) footerView() string {
 	help := lipgloss.NewStyle().
 		Padding(0, 1).
-		Foreground(lipgloss.Color(TermANSIBrightBlack.String())).
+		Foreground(TermANSIBrightBlack.Color()).
 		Render("Help here")
 
 	scrolled := lipgloss.NewStyle().
 		Padding(0, 1).
-		Foreground(lipgloss.Color(TermANSIBrightBlack.String())).
+		Foreground(TermANSIBrightBlack.Color()).
 		Render(fmt.Sprintf("%3.f%%", m.viewport.ScrollPercent()*100))
 
 	maxLen := lipgloss.Width(help) + lipgloss.Width(scrolled)

@@ -82,28 +82,28 @@ type DetailsStyles struct {
 func DefaultDetailsStyles() (s DetailsStyles) {
 	s.Title = lipgloss.NewStyle().
 		Padding(0, 1).
-		Background(lipgloss.Color(TermANSIBrightYellow.String())).
-		Foreground(lipgloss.Color(TermANSIBlack.String()))
+		Background(TermANSIBrightYellow.Color()).
+		Foreground(TermANSIBlack.Color())
 
 	s.Model = lipgloss.NewStyle().Padding(0, 2)
 
-	s.DueDate = lipgloss.NewStyle().Foreground(lipgloss.Color(TermANSIRed.String()))
+	s.DueDate = lipgloss.NewStyle().Foreground(TermANSIRed.Color())
 	s.DueDateLabel = lipgloss.NewStyle().
 		Padding(0, 1).
-		Background(lipgloss.Color(TermANSIRed.String())).
-		Foreground(lipgloss.Color(TermANSIWhite.String()))
+		Background(TermANSIRed.Color()).
+		Foreground(TermANSIWhite.Color())
 
-	s.Summary = lipgloss.NewStyle().Foreground(lipgloss.Color(TermANSIWhite.String()))
+	s.Summary = lipgloss.NewStyle().Foreground(TermANSIWhite.Color())
 	s.SummaryLabel = lipgloss.NewStyle().
 		Padding(0, 1).
-		Background(lipgloss.Color(TermANSIBlack.String())).
-		Foreground(lipgloss.Color(TermANSIBrightWhite.String()))
+		Background(TermANSIBlack.Color()).
+		Foreground(TermANSIBrightWhite.Color())
 
-	s.Course = lipgloss.NewStyle().Foreground(lipgloss.Color(TermANSIWhite.String()))
+	s.Course = lipgloss.NewStyle().Foreground(TermANSIWhite.Color())
 	s.CourseLabel = lipgloss.NewStyle().
 		Padding(0, 1).
-		Background(lipgloss.Color(TermANSIBlack.String())).
-		Foreground(lipgloss.Color(TermANSIBrightWhite.String()))
+		Background(TermANSIBlack.Color()).
+		Foreground(TermANSIBrightWhite.Color())
 
 	return s
 }
