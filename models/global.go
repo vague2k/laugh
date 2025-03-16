@@ -31,7 +31,6 @@ type GlobalModel struct {
 	pager   tea.Model
 	focused focusedState
 	styles  GlobalStyles
-	events  *[]parser.CalendarEvent
 }
 
 func NewGlobalModel(events *[]parser.CalendarEvent) GlobalModel {
