@@ -1,4 +1,4 @@
-all: lint format tests
+all: lint format test
 .PHONY: lint
 lint:
 	@echo "Running golangci-lint";
@@ -7,7 +7,7 @@ lint:
 .PHONY: format 
 format:
 	@echo "Running gofumpt formatter";
-	@gofumpt -l -w -d;
+	@gofumpt -l -w -d .;
 
 .PHONY: test
 test:
