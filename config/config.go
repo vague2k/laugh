@@ -8,11 +8,13 @@ import (
 	"github.com/BurntSushi/toml"
 )
 
+// The program's configuration options, which are loaded into by [LoadConfig]
+//
+// NOTE: fields that are private are meant for internal use, usually tests.
 type Config struct {
-	Url string // the url where the .ics file will be requested from
-
-	dir      string
-	filename string
+	Url      string // the url where the .ics file will be requested from
+	dir      string // the directory where the program's config file lives
+	filename string // the program's config file's name
 }
 
 func (c Config) Dir() string {
@@ -23,6 +25,11 @@ func (c Config) Filename() string {
 	return c.filename
 }
 
+// Loads values from "laugh.toml" for use through out the program
+//
+// LoadConfig makes sure that the config file exists, along with the directory
+// it lives in. The directory is created in $XDG_DATA_HOME or
+// $HOME/.local/share, whichever comes first.
 func LoadConfig(name string) (*Config, error) {
 	var dataDir string
 	// for testing
@@ -37,7 +44,7 @@ func LoadConfig(name string) (*Config, error) {
 		dataDir = name
 	}
 
-	// create dir if it doesn't exist
+	// does nothing if the dir already exists
 	appDir := filepath.Join(dataDir, "laugh")
 	err := os.MkdirAll(appDir, 0o777)
 	if err != nil {
