@@ -35,7 +35,7 @@ func LoadConfig(name string) (*Config, error) {
 	// for testing
 	switch true {
 	case name == "":
-		dir, err := userDataDir()
+		dir, err := userConfigHome()
 		if err != nil {
 			return nil, confErr(err)
 		}
@@ -89,24 +89,26 @@ func createFile(name string) error {
 	return nil
 }
 
-// Gets the user's $XDG_DATA_HOME dir.
+// Gets the user's $XDG_CONFIG_HOME dir.
 //
-// Fallsback to the default data dir if the env var does not exist.
-func userDataDir() (string, error) {
-	var dataDir string
-
-	if dataDir = os.Getenv("XDG_DATA_HOME"); dataDir != "" {
-		return dataDir, nil
+// NOTE: this is a stripped down and modified version of [os.UserConfigDir], the
+// reason the ladder wasn't used was because on macOS, the default config
+// directory is ".../Library/Application", this sucks, so we try to use
+// $XDG_CONFIG_HOME or $HOME/.config instead, whichever one is found first
+func userConfigHome() (string, error) {
+	var dir string
+	dir = os.Getenv("XDG_CONFIG_HOME")
+	if dir == "" {
+		dir = os.Getenv("HOME")
+		if dir == "" {
+			return "", confErr("neither $XDG_CONFIG_HOME nor $HOME are defined")
+		}
+		dir += "/.config"
+	} else if !filepath.IsAbs(dir) {
+		return "", confErr("path in $XDG_CONFIG_HOME is relative")
 	}
 
-	home, err := os.UserHomeDir()
-	if err != nil {
-		return "", err
-	}
-
-	dataDir = filepath.Join(home, ".local", "share")
-
-	return dataDir, nil
+	return dir, nil
 }
 
 func confErr(msg any) error {
