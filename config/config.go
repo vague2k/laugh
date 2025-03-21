@@ -6,6 +6,7 @@ import (
 	"path/filepath"
 
 	"github.com/BurntSushi/toml"
+	"github.com/vague2k/laugh/utils"
 )
 
 // The program's configuration options, which are loaded into by [LoadConfig]
@@ -27,7 +28,7 @@ func (c Config) Filename() string {
 
 // Loads values from "laugh.toml" for use through out the program
 //
-// LoadConfig makes sure that the config file exists, along with the directory
+// [LoadConfig] makes sure that the config file exists, along with the directory
 // it lives in. The directory is created in $XDG_DATA_HOME or
 // $HOME/.local/share, whichever comes first.
 func LoadConfig(name string) (*Config, error) {
@@ -35,7 +36,7 @@ func LoadConfig(name string) (*Config, error) {
 	// for testing
 	switch true {
 	case name == "":
-		dir, err := userConfigHome()
+		dir, err := utils.UserConfigHome()
 		if err != nil {
 			return nil, confErr(err)
 		}
@@ -44,21 +45,34 @@ func LoadConfig(name string) (*Config, error) {
 		dataDir = name
 	}
 
-	// does nothing if the dir already exists
 	appDir := filepath.Join(dataDir, "laugh")
+	// does nothing if the dir already exists
 	err := os.MkdirAll(appDir, 0o777)
 	if err != nil {
-		return nil, confErr(err)
+		return nil, err
 	}
 
+	// ensure config files exists
 	file := filepath.Join(appDir, "laugh.toml")
 	if _, err := os.Stat(file); os.IsNotExist(err) {
-		if err := createFile(file); err != nil {
-			return nil, confErr(err)
+		file, err := os.Create(file)
+		if err != nil {
+			return nil, err
 		}
+		defer file.Close()
+
+		conf := &Config{
+			Url: "the url to your student canvas calendar should go here",
+		}
+		e := toml.NewEncoder(file)
+		if err := e.Encode(conf); err != nil {
+			return nil, err
+		}
+
 	} else if err != nil {
-		return nil, confErr(err)
+		return nil, err
 	}
+	// does nothing if the dir already exists
 
 	var conf Config
 	if _, err := toml.DecodeFile(file, &conf); err != nil {
@@ -69,46 +83,6 @@ func LoadConfig(name string) (*Config, error) {
 	conf.filename = file
 
 	return &conf, nil
-}
-
-// creates a .toml with default values
-func createFile(name string) error {
-	file, err := os.Create(name)
-	if err != nil {
-		return err
-	}
-	defer file.Close()
-
-	conf := &Config{
-		Url: "the url to your student canvas calendar should go here",
-	}
-	e := toml.NewEncoder(file)
-	if err := e.Encode(conf); err != nil {
-		return err
-	}
-	return nil
-}
-
-// Gets the user's $XDG_CONFIG_HOME dir.
-//
-// NOTE: this is a stripped down and modified version of [os.UserConfigDir], the
-// reason the ladder wasn't used was because on macOS, the default config
-// directory is ".../Library/Application", this sucks, so we try to use
-// $XDG_CONFIG_HOME or $HOME/.config instead, whichever one is found first
-func userConfigHome() (string, error) {
-	var dir string
-	dir = os.Getenv("XDG_CONFIG_HOME")
-	if dir == "" {
-		dir = os.Getenv("HOME")
-		if dir == "" {
-			return "", confErr("neither $XDG_CONFIG_HOME nor $HOME are defined")
-		}
-		dir += "/.config"
-	} else if !filepath.IsAbs(dir) {
-		return "", confErr("path in $XDG_CONFIG_HOME is relative")
-	}
-
-	return dir, nil
 }
 
 func confErr(msg any) error {
