@@ -17,7 +17,6 @@ type PagerModel struct {
 
 func NewPagerModel() PagerModel {
 	p := PagerModel{}
-	p.viewport.HighPerformanceRendering = true
 	return p
 }
 
@@ -46,12 +45,12 @@ func (m PagerModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			m.viewport = viewport.New(msg.Window.Width, msg.Window.Height-verticalMarginHeight)
 			m.viewport.YPosition = headerHeight
 			if i, ok := msg.Focused.(parser.CalendarEvent); ok {
-				m.viewport.SetContent(i.Description)
+				m.viewport.SetContent(i.WrapDescription(m.viewport.Width))
 			}
 			m.ready = true
 		} else {
 			if i, ok := msg.Focused.(parser.CalendarEvent); ok {
-				m.viewport.SetContent(i.Description)
+				m.viewport.SetContent(i.WrapDescription(m.viewport.Width))
 			}
 			m.viewport.Width = msg.Window.Width
 			m.viewport.Height = msg.Window.Height - verticalMarginHeight

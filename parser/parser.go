@@ -59,7 +59,7 @@ func Parse(fileName string) (*[]CalendarEvent, error) {
 
 		case strings.Contains(s, "END:VEVENT"):
 			event.Summary = strings.Split(summary, "[")[0]
-			event.Description = handleEscapeChar(desc)
+			event.Description = desc
 			event.Course = parseCourse(summary)
 
 			Events = append(Events, *event)
@@ -76,11 +76,6 @@ func Parse(fileName string) (*[]CalendarEvent, error) {
 	}
 
 	return &Events, nil
-}
-
-func handleEscapeChar(s string) string {
-	rp := strings.NewReplacer("\\n", "\n", "\\t", "\t", "\\,", ",")
-	return rp.Replace(s)
 }
 
 func parseCourse(s string) string {
