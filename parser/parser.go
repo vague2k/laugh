@@ -46,6 +46,7 @@ func Parse(fileName string) (*[]CalendarEvent, error) {
 			processingSummary = true
 			summary = strings.Split(s, "SUMMARY:")[1]
 
+			// TODO: re-implement description word wrapping
 		case strings.Contains(s, "DESCRIPTION"):
 			processingSummary = false
 			desc = strings.Split(s, "DESCRIPTION:")[1]

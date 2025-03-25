@@ -4,7 +4,7 @@ go 1.23.6
 
 require (
 	github.com/BurntSushi/toml v1.4.0
-	github.com/charmbracelet/bubbles v0.20.0
+	github.com/charmbracelet/bubbles v0.20.1-0.20250320170029-54f28b650198
 	github.com/charmbracelet/bubbletea v1.3.4
 	github.com/charmbracelet/lipgloss v1.0.0
 	github.com/stretchr/testify v1.10.0
