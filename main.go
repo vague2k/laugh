@@ -19,9 +19,8 @@ func main() {
 	}
 
 	app := NewApp(conf, db)
-	app.Run()
 
-	if err := app.Err(); err != nil {
+	if err := app.Run(); err != nil {
 		log.Fatal(err)
 	}
 }

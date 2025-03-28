@@ -22,10 +22,10 @@ func NewApp(conf *config.Config, db database.DBInterface) *App {
 	}
 }
 
-func (a *App) Run() {
+func (a *App) Run() error {
 	Events, err := parser.Parse("spring_2025_cal.ics")
 	if err != nil {
-		a.err = err
+		return err
 	}
 
 	a.tui = tea.NewProgram(
@@ -34,13 +34,8 @@ func (a *App) Run() {
 		tea.WithMouseCellMotion())
 
 	if _, err := a.tui.Run(); err != nil {
-		a.err = err
+		return err
 	}
-}
 
-func (a App) Err() error {
-	if a.err != nil {
-		return a.err
-	}
 	return nil
 }
